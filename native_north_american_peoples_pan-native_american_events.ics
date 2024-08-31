@@ -1,0 +1,30 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//arran4//Golang ICS Library
+METHOD:PUBLISH
+CALSCALE:GREGORIAN
+NAME:Global Calendar - Pan-Native American
+X-WR-CALNAME:Global Calendar - Pan-Native American
+DESCRIPTION:AI-generated calendar of events for Pan-Native American
+BEGIN:VEVENT
+UID:Native American Music Awards (Niagara Falls\, NY)-2023
+CREATED:20240831T195136Z
+DTSTAMP:20240831T195136Z
+LAST-MODIFIED:20240831T195136Z
+DTSTART:20231014T000000Z
+DTEND:20231015T000000Z
+SUMMARY:Native American Music Awards (Niagara Falls\, NY) (Pan-Native
+  American)
+DESCRIPTION:Native North American Peoples event
+END:VEVENT
+BEGIN:VEVENT
+UID:National Day of Mourning (Plymouth\, MA)-2023
+CREATED:20240831T195136Z
+DTSTAMP:20240831T195136Z
+LAST-MODIFIED:20240831T195136Z
+DTSTART:20231123T000000Z
+DTEND:20231124T000000Z
+SUMMARY:National Day of Mourning (Plymouth\, MA) (Pan-Native American)
+DESCRIPTION:Native North American Peoples event
+END:VEVENT
+END:VCALENDAR

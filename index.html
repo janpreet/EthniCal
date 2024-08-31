@@ -1,23 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Calendar</title>
+    <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.2/main.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.2/main.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ical.js@1.4.0/build/ical.min.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        #calendar { margin-top: 20px; }
+        select { font-size: 16px; padding: 5px; }
+    </style>
+</head>
+<body>
+    <h1>EthniCal</h1>
+    <select id="calendarSelect">
+        <option value="all_events.ics">All Events</option>
+        
+        <option value="asian_ethnicities_events.ics">Asian Ethnicities</option>
+        
+        <option value="pan-indian_events.ics">Pan-Indian</option>
+        
+        <option value="malayali_(kerala)_events.ics">Malayali (Kerala)</option>
+        
+        <option value="kannada_(karnataka)_events.ics">Kannada (Karnataka)</option>
+        
+        <option value="telugu_(andhra_pradesh_&amp;_telangana)_events.ics">Telugu (Andhra Pradesh &amp; Telangana)</option>
+        
+        <option value="tamil_events.ics">Tamil</option>
+        
+        <option value="marathi_(maharashtra)_events.ics">Marathi (Maharashtra)</option>
+        
+        <option value="bengali_(west_bengal)_events.ics">Bengali (West Bengal)</option>
+        
+        <option value="gujarati_events.ics">Gujarati</option>
+        
+        <option value="punjabi_events.ics">Punjabi</option>
+        
+        <option value="odia_(odisha)_events.ics">Odia (Odisha)</option>
+        
+        <option value="assamese_events.ics">Assamese</option>
+        
+        <option value="kashmiri_events.ics">Kashmiri</option>
+        
+        <option value="parsi_events.ics">Parsi</option>
+        
+        <option value="siddi_events.ics">Siddi</option>
+        
+        <option value="sindhi_events.ics">Sindhi</option>
+        
+        <option value="balti_events.ics">Balti</option>
+        
+        <option value="hindu_events.ics">Hindu</option>
+        
+        <option value="muslim_(indian)_events.ics">Muslim (Indian)</option>
+        
+        <option value="sikh_events.ics">Sikh</option>
+        
+        <option value="jain_events.ics">Jain</option>
+        
+        <option value="buddhist_(indian)_events.ics">Buddhist (Indian)</option>
+        
+        <option value="chinese_(han)_events.ics">Chinese (Han)</option>
+        
+        <option value="cantonese_events.ics">Cantonese</option>
+        
+        <option value="hokkien_events.ics">Hokkien</option>
+        
+        <option value="hakka_events.ics">Hakka</option>
+        
+        <option value="tibetan_events.ics">Tibetan</option>
+        
+        <option value="uyghur_events.ics">Uyghur</option>
+        
+        <option value="mongolian_events.ics">Mongolian</option>
+        
+        <option value="japanese_events.ics">Japanese</option>
+        
+        <option value="okinawan_events.ics">Okinawan</option>
+        
+        <option value="ainu_events.ics">Ainu</option>
+        
+        <option value="korean_events.ics">Korean</option>
+        
+        <option value="vietnamese_events.ics">Vietnamese</option>
+        
+        <option value="kinh_events.ics">Kinh</option>
+        
+        <option value="hmong_(vietnam)_events.ics">Hmong (Vietnam)</option>
+        
+        <option value="thai_events.ics">Thai</option>
+        
+        <option value="lao_events.ics">Lao</option>
+        
+        <option value="khmer_(cambodian)_events.ics">Khmer (Cambodian)</option>
+        
+        <option value="burmese_events.ics">Burmese</option>
+        
+        <option value="filipino_events.ics">Filipino</option>
+        
+        <option value="tagalog_events.ics">Tagalog</option>
+        
+        <option value="cebuano_events.ics">Cebuano</option>
+        
+        <option value="ilocano_events.ics">Ilocano</option>
+        
+        <option value="malaysian_events.ics">Malaysian</option>
+        
+        <option value="malay_events.ics">Malay</option>
+        
+        <option value="chinese_malaysian_events.ics">Chinese Malaysian</option>
+        
+        <option value="indian_malaysian_events.ics">Indian Malaysian</option>
+        
+        <option value="singaporean_events.ics">Singaporean</option>
+        
+        <option value="indonesian_events.ics">Indonesian</option>
+        
+        <option value="javanese_events.ics">Javanese</option>
+        
+        <option value="sundanese_events.ics">Sundanese</option>
+        
+        <option value="balinese_events.ics">Balinese</option>
+        
+        <option value="pakistani_events.ics">Pakistani</option>
+        
+        <option value="pashtun_events.ics">Pashtun</option>
+        
+        <option value="baloch_events.ics">Baloch</option>
+        
+        <option value="sri_lankan_events.ics">Sri Lankan</option>
+        
+        <option value="nepali_events.ics">Nepali</option>
+        
+        <option value="bhutanese_events.ics">Bhutanese</option>
+        
+        <option value="kazakh_events.ics">Kazakh</option>
+        
+        <option value="uzbek_events.ics">Uzbek</option>
+        
+        <option value="kyrgyz_events.ics">Kyrgyz</option>
+        
+        <option value="tajik_events.ics">Tajik</option>
+        
+        <option value="turkmen_events.ics">Turkmen</option>
+        
+        <option value="afghan_events.ics">Afghan</option>
+        
+        <option value="iranian_events.ics">Iranian</option>
+        
+        <option value="armenian_events.ics">Armenian</option>
+        
+        <option value="georgian_events.ics">Georgian</option>
+        
+        <option value="azerbaijani_events.ics">Azerbaijani</option>
+        
+        <option value="maldivian_events.ics">Maldivian</option>
+        
+        
+        <option value="native_north_american_peoples_events.ics">Native North American Peoples</option>
+        
+        <option value="pan-native_american_events.ics">Pan-Native American</option>
+        
+        <option value="cherokee_events.ics">Cherokee</option>
+        
+        <option value="navajo_(diné)_events.ics">Navajo (Diné)</option>
+        
+        <option value="sioux_(lakota,_dakota,_nakota)_events.ics">Sioux (Lakota, Dakota, Nakota)</option>
+        
+        <option value="iroquois_(haudenosaunee)_events.ics">Iroquois (Haudenosaunee)</option>
+        
+        <option value="apache_events.ics">Apache</option>
+        
+        <option value="choctaw_events.ics">Choctaw</option>
+        
+        <option value="ojibwe_(chippewa)_events.ics">Ojibwe (Chippewa)</option>
+        
+        <option value="cree_events.ics">Cree</option>
+        
+        <option value="inuit_events.ics">Inuit</option>
+        
+        <option value="mohawk_events.ics">Mohawk</option>
+        
+        <option value="blackfoot_(siksika)_events.ics">Blackfoot (Siksika)</option>
+        
+        <option value="seminole_events.ics">Seminole</option>
+        
+        <option value="pueblo_events.ics">Pueblo</option>
+        
+        <option value="comanche_events.ics">Comanche</option>
+        
+        <option value="haida_events.ics">Haida</option>
+        
+        <option value="tlingit_events.ics">Tlingit</option>
+        
+        <option value="hopi_events.ics">Hopi</option>
+        
+        <option value="arapaho_events.ics">Arapaho</option>
+        
+        <option value="pawnee_events.ics">Pawnee</option>
+        
+        <option value="oneida_events.ics">Oneida</option>
+        
+        <option value="crow_events.ics">Crow</option>
+        
+        <option value="creek_(muscogee)_events.ics">Creek (Muscogee)</option>
+        
+        <option value="cheyenne_events.ics">Cheyenne</option>
+        
+        <option value="huron-wendat_events.ics">Huron-Wendat</option>
+        
+        <option value="chickasaw_events.ics">Chickasaw</option>
+        
+        <option value="seneca_events.ics">Seneca</option>
+        
+        <option value="shoshone_events.ics">Shoshone</option>
+        
+        <option value="métis_events.ics">Métis</option>
+        
+        <option value="dene_events.ics">Dene</option>
+        
+        <option value="mi&#39;kmaq_events.ics">Mi&#39;kmaq</option>
+        
+        <option value="aztec_events.ics">Aztec</option>
+        
+        <option value="maya_events.ics">Maya</option>
+        
+        <option value="tarahumara_(rarámuri)_events.ics">Tarahumara (Rarámuri)</option>
+        
+        <option value="yaqui_events.ics">Yaqui</option>
+        
+        <option value="zapotec_events.ics">Zapotec</option>
+        
+        <option value="nahua_events.ics">Nahua</option>
+        
+        <option value="huichol_events.ics">Huichol</option>
+        
+        <option value="toltec_events.ics">Toltec</option>
+        
+        <option value="tohono_o&#39;odham_events.ics">Tohono O&#39;odham</option>
+        
+        <option value="kwakwaka&#39;wakw_events.ics">Kwakwaka&#39;wakw</option>
+        
+        <option value="lenape_(delaware)_events.ics">Lenape (Delaware)</option>
+        
+        <option value="nuu-chah-nulth_events.ics">Nuu-chah-nulth</option>
+        
+        <option value="anishinaabe_events.ics">Anishinaabe</option>
+        
+        <option value="algonquin_events.ics">Algonquin</option>
+        
+        <option value="chumash_events.ics">Chumash</option>
+        
+        <option value="abenaki_events.ics">Abenaki</option>
+        
+        <option value="mayan_quiché_events.ics">Mayan Quiché</option>
+        
+        
+    </select>
+    <div id="calendar"></div>
 
-	<!DOCTYPE html>
-	<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Global Calendar</title>
-		<style>
-			table { border-collapse: collapse; width: 100%; }
-			th, td { border: 1px solid black; padding: 8px; text-align: left; }
-			th { background-color: #f2f2f2; }
-			.hidden { display: none; }
-		</style>
-	</head>
-	<body>
-		<h1>Global Calendar</h1>
-		<form id="calendarForm">
-			
-			<fieldset>
-				<legend>Asian Ethnicities</legend>
-				
-				<label>
-					<input type="checkbox" name="item" value="Pan-Indian" data-group="
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var calendarEl = document.getElementById('calendar');
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth',
+                events: function(info, successCallback, failureCallback) {
+                    var selectedFile = document.getElementById('calendarSelect').value;
+                    fetch(selectedFile)
+                        .then(response => response.text())
+                        .then(data => {
+                            var jcalData = ICAL.parse(data);
+                            var comp = new ICAL.Component(jcalData);
+                            var vevents = comp.getAllSubcomponents('vevent');
+                            var events = vevents.map(vevent => {
+                                var event = new ICAL.Event(vevent);
+                                return {
+                                    title: event.summary,
+                                    start: event.startDate.toJSDate(),
+                                    allDay: true
+                                };
+                            });
+                            successCallback(events);
+                        })
+                        .catch(error => {
+                            console.error('Error fetching calendar data:', error);
+                            failureCallback(error);
+                        });
+                }
+            });
+            calendar.render();
+
+            document.getElementById('calendarSelect').addEventListener('change', function() {
+                calendar.refetchEvents();
+            });
+        });
+    </script>
+</body>
+</html>
