@@ -1,0 +1,9 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//arran4//Golang ICS Library
+METHOD:PUBLISH
+CALSCALE:GREGORIAN
+NAME:Global Calendar - All Events
+X-WR-CALNAME:Global Calendar - All Events
+DESCRIPTION:AI-generated calendar of events for All Events
+END:VCALENDAR
