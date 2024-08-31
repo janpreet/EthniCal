@@ -1,0 +1,9 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//arran4//Golang ICS Library
+METHOD:PUBLISH
+CALSCALE:GREGORIAN
+NAME:Global Calendar - Asian Ethnicities
+X-WR-CALNAME:Global Calendar - Asian Ethnicities
+DESCRIPTION:AI-generated calendar of events for Asian Ethnicities
+END:VCALENDAR
