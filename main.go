@@ -46,10 +46,10 @@ type GroupConfig struct {
 }
 
 type Event struct {
-	Name  string
-	Date  time.Time
-	Item  string
-	Group string
+    Name  string
+    Date  time.Time
+    Item  string
+    Group string
 }
 
 func loadGroupConfigs(configDir string) ([]GroupConfig, error) {
@@ -150,73 +150,73 @@ func createCalendar(events []Event, name string) *ics.Calendar {
 }
 
 func generateICSFiles(events []Event, groupConfigs []GroupConfig) error {
-	for _, event := range events {
-		itemEvents := filterEventsByItem(events, event.Item)
-		cal := createCalendar(itemEvents, event.Item)
-		
-		filename := fmt.Sprintf("docs/%s_%s_events.ics", 
-			strings.ToLower(strings.ReplaceAll(event.Group, " ", "_")),
-			strings.ToLower(strings.ReplaceAll(event.Item, " ", "_")))
-		file, err := os.Create(filename)
-		if err != nil {
-			return err
-		}
-		err = cal.SerializeTo(file)
-		file.Close()
-		if err != nil {
-			return err
-		}
-	}
+    for _, event := range events {
+        itemEvents := filterEventsByItem(events, event.Item)
+        cal := createCalendar(itemEvents, event.Item)
+        
+        filename := filepath.Join("docs", fmt.Sprintf("%s_%s_events.ics", 
+            strings.ToLower(strings.ReplaceAll(event.Group, " ", "_")),
+            strings.ToLower(strings.ReplaceAll(event.Item, " ", "_"))))
+        file, err := os.Create(filename)
+        if err != nil {
+            return err
+        }
+        err = cal.SerializeTo(file)
+        file.Close()
+        if err != nil {
+            return err
+        }
+    }
 
-	for _, group := range groupConfigs {
-		groupEvents := filterEventsByGroup(events, group.GroupName)
-		cal := createCalendar(groupEvents, group.GroupName)
-		
-		filename := fmt.Sprintf("docs/%s_events.ics", 
-			strings.ToLower(strings.ReplaceAll(group.GroupName, " ", "_")))
-		file, err := os.Create(filename)
-		if err != nil {
-			return err
-		}
-		err = cal.SerializeTo(file)
-		file.Close()
-		if err != nil {
-			return err
-		}
-	}
+    for _, groupConfig := range groupConfigs {
+        groupEvents := filterEventsByGroup(events, groupConfig.GroupName)
+        cal := createCalendar(groupEvents, groupConfig.GroupName)
+        
+        filename := filepath.Join("docs", fmt.Sprintf("%s_events.ics", 
+            strings.ToLower(strings.ReplaceAll(groupConfig.GroupName, " ", "_"))))
+        file, err := os.Create(filename)
+        if err != nil {
+            return err
+        }
+        err = cal.SerializeTo(file)
+        file.Close()
+        if err != nil {
+            return err
+        }
+    }
 
-	allCal := createCalendar(events, "All Events")
-	allFile, err := os.Create("docs/all_events.ics")
-	if err != nil {
-		return err
-	}
-	err = allCal.SerializeTo(allFile)
-	allFile.Close()
-	if err != nil {
-		return err
-	}
+    allCal := createCalendar(events, "All Events")
+    allFile, err := os.Create(filepath.Join("docs", "all_events.ics"))
+    if err != nil {
+        return err
+    }
+    err = allCal.SerializeTo(allFile)
+    allFile.Close()
+    if err != nil {
+        return err
+    }
 
-	return nil
+    return nil
 }
 
 func filterEventsByItem(events []Event, item string) []Event {
-	var filtered []Event
-	for _, event := range events {
-		if event.Item == item {
-			filtered = append(filtered, event)
-		}
-	}
-	return filtered
+    var filtered []Event
+    for _, event := range events {
+        if event.Item == item {
+            filtered = append(filtered, event)
+        }
+    }
+    return filtered
 }
 
 func filterEventsByGroup(events []Event, group string) []Event {
-	var filtered []Event
-	for _, event := range events {
-		if event.Group == group {
-			filtered = append(filtered, event)
-		}
-	}
-	return filtered
+    var filtered []Event
+    for _, event := range events {
+        if event.Group == group {
+            filtered = append(filtered, event)
+        }
+    }
+    return filtered
 }
 
 func generateHTMLCalendar(events []Event, groupConfigs []GroupConfig) error {
@@ -309,7 +309,7 @@ func generateHTMLCalendar(events []Event, groupConfigs []GroupConfig) error {
 		return err
 	}
 
-	file, err := os.Create("docs/index.html")
+    file, err := os.Create(filepath.Join("docs", "index.html"))
 	if err != nil {
 		return err
 	}
@@ -375,17 +375,23 @@ func main() {
 		}
 	}
 
-	err = generateICSFiles(allEvents, groupConfigs)
-	if err != nil {
-		fmt.Printf("Error generating ICS files: %v\n", err)
-		return
-	}
+	docsDir := "docs"
+    if err := os.MkdirAll(docsDir, os.ModePerm); err != nil {
+        fmt.Printf("Error creating docs directory: %v\n", err)
+        return
+    }
 
-	err = generateHTMLCalendar(allEvents, groupConfigs)
-	if err != nil {
-		fmt.Printf("Error generating HTML calendar: %v\n", err)
-		return
-	}
+    err = generateICSFiles(allEvents, groupConfigs)
+    if err != nil {
+        fmt.Printf("Error generating ICS files: %v\n", err)
+        return
+    }
+
+    err = generateHTMLCalendar(allEvents, groupConfigs)
+    if err != nil {
+        fmt.Printf("Error generating HTML calendar: %v\n", err)
+        return
+    }
 
 	fmt.Println("Calendar files have been created successfully.")
 }
