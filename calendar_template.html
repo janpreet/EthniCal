@@ -14,20 +14,15 @@
     </style>
 </head>
 <body>
-    <h1>Global Calendar</h1>
+    <h1>EthniCal</h1>
     <select id="calendarSelect">
         <option value="all_events.ics">All Events</option>
-        
-        <option value="asian_ethnicities_events.ics">Asian Ethnicities</option>
-        
-        <option value="pan-indian_events.ics">Pan-Indian</option>
-        
-        
-        <option value="native_north_american_peoples_events.ics">Native North American Peoples</option>
-        
-        <option value="pan-native_american_events.ics">Pan-Native American</option>
-        
-        
+        {{range .GroupConfigs}}
+        <option value="{{.GroupName | ToLower | ReplaceSpaces}}_events.ics">{{.GroupName}}</option>
+        {{range .CalendarItems}}
+        <option value="{{.Name | ToLower | ReplaceSpaces}}_events.ics">{{.Name}}</option>
+        {{end}}
+        {{end}}
     </select>
     <div id="calendar"></div>
 

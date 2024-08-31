@@ -1,282 +1,282 @@
 {
-    "groupName": "Asian Ethnicities",
-    "aiProvider": "openai",
-    "calendarItems": [
-      {
-        "name": "Pan-Indian",
-        "additionalInfo": "Include major national holidays and festivals common across India"
-      },
-      {
-        "name": "Malayali (Kerala)",
-        "additionalInfo": "Include Kerala-specific festivals like Onam and Vishu"
-      },
-      {
-        "name": "Kannada (Karnataka)",
-        "additionalInfo": "Include Karnataka-specific festivals like Ugadi and Dasara"
-      },
-      {
-        "name": "Telugu (Andhra Pradesh & Telangana)",
-        "additionalInfo": "Include Telugu festivals like Sankranti and Bathukamma"
-      },
-      {
-        "name": "Tamil",
-        "additionalInfo": "Include Tamil festivals like Pongal and Thai Pusam"
-      },
-      {
-        "name": "Marathi (Maharashtra)",
-        "additionalInfo": "Include Maharashtrian festivals like Ganesh Chaturthi and Gudi Padwa"
-      },
-      {
-        "name": "Bengali (West Bengal)",
-        "additionalInfo": "Include Bengali festivals like Durga Puja and Poila Boishakh"
-      },
-      {
-        "name": "Gujarati",
-        "additionalInfo": "Include Gujarati festivals like Navratri and Uttarayan"
-      },
-      {
-        "name": "Punjabi",
-        "additionalInfo": "Include Punjabi festivals like Lohri and Baisakhi"
-      },
-      {
-        "name": "Odia (Odisha)",
-        "additionalInfo": "Include Odia festivals like Rath Yatra and Kumar Purnima"
-      },
-      {
-        "name": "Assamese",
-        "additionalInfo": "Include Assamese festivals like Bihu and Ambubachi Mela"
-      },
-      {
-        "name": "Kashmiri",
-        "additionalInfo": "Include Kashmiri festivals like Herath and Baisakhi"
-      },
-      {
-        "name": "Parsi",
-        "additionalInfo": "Include Parsi festivals like Nowruz and Khordad Sal"
-      },
-      {
-        "name": "Siddi",
-        "additionalInfo": "Include Siddi festivals and cultural observances"
-      },
-      {
-        "name": "Sindhi",
-        "additionalInfo": "Include Sindhi festivals like Cheti Chand and Teejri"
-      },
-      {
-        "name": "Balti",
-        "additionalInfo": "Include Balti festivals and cultural observances"
-      },
-      {
-        "name": "Hindu",
-        "additionalInfo": "Include major Hindu festivals across different regions"
-      },
-      {
-        "name": "Muslim (Indian)",
-        "additionalInfo": "Include major Islamic festivals celebrated in India"
-      },
-      {
-        "name": "Sikh",
-        "additionalInfo": "Use the Nanakshahi calendar for Sikh holidays"
-      },
-      {
-        "name": "Jain",
-        "additionalInfo": "Include major Jain festivals and observances"
-      },
-      {
-        "name": "Buddhist (Indian)",
-        "additionalInfo": "Include major Buddhist festivals celebrated in India"
-      },
-      {
-        "name": "Chinese (Han)",
-        "additionalInfo": "Include traditional Chinese holidays"
-      },
-      {
-        "name": "Cantonese",
-        "additionalInfo": "Include Cantonese-specific festivals and customs"
-      },
-      {
-        "name": "Hokkien",
-        "additionalInfo": "Include Hokkien-specific festivals like Nine Emperor Gods Festival"
-      },
-      {
-        "name": "Hakka",
-        "additionalInfo": "Include Hakka-specific festivals and customs"
-      },
-      {
-        "name": "Tibetan",
-        "additionalInfo": "Include traditional Tibetan festivals and observances"
-      },
-      {
-        "name": "Uyghur",
-        "additionalInfo": "Include traditional Uyghur festivals and Islamic holidays"
-      },
-      {
-        "name": "Mongolian",
-        "additionalInfo": "Include traditional Mongolian and national holidays"
-      },
-      {
-        "name": "Japanese",
-        "additionalInfo": "Include national holidays and traditional observances"
-      },
-      {
-        "name": "Okinawan",
-        "additionalInfo": "Include Okinawan-specific festivals and customs"
-      },
-      {
-        "name": "Ainu",
-        "additionalInfo": "Include traditional Ainu festivals and cultural events"
-      },
-      {
-        "name": "Korean",
-        "additionalInfo": "Include both national holidays and traditional Korean festivals"
-      },
-      {
-        "name": "Vietnamese",
-        "additionalInfo": "Include traditional Vietnamese and modern national holidays"
-      },
-      {
-        "name": "Kinh",
-        "additionalInfo": "Include festivals specific to the Kinh (Viet) majority"
-      },
-      {
-        "name": "Hmong (Vietnam)",
-        "additionalInfo": "Include Hmong New Year and other Hmong festivals in Vietnam"
-      },
-      {
-        "name": "Thai",
-        "additionalInfo": "Include both national holidays and traditional Thai observances"
-      },
-      {
-        "name": "Lao",
-        "additionalInfo": "Include Lao New Year and other national holidays"
-      },
-      {
-        "name": "Khmer (Cambodian)",
-        "additionalInfo": "Include Khmer New Year and other national holidays"
-      },
-      {
-        "name": "Burmese",
-        "additionalInfo": "Include traditional Burmese and national holidays"
-      },
-      {
-        "name": "Filipino",
-        "additionalInfo": "Include national holidays and special non-working days"
-      },
-      {
-        "name": "Tagalog",
-        "additionalInfo": "Include Tagalog-specific festivals and customs"
-      },
-      {
-        "name": "Cebuano",
-        "additionalInfo": "Include Cebuano-specific festivals like Sinulog"
-      },
-      {
-        "name": "Ilocano",
-        "additionalInfo": "Include Ilocano-specific festivals and customs"
-      },
-      {
-        "name": "Malaysian",
-        "additionalInfo": "Include holidays for all major ethnic groups in Malaysia"
-      },
-      {
-        "name": "Malay",
-        "additionalInfo": "Include Malay-specific festivals and customs"
-      },
-      {
-        "name": "Chinese Malaysian",
-        "additionalInfo": "Include Chinese festivals celebrated in Malaysia"
-      },
-      {
-        "name": "Indian Malaysian",
-        "additionalInfo": "Include Indian festivals celebrated in Malaysia"
-      },
-      {
-        "name": "Singaporean",
-        "additionalInfo": "Include all official public holidays in Singapore"
-      },
-      {
-        "name": "Indonesian",
-        "additionalInfo": "Include national holidays and major religious observances"
-      },
-      {
-        "name": "Javanese",
-        "additionalInfo": "Include Javanese-specific festivals and customs"
-      },
-      {
-        "name": "Sundanese",
-        "additionalInfo": "Include Sundanese-specific festivals and customs"
-      },
-      {
-        "name": "Balinese",
-        "additionalInfo": "Include Balinese Hindu festivals and customs"
-      },
-      {
-        "name": "Pakistani",
-        "additionalInfo": "Include national holidays and Islamic observances"
-      },
-      {
-        "name": "Pashtun",
-        "additionalInfo": "Include Pashtun-specific festivals and customs"
-      },
-      {
-        "name": "Baloch",
-        "additionalInfo": "Include Baloch-specific festivals and customs"
-      },
-      {
-        "name": "Sri Lankan",
-        "additionalInfo": "Include Sinhala, Tamil, and national holidays"
-      },
-      {
-        "name": "Nepali",
-        "additionalInfo": "Include both national holidays and traditional Nepali festivals"
-      },
-      {
-        "name": "Bhutanese",
-        "additionalInfo": "Include traditional Bhutanese festivals and national holidays"
-      },
-      {
-        "name": "Kazakh",
-        "additionalInfo": "Include Kazakh national holidays and traditional observances"
-      },
-      {
-        "name": "Uzbek",
-        "additionalInfo": "Include Uzbek national holidays and traditional festivals"
-      },
-      {
-        "name": "Kyrgyz",
-        "additionalInfo": "Include Kyrgyz national holidays and traditional observances"
-      },
-      {
-        "name": "Tajik",
-        "additionalInfo": "Include Tajik national holidays and traditional festivals"
-      },
-      {
-        "name": "Turkmen",
-        "additionalInfo": "Include Turkmen national holidays and traditional observances"
-      },
-      {
-        "name": "Afghan",
-        "additionalInfo": "Include Afghan national holidays and Islamic observances"
-      },
-      {
-        "name": "Iranian",
-        "additionalInfo": "Include Persian festivals and Islamic holidays"
-      },
-      {
-        "name": "Armenian",
-        "additionalInfo": "Include Armenian national and religious holidays"
-      },
-      {
-        "name": "Georgian",
-        "additionalInfo": "Include Georgian national and religious holidays"
-      },
-      {
-        "name": "Azerbaijani",
-        "additionalInfo": "Include Azerbaijani national holidays and traditional observances"
-      },
-      {
-        "name": "Maldivian",
-        "additionalInfo": "Include Maldivian national holidays and Islamic observances"
-      }
-    ]
-  }
+  "groupName": "Asian Ethnicities",
+  "aiProvider": "claude",
+  "calendarItems": [
+    {
+      "name": "Pan-Indian",
+      "additionalInfo": "Include major national holidays and festivals common across India"
+    },
+    {
+      "name": "Malayali (Kerala)",
+      "additionalInfo": "Include Kerala-specific festivals like Onam and Vishu"
+    },
+    {
+      "name": "Kannada (Karnataka)",
+      "additionalInfo": "Include Karnataka-specific festivals like Ugadi and Dasara"
+    },
+    {
+      "name": "Telugu (Andhra Pradesh & Telangana)",
+      "additionalInfo": "Include Telugu festivals like Sankranti and Bathukamma"
+    },
+    {
+      "name": "Tamil",
+      "additionalInfo": "Include Tamil festivals like Pongal and Thai Pusam"
+    },
+    {
+      "name": "Marathi (Maharashtra)",
+      "additionalInfo": "Include Maharashtrian festivals like Ganesh Chaturthi and Gudi Padwa"
+    },
+    {
+      "name": "Bengali (West Bengal)",
+      "additionalInfo": "Include Bengali festivals like Durga Puja and Poila Boishakh"
+    },
+    {
+      "name": "Gujarati",
+      "additionalInfo": "Include Gujarati festivals like Navratri and Uttarayan"
+    },
+    {
+      "name": "Punjabi",
+      "additionalInfo": "Include Punjabi festivals like Lohri and Baisakhi"
+    },
+    {
+      "name": "Odia (Odisha)",
+      "additionalInfo": "Include Odia festivals like Rath Yatra and Kumar Purnima"
+    },
+    {
+      "name": "Assamese",
+      "additionalInfo": "Include Assamese festivals like Bihu and Ambubachi Mela"
+    },
+    {
+      "name": "Kashmiri",
+      "additionalInfo": "Include Kashmiri festivals like Herath and Baisakhi"
+    },
+    {
+      "name": "Parsi",
+      "additionalInfo": "Include Parsi festivals like Nowruz and Khordad Sal"
+    },
+    {
+      "name": "Siddi",
+      "additionalInfo": "Include Siddi festivals and cultural observances"
+    },
+    {
+      "name": "Sindhi",
+      "additionalInfo": "Include Sindhi festivals like Cheti Chand and Teejri"
+    },
+    {
+      "name": "Balti",
+      "additionalInfo": "Include Balti festivals and cultural observances"
+    },
+    {
+      "name": "Hindu",
+      "additionalInfo": "Include major Hindu festivals across different regions"
+    },
+    {
+      "name": "Muslim (Indian)",
+      "additionalInfo": "Include major Islamic festivals celebrated in India"
+    },
+    {
+      "name": "Sikh",
+      "additionalInfo": "Use the Nanakshahi calendar for Sikh holidays"
+    },
+    {
+      "name": "Jain",
+      "additionalInfo": "Include major Jain festivals and observances"
+    },
+    {
+      "name": "Buddhist (Indian)",
+      "additionalInfo": "Include major Buddhist festivals celebrated in India"
+    },
+    {
+      "name": "Chinese (Han)",
+      "additionalInfo": "Include traditional Chinese holidays"
+    },
+    {
+      "name": "Cantonese",
+      "additionalInfo": "Include Cantonese-specific festivals and customs"
+    },
+    {
+      "name": "Hokkien",
+      "additionalInfo": "Include Hokkien-specific festivals like Nine Emperor Gods Festival"
+    },
+    {
+      "name": "Hakka",
+      "additionalInfo": "Include Hakka-specific festivals and customs"
+    },
+    {
+      "name": "Tibetan",
+      "additionalInfo": "Include traditional Tibetan festivals and observances"
+    },
+    {
+      "name": "Uyghur",
+      "additionalInfo": "Include traditional Uyghur festivals and Islamic holidays"
+    },
+    {
+      "name": "Mongolian",
+      "additionalInfo": "Include traditional Mongolian and national holidays"
+    },
+    {
+      "name": "Japanese",
+      "additionalInfo": "Include national holidays and traditional observances"
+    },
+    {
+      "name": "Okinawan",
+      "additionalInfo": "Include Okinawan-specific festivals and customs"
+    },
+    {
+      "name": "Ainu",
+      "additionalInfo": "Include traditional Ainu festivals and cultural events"
+    },
+    {
+      "name": "Korean",
+      "additionalInfo": "Include both national holidays and traditional Korean festivals"
+    },
+    {
+      "name": "Vietnamese",
+      "additionalInfo": "Include traditional Vietnamese and modern national holidays"
+    },
+    {
+      "name": "Kinh",
+      "additionalInfo": "Include festivals specific to the Kinh (Viet) majority"
+    },
+    {
+      "name": "Hmong (Vietnam)",
+      "additionalInfo": "Include Hmong New Year and other Hmong festivals in Vietnam"
+    },
+    {
+      "name": "Thai",
+      "additionalInfo": "Include both national holidays and traditional Thai observances"
+    },
+    {
+      "name": "Lao",
+      "additionalInfo": "Include Lao New Year and other national holidays"
+    },
+    {
+      "name": "Khmer (Cambodian)",
+      "additionalInfo": "Include Khmer New Year and other national holidays"
+    },
+    {
+      "name": "Burmese",
+      "additionalInfo": "Include traditional Burmese and national holidays"
+    },
+    {
+      "name": "Filipino",
+      "additionalInfo": "Include national holidays and special non-working days"
+    },
+    {
+      "name": "Tagalog",
+      "additionalInfo": "Include Tagalog-specific festivals and customs"
+    },
+    {
+      "name": "Cebuano",
+      "additionalInfo": "Include Cebuano-specific festivals like Sinulog"
+    },
+    {
+      "name": "Ilocano",
+      "additionalInfo": "Include Ilocano-specific festivals and customs"
+    },
+    {
+      "name": "Malaysian",
+      "additionalInfo": "Include holidays for all major ethnic groups in Malaysia"
+    },
+    {
+      "name": "Malay",
+      "additionalInfo": "Include Malay-specific festivals and customs"
+    },
+    {
+      "name": "Chinese Malaysian",
+      "additionalInfo": "Include Chinese festivals celebrated in Malaysia"
+    },
+    {
+      "name": "Indian Malaysian",
+      "additionalInfo": "Include Indian festivals celebrated in Malaysia"
+    },
+    {
+      "name": "Singaporean",
+      "additionalInfo": "Include all official public holidays in Singapore"
+    },
+    {
+      "name": "Indonesian",
+      "additionalInfo": "Include national holidays and major religious observances"
+    },
+    {
+      "name": "Javanese",
+      "additionalInfo": "Include Javanese-specific festivals and customs"
+    },
+    {
+      "name": "Sundanese",
+      "additionalInfo": "Include Sundanese-specific festivals and customs"
+    },
+    {
+      "name": "Balinese",
+      "additionalInfo": "Include Balinese Hindu festivals and customs"
+    },
+    {
+      "name": "Pakistani",
+      "additionalInfo": "Include national holidays and Islamic observances"
+    },
+    {
+      "name": "Pashtun",
+      "additionalInfo": "Include Pashtun-specific festivals and customs"
+    },
+    {
+      "name": "Baloch",
+      "additionalInfo": "Include Baloch-specific festivals and customs"
+    },
+    {
+      "name": "Sri Lankan",
+      "additionalInfo": "Include Sinhala, Tamil, and national holidays"
+    },
+    {
+      "name": "Nepali",
+      "additionalInfo": "Include both national holidays and traditional Nepali festivals"
+    },
+    {
+      "name": "Bhutanese",
+      "additionalInfo": "Include traditional Bhutanese festivals and national holidays"
+    },
+    {
+      "name": "Kazakh",
+      "additionalInfo": "Include Kazakh national holidays and traditional observances"
+    },
+    {
+      "name": "Uzbek",
+      "additionalInfo": "Include Uzbek national holidays and traditional festivals"
+    },
+    {
+      "name": "Kyrgyz",
+      "additionalInfo": "Include Kyrgyz national holidays and traditional observances"
+    },
+    {
+      "name": "Tajik",
+      "additionalInfo": "Include Tajik national holidays and traditional festivals"
+    },
+    {
+      "name": "Turkmen",
+      "additionalInfo": "Include Turkmen national holidays and traditional observances"
+    },
+    {
+      "name": "Afghan",
+      "additionalInfo": "Include Afghan national holidays and Islamic observances"
+    },
+    {
+      "name": "Iranian",
+      "additionalInfo": "Include Persian festivals and Islamic holidays"
+    },
+    {
+      "name": "Armenian",
+      "additionalInfo": "Include Armenian national and religious holidays"
+    },
+    {
+      "name": "Georgian",
+      "additionalInfo": "Include Georgian national and religious holidays"
+    },
+    {
+      "name": "Azerbaijani",
+      "additionalInfo": "Include Azerbaijani national holidays and traditional observances"
+    },
+    {
+      "name": "Maldivian",
+      "additionalInfo": "Include Maldivian national holidays and Islamic observances"
+    }
+  ]
+}

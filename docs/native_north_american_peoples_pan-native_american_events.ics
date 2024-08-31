@@ -3,10 +3,9 @@ VERSION:2.0
 PRODID:-//arran4//Golang ICS Library
 METHOD:PUBLISH
 CALSCALE:GREGORIAN
-NAME:Global Calendar - Native North American Peoples
-X-WR-CALNAME:Global Calendar - Native North American Peoples
-DESCRIPTION:AI-generated calendar of events for Native North American
-  Peoples
+NAME:Global Calendar - Pan-Native American
+X-WR-CALNAME:Global Calendar - Pan-Native American
+DESCRIPTION:AI-generated calendar of events for Pan-Native American
 BEGIN:VEVENT
 UID:Native American Heritage Day-2023
 CREATED:20240831T192524Z

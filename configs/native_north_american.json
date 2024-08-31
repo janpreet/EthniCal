@@ -1,6 +1,6 @@
 {
     "groupName": "Native North American Peoples",
-    "aiProvider": "openai",
+    "aiProvider": "claude",
     "calendarItems": [
       {
         "name": "Pan-Native American",

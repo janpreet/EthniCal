@@ -3,9 +3,9 @@ VERSION:2.0
 PRODID:-//arran4//Golang ICS Library
 METHOD:PUBLISH
 CALSCALE:GREGORIAN
-NAME:Global Calendar - All Events
-X-WR-CALNAME:Global Calendar - All Events
-DESCRIPTION:AI-generated calendar of events for All Events
+NAME:Global Calendar - Pan-Indian
+X-WR-CALNAME:Global Calendar - Pan-Indian
+DESCRIPTION:AI-generated calendar of events for Pan-Indian
 BEGIN:VEVENT
 UID:Republic Day-2023
 CREATED:20240831T192524Z
@@ -195,26 +195,5 @@ DTSTART:20231225T000000Z
 DTEND:20231226T000000Z
 SUMMARY:Christmas (Pan-Indian)
 DESCRIPTION:Asian Ethnicities event
-END:VEVENT
-BEGIN:VEVENT
-UID:Native American Heritage Day-2023
-CREATED:20240831T192524Z
-DTSTAMP:20240831T192524Z
-LAST-MODIFIED:20240831T192524Z
-DTSTART:20231124T000000Z
-DTEND:20231125T000000Z
-SUMMARY:Native American Heritage Day (Pan-Native American)
-DESCRIPTION:Native North American Peoples event
-END:VEVENT
-BEGIN:VEVENT
-UID:Lāhui Native Hawaiian Annual Cultural Festival (Honolulu\, HI)-2023
-CREATED:20240831T192524Z
-DTSTAMP:20240831T192524Z
-LAST-MODIFIED:20240831T192524Z
-DTSTART:20230916T000000Z
-DTEND:20230917T000000Z
-SUMMARY:Lāhui Native Hawaiian Annual Cultural Festival (Honolulu\, HI)
-  (Pan-Native American)
-DESCRIPTION:Native North American Peoples event
 END:VEVENT
 END:VCALENDAR
