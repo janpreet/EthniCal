@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//arran4//Golang ICS Library
+METHOD:PUBLISH
+CALSCALE:GREGORIAN
+NAME:Global Calendar - Sioux (Lakota\, Dakota\, Nakota)
+X-WR-CALNAME:Global Calendar - Sioux (Lakota\, Dakota\, Nakota)
+DESCRIPTION:AI-generated calendar of events for Sioux (Lakota\, Dakota\,
+  Nakota)
+BEGIN:VEVENT
+UID:Waniyetu Wi (Lakota New Year/Winter Counts Ceremony)-2023
+CREATED:20240831T195136Z
+DTSTAMP:20240831T195136Z
+LAST-MODIFIED:20240831T195136Z
+DTSTART:20230101T000000Z
+DTEND:20230102T000000Z
+SUMMARY:Waniyetu Wi (Lakota New Year/Winter Counts Ceremony) (Sioux
+  (Lakota\, Dakota\, Nakota))
+DESCRIPTION:Native North American Peoples event
+END:VEVENT
+END:VCALENDAR
