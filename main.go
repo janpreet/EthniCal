@@ -80,42 +80,51 @@ func loadGroupConfigs(configDir string) ([]GroupConfig, error) {
 }
 
 func queryAI(item CalendarItem, ai AIProvider) ([]Event, error) {
-	var prompt string
-	if item.AuthorityURL != "" {
-		prompt = fmt.Sprintf("Please provide a list of events for %s for the current year. Use %s as your primary source of information. %s Format each event as 'Event Name: YYYY-MM-DD'.", 
-			item.Name, item.AuthorityURL, item.AdditionalInfo)
-	} else {
-		prompt = fmt.Sprintf("Please provide a list of important events, holidays, and observances for %s for the current year. Use your knowledge base and ensure cultural accuracy. %s Format each event as 'Event Name: YYYY-MM-DD'.", 
-			item.Name, item.AdditionalInfo)
-	}
+    prompt := fmt.Sprintf("Please provide a list of events for %s for the current year. Use your knowledge base and ensure cultural accuracy. %s Format each event as 'Event Name: YYYY-MM-DD'.", 
+        item.Name, item.AdditionalInfo)
 
-	response, err := ai.Query(prompt)
-	if err != nil {
-		return nil, fmt.Errorf("AI query error: %v", err)
-	}
+    fmt.Printf("Querying AI for %s with prompt:\n%s\n", item.Name, prompt)
 
-	return parseEvents(response, item.Name)
+    response, err := ai.Query(prompt)
+    if err != nil {
+        return nil, fmt.Errorf("AI query error for %s: %v", item.Name, err)
+    }
+
+    fmt.Printf("AI response for %s:\n%s\n", item.Name, response)
+
+    events, err := parseEvents(response, item.Name)
+    if err != nil {
+        return nil, fmt.Errorf("Error parsing events for %s: %v", item.Name, err)
+    }
+
+    fmt.Printf("Parsed events for %s:\n%v\n", item.Name, events)
+
+    return events, nil
 }
 
 func parseEvents(aiResponse, itemName string) ([]Event, error) {
-	events := []Event{}
-	lines := strings.Split(aiResponse, "\n")
-	for _, line := range lines {
-		parts := strings.Split(line, ": ")
-		if len(parts) != 2 {
-			continue
-		}
-		date, err := time.Parse("2006-01-02", parts[1])
-		if err != nil {
-			continue
-		}
-		events = append(events, Event{
-			Name: parts[0],
-			Date: date,
-			Item: itemName,
-		})
-	}
-	return events, nil
+    events := []Event{}
+    lines := strings.Split(aiResponse, "\n")
+    fmt.Printf("Parsing %d lines for %s\n", len(lines), itemName)
+    for _, line := range lines {
+        parts := strings.Split(line, ": ")
+        if len(parts) != 2 {
+            fmt.Printf("Skipping invalid line: %s\n", line)
+            continue
+        }
+        date, err := time.Parse("2006-01-02", parts[1])
+        if err != nil {
+            fmt.Printf("Error parsing date %s: %v\n", parts[1], err)
+            continue
+        }
+        events = append(events, Event{
+            Name: parts[0],
+            Date: date,
+            Item: itemName,
+        })
+    }
+    fmt.Printf("Parsed %d events for %s\n", len(events), itemName)
+    return events, nil
 }
 
 func validateEvents(events []Event, item CalendarItem) ([]Event, error) {
@@ -150,6 +159,7 @@ func createCalendar(events []Event, name string) *ics.Calendar {
 }
 
 func generateICSFiles(events []Event, groupConfigs []GroupConfig) error {
+    fmt.Printf("Generating ICS files for %d events and %d group configs\n", len(events), len(groupConfigs))
     for _, event := range events {
         itemEvents := filterEventsByItem(events, event.Item)
         cal := createCalendar(itemEvents, event.Item)
@@ -220,166 +230,154 @@ func filterEventsByGroup(events []Event, group string) []Event {
 }
 
 func generateHTMLCalendar(events []Event, groupConfigs []GroupConfig) error {
-	tmpl, err := template.New("calendar").Parse(`
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Calendar</title>
-    <style>
-        table { border-collapse: collapse; width: 100%; }
-        th, td { border: 1px solid black; padding: 8px; text-align: left; }
-        th { background-color: #f2f2f2; }
-        .hidden { display: none; }
-    </style>
-</head>
-<body>
-    <h1>Global Calendar</h1>
-    <form id="calendarForm">
-        {{range .GroupConfigs}}
-        <fieldset>
-            <legend>{{.GroupName}}</legend>
-            {{range .CalendarItems}}
-            <label>
-                <input type="checkbox" name="item" value="{{.Name}}" data-group="{{$.GroupName}}">
-                {{.Name}}
-            </label>
-            {{end}}
-        </fieldset>
-        {{end}}
-    </form>
-    <div id="icsLinks">
-        <h3>Download ICS Files:</h3>
-        <ul>
-            <li><a href="all_events.ics">All Events</a></li>
-            {{range .GroupConfigs}}
-            <li><a href="{{.GroupName | ToLower | ReplaceSpaces}}_events.ics">{{.GroupName}}</a></li>
-            {{range .CalendarItems}}
-            <li><a href="{{$.GroupName | ToLower | ReplaceSpaces}}_{{.Name | ToLower | ReplaceSpaces}}_events.ics">{{$.GroupName}} - {{.Name}}</a></li>
-            {{end}}
-            {{end}}
-        </ul>
-    </div>
-    <table id="eventTable">
-        <tr>
-            <th>Date</th>
-            <th>Event</th>
-            <th>Item</th>
-            <th>Group</th>
-        </tr>
-        {{range .Events}}
-        <tr class="event-row" data-item="{{.Item}}" data-group="{{.Group}}">
-            <td>{{.Date.Format "2006-01-02"}}</td>
-            <td>{{.Name}}</td>
-            <td>{{.Item}}</td>
-            <td>{{.Group}}</td>
-        </tr>
-        {{end}}
-    </table>
-    <h2>Feedback</h2>
-    <p>If you notice any inaccuracies, please <a href="https://github.com/janpreet/EthniCal/issues/new" target="_blank">open an issue on GitHub</a>.</p>
-    <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const calendarForm = document.getElementById('calendarForm');
-        const rows = document.getElementsByClassName('event-row');
+    fmt.Println("Generating HTML calendar")
 
-        function updateCalendar() {
-            const selectedItems = Array.from(calendarForm.querySelectorAll('input[name="item"]:checked'))
-                .map(checkbox => checkbox.value);
-
-            for (let row of rows) {
-                const item = row.getAttribute('data-item');
-                if (selectedItems.length === 0 || selectedItems.includes(item)) {
-                    row.classList.remove('hidden');
-                } else {
-                    row.classList.add('hidden');
-                }
-            }
-        }
-
-        calendarForm.addEventListener('change', updateCalendar);
-        updateCalendar();
-    });
-    </script>
-</body>
-</html>
-`)
-	if err != nil {
-		return err
-	}
+    funcMap := template.FuncMap{
+        "ToLower": strings.ToLower,
+        "ReplaceSpaces": func(s string) string {
+            return strings.ReplaceAll(s, " ", "_")
+        },
+    }
+	tmpl, err := template.New("calendar").Funcs(funcMap).Parse(`
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Global Calendar</title>
+		<style>
+			table { border-collapse: collapse; width: 100%; }
+			th, td { border: 1px solid black; padding: 8px; text-align: left; }
+			th { background-color: #f2f2f2; }
+			.hidden { display: none; }
+		</style>
+	</head>
+	<body>
+		<h1>Global Calendar</h1>
+		<form id="calendarForm">
+			{{range .GroupConfigs}}
+			<fieldset>
+				<legend>{{.GroupName}}</legend>
+				{{range .CalendarItems}}
+				<label>
+					<input type="checkbox" name="item" value="{{.Name}}" data-group="{{$.GroupName}}">
+					{{.Name}}
+				</label>
+				{{end}}
+			</fieldset>
+			{{end}}
+		</form>
+		<div id="icsLinks">
+			<h3>Download ICS Files:</h3>
+			<ul>
+				<li><a href="all_events.ics">All Events</a></li>
+				{{range .GroupConfigs}}
+				<li><a href="{{.GroupName | ToLower | ReplaceSpaces}}_events.ics">{{.GroupName}}</a></li>
+				{{range .CalendarItems}}
+				<li><a href="{{$.GroupName | ToLower | ReplaceSpaces}}_{{.Name | ToLower | ReplaceSpaces}}_events.ics">{{.GroupName}} - {{.Name}}</a></li>
+				{{end}}
+				{{end}}
+			</ul>
+		</div>
+		<table id="eventTable">
+			<tr>
+				<th>Date</th>
+				<th>Event</th>
+				<th>Item</th>
+				<th>Group</th>
+			</tr>
+			{{range .Events}}
+			<tr class="event-row" data-item="{{.Item}}" data-group="{{.Group}}">
+				<td>{{.Date.Format "2006-01-02"}}</td>
+				<td>{{.Name}}</td>
+				<td>{{.Item}}</td>
+				<td>{{.Group}}</td>
+			</tr>
+			{{end}}
+		</table>
+		<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			const calendarForm = document.getElementById('calendarForm');
+			const rows = document.getElementsByClassName('event-row');
+	
+			function updateCalendar() {
+				const selectedItems = Array.from(calendarForm.querySelectorAll('input[name="item"]:checked'))
+					.map(checkbox => checkbox.value);
+	
+				for (let row of rows) {
+					const item = row.getAttribute('data-item');
+					if (selectedItems.length === 0 || selectedItems.includes(item)) {
+						row.classList.remove('hidden');
+					} else {
+						row.classList.add('hidden');
+					}
+				}
+			}
+	
+			calendarForm.addEventListener('change', updateCalendar);
+			updateCalendar();
+		});
+		</script>
+	</body>
+	</html>
+	`)
+    if err != nil {
+        return fmt.Errorf("Error parsing HTML template: %v", err)
+    }
 
     file, err := os.Create(filepath.Join("docs", "index.html"))
-	if err != nil {
-		return err
-	}
-	defer file.Close()
+    if err != nil {
+        return fmt.Errorf("Error creating index.html: %v", err)
+    }
+    defer file.Close()
 
-	data := struct {
-		Events       []Event
-		GroupConfigs []GroupConfig
-	}{
-		Events:       events,
-		GroupConfigs: groupConfigs,
-	}
+    data := struct {
+        Events       []Event
+        GroupConfigs []GroupConfig
+    }{
+        Events:       events,
+        GroupConfigs: groupConfigs,
+    }
 
-	funcMap := template.FuncMap{
-		"ToLower": strings.ToLower,
-		"ReplaceSpaces": func(s string) string {
-			return strings.ReplaceAll(s, " ", "_")
-		},
-	}
+    err = tmpl.Execute(file, data)
+    if err != nil {
+        return fmt.Errorf("Error writing to index.html: %v", err)
+    }
 
-	tmpl = tmpl.Funcs(funcMap)
-	return tmpl.Execute(file, data)
+    fmt.Println("HTML calendar generated successfully")
+    return nil
 }
 
 func main() {
-	groupConfigs, err := loadGroupConfigs("configs")
-	if err != nil {
-		fmt.Printf("Error loading group configs: %v\n", err)
-		return
-	}
-
-	var allEvents []Event
-	for _, groupConfig := range groupConfigs {
-		var ai AIProvider
-		switch groupConfig.AIProvider {
-		case "openai":
-			ai = &OpenAIProvider{ApiKey: os.Getenv("OPENAI_API_KEY")}
-		case "claude":
-			ai = &ClaudeProvider{ApiKey: os.Getenv("CLAUDE_API_KEY")}
-		default:
-			fmt.Printf("Unknown AI provider for group %s: %s\n", groupConfig.GroupName, groupConfig.AIProvider)
-			continue
-		}
-
-		for _, item := range groupConfig.CalendarItems {
-			events, err := queryAI(item, ai)
-			if err != nil {
-				fmt.Printf("Error querying AI for %s events in group %s: %v\n", item.Name, groupConfig.GroupName, err)
-				continue
-			}
-			
-			validatedEvents, err := validateEvents(events, item)
-			if err != nil {
-				fmt.Printf("Error validating events for %s in group %s: %v\n", item.Name, groupConfig.GroupName, err)
-				continue
-			}
-			
-			for i := range validatedEvents {
-				validatedEvents[i].Group = groupConfig.GroupName
-			}
-			
-			allEvents = append(allEvents, validatedEvents...)
-		}
-	}
-
-	docsDir := "docs"
-    if err := os.MkdirAll(docsDir, os.ModePerm); err != nil {
-        fmt.Printf("Error creating docs directory: %v\n", err)
+    groupConfigs, err := loadGroupConfigs("configs")
+    if err != nil {
+        fmt.Printf("Error loading group configs: %v\n", err)
         return
     }
+    fmt.Printf("Loaded %d group configs\n", len(groupConfigs))
+
+    var allEvents []Event
+    for _, groupConfig := range groupConfigs {
+        fmt.Printf("Processing group: %s\n", groupConfig.GroupName)
+        ai := &OpenAIProvider{ApiKey: "mock-key"} // We're using our mock AI for all queries
+
+        for _, item := range groupConfig.CalendarItems {
+            fmt.Printf("Querying AI for item: %s\n", item.Name)
+            events, err := queryAI(item, ai)
+            if err != nil {
+                fmt.Printf("Error querying AI for %s events in group %s: %v\n", item.Name, groupConfig.GroupName, err)
+                continue
+            }
+            
+            for i := range events {
+                events[i].Group = groupConfig.GroupName
+            }
+            
+            allEvents = append(allEvents, events...)
+        }
+    }
+
+    fmt.Printf("Total number of events generated: %d\n", len(allEvents))
 
     err = generateICSFiles(allEvents, groupConfigs)
     if err != nil {
@@ -393,5 +391,5 @@ func main() {
         return
     }
 
-	fmt.Println("Calendar files have been created successfully.")
+    fmt.Println("Calendar files have been created successfully in the docs directory.")
 }

@@ -1,0 +1,10 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//arran4//Golang ICS Library
+METHOD:PUBLISH
+CALSCALE:GREGORIAN
+NAME:Global Calendar - Native North American Peoples
+X-WR-CALNAME:Global Calendar - Native North American Peoples
+DESCRIPTION:AI-generated calendar of events for Native North American
+  Peoples
+END:VCALENDAR
