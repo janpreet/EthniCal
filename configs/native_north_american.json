@@ -1,0 +1,198 @@
+{
+    "groupName": "Native North American Peoples",
+    "aiProvider": "openai",
+    "calendarItems": [
+      {
+        "name": "Pan-Native American",
+        "additionalInfo": "Include major intertribal events and national Native American observances"
+      },
+      {
+        "name": "Cherokee",
+        "additionalInfo": "Include traditional Cherokee festivals and modern observances"
+      },
+      {
+        "name": "Navajo (Diné)",
+        "additionalInfo": "Include Navajo ceremonies and cultural events"
+      },
+      {
+        "name": "Sioux (Lakota, Dakota, Nakota)",
+        "additionalInfo": "Include traditional Sioux ceremonies and modern powwows"
+      },
+      {
+        "name": "Iroquois (Haudenosaunee)",
+        "additionalInfo": "Include traditional Iroquois festivals and ceremonies"
+      },
+      {
+        "name": "Apache",
+        "additionalInfo": "Include Apache ceremonies and cultural events"
+      },
+      {
+        "name": "Choctaw",
+        "additionalInfo": "Include traditional Choctaw festivals and modern tribal events"
+      },
+      {
+        "name": "Ojibwe (Chippewa)",
+        "additionalInfo": "Include Ojibwe seasonal ceremonies and cultural events"
+      },
+      {
+        "name": "Cree",
+        "additionalInfo": "Include traditional Cree ceremonies and modern observances"
+      },
+      {
+        "name": "Inuit",
+        "additionalInfo": "Include traditional Inuit festivals and modern cultural events"
+      },
+      {
+        "name": "Mohawk",
+        "additionalInfo": "Include Mohawk ceremonies and cultural events"
+      },
+      {
+        "name": "Blackfoot (Siksika)",
+        "additionalInfo": "Include Blackfoot Sun Dance and other traditional ceremonies"
+      },
+      {
+        "name": "Seminole",
+        "additionalInfo": "Include Seminole Green Corn Ceremony and other cultural events"
+      },
+      {
+        "name": "Pueblo",
+        "additionalInfo": "Include various Pueblo dances and ceremonies"
+      },
+      {
+        "name": "Comanche",
+        "additionalInfo": "Include traditional Comanche events and modern tribal observances"
+      },
+      {
+        "name": "Haida",
+        "additionalInfo": "Include Haida potlatches and other cultural events"
+      },
+      {
+        "name": "Tlingit",
+        "additionalInfo": "Include Tlingit ceremonies and cultural celebrations"
+      },
+      {
+        "name": "Hopi",
+        "additionalInfo": "Include Hopi ceremonial cycle events and katsina dances"
+      },
+      {
+        "name": "Arapaho",
+        "additionalInfo": "Include Arapaho Sun Dance and other traditional ceremonies"
+      },
+      {
+        "name": "Pawnee",
+        "additionalInfo": "Include Pawnee ceremonial events and modern tribal observances"
+      },
+      {
+        "name": "Oneida",
+        "additionalInfo": "Include Oneida ceremonies and cultural events"
+      },
+      {
+        "name": "Crow",
+        "additionalInfo": "Include Crow Fair and other traditional ceremonies"
+      },
+      {
+        "name": "Creek (Muscogee)",
+        "additionalInfo": "Include Creek Green Corn Ceremony and other cultural events"
+      },
+      {
+        "name": "Cheyenne",
+        "additionalInfo": "Include Cheyenne Sun Dance and other traditional ceremonies"
+      },
+      {
+        "name": "Huron-Wendat",
+        "additionalInfo": "Include Huron-Wendat ceremonies and cultural events"
+      },
+      {
+        "name": "Chickasaw",
+        "additionalInfo": "Include Chickasaw cultural events and modern tribal observances"
+      },
+      {
+        "name": "Seneca",
+        "additionalInfo": "Include Seneca ceremonies and cultural events"
+      },
+      {
+        "name": "Shoshone",
+        "additionalInfo": "Include Shoshone Sun Dance and other traditional ceremonies"
+      },
+      {
+        "name": "Métis",
+        "additionalInfo": "Include Métis festivals and cultural celebrations"
+      },
+      {
+        "name": "Dene",
+        "additionalInfo": "Include Dene spiritual gatherings and cultural events"
+      },
+      {
+        "name": "Mi'kmaq",
+        "additionalInfo": "Include Mi'kmaq ceremonies and cultural events"
+      },
+      {
+        "name": "Aztec",
+        "additionalInfo": "Include traditional Aztec ceremonies and modern cultural events"
+      },
+      {
+        "name": "Maya",
+        "additionalInfo": "Include traditional Maya ceremonies and modern cultural events"
+      },
+      {
+        "name": "Tarahumara (Rarámuri)",
+        "additionalInfo": "Include Tarahumara festivals and cultural events"
+      },
+      {
+        "name": "Yaqui",
+        "additionalInfo": "Include Yaqui Deer Dance and other ceremonies"
+      },
+      {
+        "name": "Zapotec",
+        "additionalInfo": "Include Zapotec Guelaguetza and other cultural events"
+      },
+      {
+        "name": "Nahua",
+        "additionalInfo": "Include Nahua ceremonies and cultural events"
+      },
+      {
+        "name": "Huichol",
+        "additionalInfo": "Include Huichol peyote ceremonies and cultural events"
+      },
+      {
+        "name": "Toltec",
+        "additionalInfo": "Include Toltec-inspired ceremonies and cultural events"
+      },
+      {
+        "name": "Tohono O'odham",
+        "additionalInfo": "Include Tohono O'odham Saguaro fruit harvest ceremony and other events"
+      },
+      {
+        "name": "Kwakwaka'wakw",
+        "additionalInfo": "Include potlatch ceremonies and other cultural events"
+      },
+      {
+        "name": "Lenape (Delaware)",
+        "additionalInfo": "Include Lenape ceremonies and cultural events"
+      },
+      {
+        "name": "Nuu-chah-nulth",
+        "additionalInfo": "Include Nuu-chah-nulth whaling ceremonies and cultural events"
+      },
+      {
+        "name": "Anishinaabe",
+        "additionalInfo": "Include Anishinaabe seasonal ceremonies and cultural events"
+      },
+      {
+        "name": "Algonquin",
+        "additionalInfo": "Include Algonquin ceremonies and cultural events"
+      },
+      {
+        "name": "Chumash",
+        "additionalInfo": "Include Chumash ceremonies and cultural events"
+      },
+      {
+        "name": "Abenaki",
+        "additionalInfo": "Include Abenaki ceremonies and cultural events"
+      },
+      {
+        "name": "Mayan Quiché",
+        "additionalInfo": "Include Mayan Quiché ceremonies and cultural events"
+      }
+    ]
+  }
