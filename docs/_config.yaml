@@ -1,4 +1,12 @@
 theme: jekyll-theme-minimal
-title: EthniCal
-description: A simple calendar for global ethnicities
-baseurl: "/EthniCal"
+title: Global Calendar
+description: A simple calendar for global events
+baseurl: "/ideal-tribble"
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
