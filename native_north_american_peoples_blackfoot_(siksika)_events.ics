@@ -1,0 +1,84 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//arran4//Golang ICS Library
+METHOD:PUBLISH
+CALSCALE:GREGORIAN
+NAME:EthniCal - Blackfoot (Siksika)
+X-WR-CALNAME:EthniCal - Blackfoot (Siksika)
+DESCRIPTION:AI-generated calendar of events for Blackfoot (Siksika)
+BEGIN:VEVENT
+UID:Blackfoot Sun Dance-2024
+CREATED:20240831T202027Z
+DTSTAMP:20240831T202027Z
+LAST-MODIFIED:20240831T202027Z
+DTSTART:20240704T000000Z
+DTEND:20240705T000000Z
+SUMMARY:Blackfoot Sun Dance
+DESCRIPTION:Blackfoot Sun Dance (Native North American Peoples)
+END:VEVENT
+BEGIN:VEVENT
+UID:Niisskóówahsinnoon (Sacred Sundance Transfer Ceremony)-2024
+CREATED:20240831T202027Z
+DTSTAMP:20240831T202027Z
+LAST-MODIFIED:20240831T202027Z
+DTSTART:20240620T000000Z
+DTEND:20240621T000000Z
+SUMMARY:Niisskóówahsinnoon (Sacred Sundance Transfer Ceremony)
+DESCRIPTION:Niisskóówahsinnoon (Sacred Sundance Transfer Ceremony)
+  (Native North American Peoples)
+END:VEVENT
+BEGIN:VEVENT
+UID:Iiksísstoohkinnoama (Beaver Bundle Transfer Ceremony)-2024
+CREATED:20240831T202027Z
+DTSTAMP:20240831T202027Z
+LAST-MODIFIED:20240831T202027Z
+DTSTART:20240815T000000Z
+DTEND:20240816T000000Z
+SUMMARY:Iiksísstoohkinnoama (Beaver Bundle Transfer Ceremony)
+DESCRIPTION:Iiksísstoohkinnoama (Beaver Bundle Transfer Ceremony) (Native
+  North American Peoples)
+END:VEVENT
+BEGIN:VEVENT
+UID:Ookáán (Blackfoot Christmas)-2024
+CREATED:20240831T202027Z
+DTSTAMP:20240831T202027Z
+LAST-MODIFIED:20240831T202027Z
+DTSTART:20241225T000000Z
+DTEND:20241226T000000Z
+SUMMARY:Ookáán (Blackfoot Christmas)
+DESCRIPTION:Ookáán (Blackfoot Christmas) (Native North American Peoples)
+END:VEVENT
+BEGIN:VEVENT
+UID:Áákaissamahtsi'payóópi (Blackfoot New Year)-2024
+CREATED:20240831T202027Z
+DTSTAMP:20240831T202027Z
+LAST-MODIFIED:20240831T202027Z
+DTSTART:20240101T000000Z
+DTEND:20240102T000000Z
+SUMMARY:Áákaissamahtsi'payóópi (Blackfoot New Year)
+DESCRIPTION:Áákaissamahtsi'payóópi (Blackfoot New Year) (Native North
+  American Peoples)
+END:VEVENT
+BEGIN:VEVENT
+UID:Nitsínihksin (Blackfoot Knowledge and Transfer Ceremony)-2024
+CREATED:20240831T202027Z
+DTSTAMP:20240831T202027Z
+LAST-MODIFIED:20240831T202027Z
+DTSTART:20240927T000000Z
+DTEND:20240928T000000Z
+SUMMARY:Nitsínihksin (Blackfoot Knowledge and Transfer Ceremony)
+DESCRIPTION:Nitsínihksin (Blackfoot Knowledge and Transfer Ceremony)
+  (Native North American Peoples)
+END:VEVENT
+BEGIN:VEVENT
+UID:Ómahkaatóóhsinnoon (Blackfoot Fasting Ceremony)-2024
+CREATED:20240831T202027Z
+DTSTAMP:20240831T202027Z
+LAST-MODIFIED:20240831T202027Z
+DTSTART:20240510T000000Z
+DTEND:20240511T000000Z
+SUMMARY:Ómahkaatóóhsinnoon (Blackfoot Fasting Ceremony)
+DESCRIPTION:Ómahkaatóóhsinnoon (Blackfoot Fasting Ceremony) (Native
+  North American Peoples)
+END:VEVENT
+END:VCALENDAR

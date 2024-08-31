@@ -3,38 +3,29 @@ VERSION:2.0
 PRODID:-//arran4//Golang ICS Library
 METHOD:PUBLISH
 CALSCALE:GREGORIAN
-NAME:Global Calendar - Tarahumara (Rarámuri)
-X-WR-CALNAME:Global Calendar - Tarahumara (Rarámuri)
+NAME:EthniCal - Tarahumara (Rarámuri)
+X-WR-CALNAME:EthniCal - Tarahumara (Rarámuri)
 DESCRIPTION:AI-generated calendar of events for Tarahumara (Rarámuri)
 BEGIN:VEVENT
-UID:Día de la Cruz (Day of the Cross)-2023
-CREATED:20240831T195136Z
-DTSTAMP:20240831T195136Z
-LAST-MODIFIED:20240831T195136Z
-DTSTART:20230503T000000Z
-DTEND:20230504T000000Z
-SUMMARY:Día de la Cruz (Day of the Cross) (Tarahumara (Rarámuri))
-DESCRIPTION:Native North American Peoples event
+UID:Tomina (Fiesta de la Virgen de Guadalupe)-2024
+CREATED:20240831T202027Z
+DTSTAMP:20240831T202027Z
+LAST-MODIFIED:20240831T202027Z
+DTSTART:20241212T000000Z
+DTEND:20241213T000000Z
+SUMMARY:Tomina (Fiesta de la Virgen de Guadalupe)
+DESCRIPTION:Tomina (Fiesta de la Virgen de Guadalupe) (Native North
+  American Peoples)
 END:VEVENT
 BEGIN:VEVENT
-UID:Fiesta de San Francisco (Feast of St. Francis)-2023
-CREATED:20240831T195136Z
-DTSTAMP:20240831T195136Z
-LAST-MODIFIED:20240831T195136Z
-DTSTART:20231004T000000Z
-DTEND:20231005T000000Z
-SUMMARY:Fiesta de San Francisco (Feast of St. Francis) (Tarahumara
-  (Rarámuri))
-DESCRIPTION:Native North American Peoples event
-END:VEVENT
-BEGIN:VEVENT
-UID:Caballo Bayo (Pale Horse Ceremony)-2023
-CREATED:20240831T195136Z
-DTSTAMP:20240831T195136Z
-LAST-MODIFIED:20240831T195136Z
-DTSTART:20231212T000000Z
-DTEND:20231213T000000Z
-SUMMARY:Caballo Bayo (Pale Horse Ceremony) (Tarahumara (Rarámuri))
-DESCRIPTION:Native North American Peoples event
+UID:Matachín (Danza de los Matachines)-2024
+CREATED:20240831T202027Z
+DTSTAMP:20240831T202027Z
+LAST-MODIFIED:20240831T202027Z
+DTSTART:20241208T000000Z
+DTEND:20241209T000000Z
+SUMMARY:Matachín (Danza de los Matachines)
+DESCRIPTION:Matachín (Danza de los Matachines) (Native North American
+  Peoples)
 END:VEVENT
 END:VCALENDAR

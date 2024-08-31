@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Calendar</title>
+    <title>EthniCal</title>
     <link href="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.2/main.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/tippy.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.10.2/main.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/ical.js@1.4.0/build/ical.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/tippy-bundle.umd.min.js"></script>
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
         #calendar { margin-top: 20px; }
@@ -266,6 +269,14 @@
             var calendarEl = document.getElementById('calendar');
             var calendar = new FullCalendar.Calendar(calendarEl, {
                 initialView: 'dayGridMonth',
+                eventDidMount: function(info) {
+                    tippy(info.el, {
+                        content: info.event.extendedProps.description || info.event.title,
+                        placement: 'top',
+                        arrow: true,
+                        theme: 'light-border'
+                    });
+                },
                 events: function(info, successCallback, failureCallback) {
                     var selectedFile = document.getElementById('calendarSelect').value;
                     fetch(selectedFile)
@@ -279,7 +290,10 @@
                                 return {
                                     title: event.summary,
                                     start: event.startDate.toJSDate(),
-                                    allDay: true
+                                    allDay: true,
+                                    extendedProps: {
+                                        description: `${event.summary} (${event.description || 'No group info'})`
+                                    }
                                 };
                             });
                             successCallback(events);
