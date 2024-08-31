@@ -1,0 +1,4 @@
+theme: jekyll-theme-minimal
+title: EthniCal
+description: A simple calendar for global ethnicities
+baseurl: "/EthniCal"
