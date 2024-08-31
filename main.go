@@ -176,72 +176,73 @@ func loadGroupConfigs(configDir string) ([]GroupConfig, error) {
 }
 
 func queryAI(item CalendarItem, ai AIProvider) ([]Event, error) {
-	prompt := fmt.Sprintf("Please provide a list of events for %s for the current year. Use your knowledge base and ensure cultural accuracy. %s Format each event as 'Event Name: YYYY-MM-DD'.",
-		item.Name, item.AdditionalInfo)
+    currentYear := time.Now().Year()
+    prompt := fmt.Sprintf("Please provide a list of events for %s for the year %d. Use your knowledge base and ensure cultural accuracy. %s Format each event STRICTLY as 'Event Name: %d-MM-DD'. Do not include any additional text or explanations.", item.Name, currentYear, item.AdditionalInfo, currentYear)
 
-	fmt.Printf("Querying AI for %s with prompt:\n%s\n", item.Name, prompt)
+    fmt.Printf("Querying AI for %s with prompt:\n%s\n", item.Name, prompt)
 
-	response, err := ai.Query(prompt)
-	if err != nil {
-		return nil, fmt.Errorf("AI query error for %s: %v", item.Name, err)
-	}
+    response, err := ai.Query(prompt)
+    if err != nil {
+        return nil, fmt.Errorf("AI query error for %s: %v", item.Name, err)
+    }
 
-	fmt.Printf("Raw AI response for %s:\n%s\n", item.Name, response)
+    fmt.Printf("Raw AI response for %s:\n%s\n", item.Name, response)
 
-	events, err := parseEvents(response, item.Name)
-	if err != nil {
-		return nil, fmt.Errorf("Error parsing events for %s: %v", item.Name, err)
-	}
+    events, err := parseEvents(response, item.Name)
+    if err != nil {
+        return nil, fmt.Errorf("Error parsing events for %s: %v", item.Name, err)
+    }
 
-	fmt.Printf("Parsed events for %s:\n%v\n", item.Name, events)
+    fmt.Printf("Parsed events for %s:\n%v\n", item.Name, events)
 
-	return events, nil
+    return events, nil
 }
 
 func parseEvents(aiResponse, itemName string) ([]Event, error) {
-	events := []Event{}
-	lines := strings.Split(aiResponse, "\n")
-	fmt.Printf("Parsing %d lines for %s\n", len(lines), itemName)
-	for _, line := range lines {
-		parts := strings.Split(line, ": ")
-		if len(parts) != 2 {
-			fmt.Printf("Skipping invalid line: %s\n", line)
-			continue
-		}
-		date, err := time.Parse("2006-01-02", parts[1])
-		if err != nil {
-			fmt.Printf("Error parsing date %s: %v\n", parts[1], err)
-			continue
-		}
-		events = append(events, Event{
-			Name: parts[0],
-			Date: date,
-			Item: itemName,
-		})
-	}
-	fmt.Printf("Parsed %d events for %s\n", len(events), itemName)
-	return events, nil
+    events := []Event{}
+    lines := strings.Split(aiResponse, "\n")
+    for _, line := range lines {
+        parts := strings.Split(line, ": ")
+        if len(parts) != 2 {
+            fmt.Printf("Warning: Skipping invalid line: %s\n", line)
+            continue
+        }
+        date, err := time.Parse("2006-01-02", parts[1])
+        if err != nil {
+            fmt.Printf("Warning: Error parsing date %s: %v\n", parts[1], err)
+            continue
+        }
+        events = append(events, Event{
+            Name: parts[0],
+            Date: date,
+            Item: itemName,
+        })
+    }
+    if len(events) == 0 {
+        return nil, fmt.Errorf("No valid events parsed from AI response")
+    }
+    return events, nil
 }
 
 func createCalendar(events []Event, name string) *ics.Calendar {
-	cal := ics.NewCalendar()
-	cal.SetMethod(ics.MethodPublish)
-	cal.SetCalscale("GREGORIAN")
-	cal.SetName(fmt.Sprintf("Global Calendar - %s", name))
-	cal.SetDescription(fmt.Sprintf("AI-generated calendar of events for %s", name))
+    cal := ics.NewCalendar()
+    cal.SetMethod(ics.MethodPublish)
+    cal.SetCalscale("GREGORIAN")
+    cal.SetName(fmt.Sprintf("EthniCal - %s", name))
+    cal.SetDescription(fmt.Sprintf("AI-generated calendar of events for %s", name))
 
-	for _, event := range events {
-		icsEvent := cal.AddEvent(fmt.Sprintf("%s-%d", event.Name, event.Date.Year()))
-		icsEvent.SetCreatedTime(time.Now())
-		icsEvent.SetDtStampTime(time.Now())
-		icsEvent.SetModifiedAt(time.Now())
-		icsEvent.SetStartAt(event.Date)
-		icsEvent.SetEndAt(event.Date.Add(24 * time.Hour))
-		icsEvent.SetSummary(fmt.Sprintf("%s (%s)", event.Name, event.Item))
-		icsEvent.SetDescription(fmt.Sprintf("%s event", event.Group))
-	}
+    for _, event := range events {
+        icsEvent := cal.AddEvent(fmt.Sprintf("%s-%d", event.Name, event.Date.Year()))
+        icsEvent.SetCreatedTime(time.Now())
+        icsEvent.SetDtStampTime(time.Now())
+        icsEvent.SetModifiedAt(time.Now())
+        icsEvent.SetStartAt(event.Date)
+        icsEvent.SetEndAt(event.Date.Add(24 * time.Hour))
+        icsEvent.SetSummary(event.Name)
+        icsEvent.SetDescription(fmt.Sprintf("%s (%s)", event.Name, event.Group))
+    }
 
-	return cal
+    return cal
 }
 
 func generateICSFiles(events []Event, groupConfigs []GroupConfig) error {
