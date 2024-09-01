@@ -178,7 +178,7 @@ func loadGroupConfigs(configDir string) ([]GroupConfig, error) {
 
 func queryAI(item CalendarItem, ai AIProvider) ([]Event, error) {
     currentYear := time.Now().Year()
-    prompt := fmt.Sprintf("Please provide a list of events for %s for the year %d. Use your knowledge base and ensure cultural accuracy. %s Format each event STRICTLY as 'Event Name: %d-MM-DD'. Do not include any additional text or explanations.", item.Name, currentYear, item.AdditionalInfo, currentYear)
+    prompt := fmt.Sprintf("Please provide a list of events for %s for the year %d in English. Use your knowledge base and ensure cultural accuracy. %s Format each event STRICTLY as 'Specific Event Name: %d-MM-DD'. Include the full, specific name of each event in English. Do not use generic placeholders like 'Event Name'. If you're unsure about an event's exact date, you may omit it rather than guessing.", item.Name, currentYear, item.AdditionalInfo, currentYear)
 
     fmt.Printf("Querying AI for %s with prompt:\n%s\n", item.Name, prompt)
 
@@ -208,16 +208,18 @@ func parseEvents(aiResponse, itemName string) ([]Event, error) {
             fmt.Printf("Warning: Skipping invalid line: %s\n", line)
             continue
         }
-        eventName := parts[0]
-        dateStr := parts[1]
+        eventName := strings.TrimSpace(parts[0])
+        if eventName == "Event Name" || eventName == "" {
+            fmt.Printf("Warning: Skipping event with generic or empty name: %s\n", line)
+            continue
+        }
+        dateStr := strings.TrimSpace(parts[1])
 
-        // Check if it's a date range
         dateParts := strings.Split(dateStr, " - ")
         var startDate, endDate time.Time
         var err error
 
         if len(dateParts) == 2 {
-            // It's a date range
             startDate, err = time.Parse("2006-01-02", dateParts[0])
             if err != nil {
                 fmt.Printf("Warning: Error parsing start date %s: %v\n", dateParts[0], err)
@@ -229,7 +231,6 @@ func parseEvents(aiResponse, itemName string) ([]Event, error) {
                 continue
             }
         } else {
-            // It's a single date
             startDate, err = time.Parse("2006-01-02", dateStr)
             if err != nil {
                 fmt.Printf("Warning: Error parsing date %s: %v\n", dateStr, err)
@@ -265,15 +266,15 @@ func createCalendar(events []Event, name string) *ics.Calendar {
         icsEvent.SetModifiedAt(time.Now())
         icsEvent.SetStartAt(event.StartDate)
         if event.EndDate.After(event.StartDate) {
-            icsEvent.SetEndAt(event.EndDate.AddDate(0, 0, 1)) // Add one day to include the end date
+            icsEvent.SetEndAt(event.EndDate.AddDate(0, 0, 1))
         } else {
-            icsEvent.SetEndAt(event.StartDate.AddDate(0, 0, 1)) // Single day event
+            icsEvent.SetEndAt(event.StartDate.AddDate(0, 0, 1))
         }
         icsEvent.SetSummary(event.Name)
         if event.EndDate.After(event.StartDate) {
-            icsEvent.SetDescription(fmt.Sprintf("%s (%s) - From %s to %s", event.Name, event.Group, event.StartDate.Format("2006-01-02"), event.EndDate.Format("2006-01-02")))
+            icsEvent.SetDescription(fmt.Sprintf("%s (Group: %s, Source: %s) - From %s to %s", event.Name, event.Group, event.Item, event.StartDate.Format("2006-01-02"), event.EndDate.Format("2006-01-02")))
         } else {
-            icsEvent.SetDescription(fmt.Sprintf("%s (%s)", event.Name, event.Group))
+            icsEvent.SetDescription(fmt.Sprintf("%s (Group: %s, Source: %s)", event.Name, event.Group, event.Item))
         }
     }
 
@@ -281,62 +282,62 @@ func createCalendar(events []Event, name string) *ics.Calendar {
 }
 
 func generateICSFiles(events []Event, groupConfigs []GroupConfig) error {
-	if len(events) == 0 {
-		fmt.Println("No events to generate ICS files for.")
-		return nil
-	}
+    if len(events) == 0 {
+        fmt.Println("No events to generate ICS files for.")
+        return nil
+    }
 
-	fmt.Printf("Generating ICS files for %d events and %d group configs\n", len(events), len(groupConfigs))
+    fmt.Printf("Generating ICS files for %d events and %d group configs\n", len(events), len(groupConfigs))
 
-	for _, groupConfig := range groupConfigs {
-		groupEvents := filterEventsByGroup(events, groupConfig.GroupName)
+    for _, groupConfig := range groupConfigs {
+        groupEvents := filterEventsByGroup(events, groupConfig.GroupName)
 
-		if len(groupEvents) > 0 {
-			cal := createCalendar(groupEvents, groupConfig.GroupName)
-			filename := filepath.Join("docs", fmt.Sprintf("%s_events.ics", strings.ToLower(strings.ReplaceAll(groupConfig.GroupName, " ", "_"))))
-			file, err := os.Create(filename)
-			if err != nil {
-				return err
-			}
-			err = cal.SerializeTo(file)
-			file.Close()
-			if err != nil {
-				return err
-			}
-		}
+        if len(groupEvents) > 0 {
+            cal := createCalendar(groupEvents, groupConfig.GroupName)
+            filename := filepath.Join("docs", fmt.Sprintf("%s_events.ics", strings.ToLower(strings.ReplaceAll(groupConfig.GroupName, " ", "_"))))
+            file, err := os.Create(filename)
+            if err != nil {
+                return err
+            }
+            err = cal.SerializeTo(file)
+            file.Close()
+            if err != nil {
+                return err
+            }
+        }
 
-		for _, item := range groupConfig.CalendarItems {
-			itemEvents := filterEventsByItem(events, item.Name)
-			if len(itemEvents) > 0 {
-				cal := createCalendar(itemEvents, item.Name)
-				filename := filepath.Join("docs", fmt.Sprintf("%s_%s_events.ics", strings.ToLower(strings.ReplaceAll(groupConfig.GroupName, " ", "_")), strings.ToLower(strings.ReplaceAll(item.Name, " ", "_"))))
-				file, err := os.Create(filename)
-				if err != nil {
-					return err
-				}
-				err = cal.SerializeTo(file)
-				file.Close()
-				if err != nil {
-					return err
-				}
-			}
-		}
-	}
+        for _, item := range groupConfig.CalendarItems {
+            itemEvents := filterEventsByItem(events, item.Name)
+            if len(itemEvents) > 0 {
+                cal := createCalendar(itemEvents, item.Name)
+                filename := filepath.Join("docs", fmt.Sprintf("%s_events.ics", strings.ToLower(strings.ReplaceAll(item.Name, " ", "_"))))
+                file, err := os.Create(filename)
+                if err != nil {
+                    return err
+                }
+                err = cal.SerializeTo(file)
+                file.Close()
+                if err != nil {
+                    return err
+                }
+            }
+        }
+    }
 
-	if len(events) > 0 {
-		allCal := createCalendar(events, "All Events")
-		allFile, err := os.Create(filepath.Join("docs", "all_events.ics"))
-		if err != nil {
-			return err
-		}
-		err = allCal.SerializeTo(allFile)
-		allFile.Close()
-		if err != nil {
-			return err
-		}
-	}
+    if len(events) > 0 {
+        allCal := createCalendar(events, "All Events")
+        allFile, err := os.Create(filepath.Join("docs", "all_events.ics"))
+        if err != nil {
+            return err
+        }
+        err = allCal.SerializeTo(allFile)
+        allFile.Close()
+        if err != nil {
+            return err
+        }
+    }
 
-	return nil
+    return nil
 }
 
 func filterEventsByItem(events []Event, item string) []Event {
