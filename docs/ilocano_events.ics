@@ -7,57 +7,191 @@ NAME:Global Calendar - Ilocano
 X-WR-CALNAME:Global Calendar - Ilocano
 DESCRIPTION:AI-generated calendar of events for Ilocano
 BEGIN:VEVENT
-UID:Viva la Santisima Trinidad-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240526T000000Z
-DTEND:20240527T000000Z
-SUMMARY:Viva la Santisima Trinidad
-DESCRIPTION:Viva la Santisima Trinidad (Group: Asian Ethnicities\, Source:
-  Ilocano)
+UID:Feast of the Santo Niño (Holy Child Jesus)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240101T000000Z
+DTEND:20240102T000000Z
+SUMMARY:Feast of the Santo Niño (Holy Child Jesus)
+DESCRIPTION:Feast of the Santo Niño (Holy Child Jesus) (Group: Asian
+  Ethnicities\, Source: Ilocano)
 END:VEVENT
 BEGIN:VEVENT
-UID:Corn Festival-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
+UID:Sinalkubang Festival (Vigan City\, Ilocos Sur)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240125T000000Z
+DTEND:20240128T000000Z
+SUMMARY:Sinalkubang Festival (Vigan City\, Ilocos Sur)
+DESCRIPTION:Sinalkubang Festival (Vigan City\, Ilocos Sur) (Group: Asian
+  Ethnicities\, Source: Ilocano) - From 2024-01-25 to 2024-01-27
+END:VEVENT
+BEGIN:VEVENT
+UID:Pamulinawen Festival (Badoc\, Ilocos Norte)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240203T000000Z
+DTEND:20240205T000000Z
+SUMMARY:Pamulinawen Festival (Badoc\, Ilocos Norte)
+DESCRIPTION:Pamulinawen Festival (Badoc\, Ilocos Norte) (Group: Asian
+  Ethnicities\, Source: Ilocano) - From 2024-02-03 to 2024-02-04
+END:VEVENT
+BEGIN:VEVENT
+UID:Tan-ok ni Ilocano (Ilocos Norte)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240331T000000Z
+DTEND:20240405T000000Z
+SUMMARY:Tan-ok ni Ilocano (Ilocos Norte)
+DESCRIPTION:Tan-ok ni Ilocano (Ilocos Norte) (Group: Asian Ethnicities\,
+  Source: Ilocano) - From 2024-03-31 to 2024-04-04
+END:VEVENT
+BEGIN:VEVENT
+UID:Lenten Season (Holy Week Celebrations)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240324T000000Z
+DTEND:20240401T000000Z
+SUMMARY:Lenten Season (Holy Week Celebrations)
+DESCRIPTION:Lenten Season (Holy Week Celebrations) (Group: Asian
+  Ethnicities\, Source: Ilocano) - From 2024-03-24 to 2024-03-31
+END:VEVENT
+BEGIN:VEVENT
+UID:Semana Santa (Holy Week Processions)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240324T000000Z
+DTEND:20240401T000000Z
+SUMMARY:Semana Santa (Holy Week Processions)
+DESCRIPTION:Semana Santa (Holy Week Processions) (Group: Asian
+  Ethnicities\, Source: Ilocano) - From 2024-03-24 to 2024-03-31
+END:VEVENT
+BEGIN:VEVENT
+UID:Iloko Arts and Culture Festival (Laoag City\, Ilocos Norte)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240425T000000Z
+DTEND:20240429T000000Z
+SUMMARY:Iloko Arts and Culture Festival (Laoag City\, Ilocos Norte)
+DESCRIPTION:Iloko Arts and Culture Festival (Laoag City\, Ilocos Norte)
+  (Group: Asian Ethnicities\, Source: Ilocano) - From 2024-04-25 to
+  2024-04-28
+END:VEVENT
+BEGIN:VEVENT
+UID:Kawayan Festival (Sarrat\, Ilocos Norte)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240501T000000Z
+DTEND:20240504T000000Z
+SUMMARY:Kawayan Festival (Sarrat\, Ilocos Norte)
+DESCRIPTION:Kawayan Festival (Sarrat\, Ilocos Norte) (Group: Asian
+  Ethnicities\, Source: Ilocano) - From 2024-05-01 to 2024-05-03
+END:VEVENT
+BEGIN:VEVENT
+UID:Panarugan Festival (Batac City\, Ilocos Norte)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240518T000000Z
+DTEND:20240520T000000Z
+SUMMARY:Panarugan Festival (Batac City\, Ilocos Norte)
+DESCRIPTION:Panarugan Festival (Batac City\, Ilocos Norte) (Group: Asian
+  Ethnicities\, Source: Ilocano) - From 2024-05-18 to 2024-05-19
+END:VEVENT
+BEGIN:VEVENT
+UID:Pagay-ayaw ti Mannalon (Farmers' Festival)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
 DTSTART:20240515T000000Z
 DTEND:20240516T000000Z
-SUMMARY:Corn Festival
-DESCRIPTION:Corn Festival (Group: Asian Ethnicities\, Source: Ilocano)
+SUMMARY:Pagay-ayaw ti Mannalon (Farmers' Festival)
+DESCRIPTION:Pagay-ayaw ti Mannalon (Farmers' Festival) (Group: Asian
+  Ethnicities\, Source: Ilocano)
 END:VEVENT
 BEGIN:VEVENT
-UID:Lenten Season-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240306T000000Z
-DTEND:20240421T000000Z
-SUMMARY:Lenten Season
-DESCRIPTION:Lenten Season (Group: Asian Ethnicities\, Source: Ilocano) -
-  From 2024-03-06 to 2024-04-20
+UID:Gawad Kalinga sa Ilocos (Vigan City\, Ilocos Sur)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240612T000000Z
+DTEND:20240613T000000Z
+SUMMARY:Gawad Kalinga sa Ilocos (Vigan City\, Ilocos Sur)
+DESCRIPTION:Gawad Kalinga sa Ilocos (Vigan City\, Ilocos Sur) (Group: Asian
+  Ethnicities\, Source: Ilocano)
 END:VEVENT
 BEGIN:VEVENT
-UID:Pasko Nga Sarsaram (Star Festival)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20241216T000000Z
-DTEND:20241217T000000Z
-SUMMARY:Pasko Nga Sarsaram (Star Festival)
-DESCRIPTION:Pasko Nga Sarsaram (Star Festival) (Group: Asian Ethnicities\,
-  Source: Ilocano)
+UID:Bantay Amianan Festival (Bantay\, Ilocos Sur)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240624T000000Z
+DTEND:20240625T000000Z
+SUMMARY:Bantay Amianan Festival (Bantay\, Ilocos Sur)
+DESCRIPTION:Bantay Amianan Festival (Bantay\, Ilocos Sur) (Group: Asian
+  Ethnicities\, Source: Ilocano)
 END:VEVENT
 BEGIN:VEVENT
-UID:Panagresureksion (Easter Sunday)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240331T000000Z
-DTEND:20240401T000000Z
-SUMMARY:Panagresureksion (Easter Sunday)
-DESCRIPTION:Panagresureksion (Easter Sunday) (Group: Asian Ethnicities\,
-  Source: Ilocano)
+UID:Banauan Festival (Banauan\, Banauan\, Ilocos Sur)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240628T000000Z
+DTEND:20240630T000000Z
+SUMMARY:Banauan Festival (Banauan\, Banauan\, Ilocos Sur)
+DESCRIPTION:Banauan Festival (Banauan\, Banauan\, Ilocos Sur) (Group: Asian
+  Ethnicities\, Source: Ilocano) - From 2024-06-28 to 2024-06-29
+END:VEVENT
+BEGIN:VEVENT
+UID:Kannawidan Festival (Candon City\, Ilocos Sur)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240715T000000Z
+DTEND:20240717T000000Z
+SUMMARY:Kannawidan Festival (Candon City\, Ilocos Sur)
+DESCRIPTION:Kannawidan Festival (Candon City\, Ilocos Sur) (Group: Asian
+  Ethnicities\, Source: Ilocano) - From 2024-07-15 to 2024-07-16
+END:VEVENT
+BEGIN:VEVENT
+UID:Manmanok Festival (San Fernando City\, La Union)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240825T000000Z
+DTEND:20240827T000000Z
+SUMMARY:Manmanok Festival (San Fernando City\, La Union)
+DESCRIPTION:Manmanok Festival (San Fernando City\, La Union) (Group: Asian
+  Ethnicities\, Source: Ilocano) - From 2024-08-25 to 2024-08-26
+END:VEVENT
+BEGIN:VEVENT
+UID:Ilocos Norte Taoid Festival (Laoag City\, Ilocos Norte)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240901T000000Z
+DTEND:20240902T000000Z
+SUMMARY:Ilocos Norte Taoid Festival (Laoag City\, Ilocos Norte)
+DESCRIPTION:Ilocos Norte Taoid Festival (Laoag City\, Ilocos Norte) (Group:
+  Asian Ethnicities\, Source: Ilocano)
+END:VEVENT
+BEGIN:VEVENT
+UID:Vigan Longganisa Festival (Vigan City\, Ilocos Sur)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20241020T000000Z
+DTEND:20241021T000000Z
+SUMMARY:Vigan Longganisa Festival (Vigan City\, Ilocos Sur)
+DESCRIPTION:Vigan Longganisa Festival (Vigan City\, Ilocos Sur) (Group:
+  Asian Ethnicities\, Source: Ilocano)
 END:VEVENT
 END:VCALENDAR

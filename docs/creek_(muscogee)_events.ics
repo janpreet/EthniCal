@@ -8,68 +8,70 @@ X-WR-CALNAME:Global Calendar - Creek (Muscogee)
 DESCRIPTION:AI-generated calendar of events for Creek (Muscogee)
 BEGIN:VEVENT
 UID:Creek Green Corn Ceremony-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240801T000000Z
-DTEND:20240802T000000Z
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240719T000000Z
+DTEND:20240720T000000Z
 SUMMARY:Creek Green Corn Ceremony
 DESCRIPTION:Creek Green Corn Ceremony (Group: Native North American
   Peoples\, Source: Creek (Muscogee))
 END:VEVENT
 BEGIN:VEVENT
-UID:Muscogee Nation Holiday Celebration-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240628T000000Z
-DTEND:20240629T000000Z
-SUMMARY:Muscogee Nation Holiday Celebration
-DESCRIPTION:Muscogee Nation Holiday Celebration (Group: Native North
+UID:Muscogee Nation Festival-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240627T000000Z
+DTEND:20240701T000000Z
+SUMMARY:Muscogee Nation Festival
+DESCRIPTION:Muscogee Nation Festival (Group: Native North American
+  Peoples\, Source: Creek (Muscogee)) - From 2024-06-27 to 2024-06-30
+END:VEVENT
+BEGIN:VEVENT
+UID:Muscogee Creek Nation Sovereignty Day-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240925T000000Z
+DTEND:20240926T000000Z
+SUMMARY:Muscogee Creek Nation Sovereignty Day
+DESCRIPTION:Muscogee Creek Nation Sovereignty Day (Group: Native North
   American Peoples\, Source: Creek (Muscogee))
 END:VEVENT
 BEGIN:VEVENT
-UID:Muscogee Creek Nation Mvskoke Festival-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240920T000000Z
-DTEND:20240921T000000Z
-SUMMARY:Muscogee Creek Nation Mvskoke Festival
-DESCRIPTION:Muscogee Creek Nation Mvskoke Festival (Group: Native North
+UID:Muscogee Creek Nation National Holiday-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20241128T000000Z
+DTEND:20241129T000000Z
+SUMMARY:Muscogee Creek Nation National Holiday
+DESCRIPTION:Muscogee Creek Nation National Holiday (Group: Native North
   American Peoples\, Source: Creek (Muscogee))
 END:VEVENT
 BEGIN:VEVENT
-UID:Muscogee Creek Nation Youth Arts and Crafts Fair-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240413T000000Z
-DTEND:20240414T000000Z
-SUMMARY:Muscogee Creek Nation Youth Arts and Crafts Fair
-DESCRIPTION:Muscogee Creek Nation Youth Arts and Crafts Fair (Group: Native
-  North American Peoples\, Source: Creek (Muscogee))
+UID:Muscogee Creek Nation Ceremonial Grounds Gathering-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240524T000000Z
+DTEND:20240527T000000Z
+SUMMARY:Muscogee Creek Nation Ceremonial Grounds Gathering
+DESCRIPTION:Muscogee Creek Nation Ceremonial Grounds Gathering (Group:
+  Native North American Peoples\, Source: Creek (Muscogee)) - From
+  2024-05-24 to 2024-05-26
 END:VEVENT
 BEGIN:VEVENT
-UID:Muscogee Creek Nation Elders Gathering-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20241012T000000Z
-DTEND:20241013T000000Z
-SUMMARY:Muscogee Creek Nation Elders Gathering
-DESCRIPTION:Muscogee Creek Nation Elders Gathering (Group: Native North
-  American Peoples\, Source: Creek (Muscogee))
-END:VEVENT
-BEGIN:VEVENT
-UID:Muscogee Creek Nation Language Immersion Camp-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240715T000000Z
-DTEND:20240716T000000Z
-SUMMARY:Muscogee Creek Nation Language Immersion Camp
-DESCRIPTION:Muscogee Creek Nation Language Immersion Camp (Group: Native
-  North American Peoples\, Source: Creek (Muscogee))
+UID:Muscogee Creek Nation Stomp Dance Celebration-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240816T000000Z
+DTEND:20240819T000000Z
+SUMMARY:Muscogee Creek Nation Stomp Dance Celebration
+DESCRIPTION:Muscogee Creek Nation Stomp Dance Celebration (Group: Native
+  North American Peoples\, Source: Creek (Muscogee)) - From 2024-08-16 to
+  2024-08-18
 END:VEVENT
 END:VCALENDAR

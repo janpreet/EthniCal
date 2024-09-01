@@ -7,70 +7,36 @@ NAME:Global Calendar - Tarahumara (Rarámuri)
 X-WR-CALNAME:Global Calendar - Tarahumara (Rarámuri)
 DESCRIPTION:AI-generated calendar of events for Tarahumara (Rarámuri)
 BEGIN:VEVENT
-UID:Corn Planting Festival-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240414T000000Z
-DTEND:20240415T000000Z
-SUMMARY:Corn Planting Festival
-DESCRIPTION:Corn Planting Festival (Group: Native North American Peoples\,
-  Source: Tarahumara (Rarámuri))
-END:VEVENT
-BEGIN:VEVENT
 UID:Semana Santa (Holy Week)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
 DTSTART:20240324T000000Z
-DTEND:20240331T000000Z
+DTEND:20240401T000000Z
 SUMMARY:Semana Santa (Holy Week)
 DESCRIPTION:Semana Santa (Holy Week) (Group: Native North American
-  Peoples\, Source: Tarahumara (Rarámuri)) - From 2024-03-24 to 2024-03-30
+  Peoples\, Source: Tarahumara (Rarámuri)) - From 2024-03-24 to 2024-03-31
 END:VEVENT
 BEGIN:VEVENT
-UID:Pascua (Easter)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240331T000000Z
-DTEND:20240401T000000Z
-SUMMARY:Pascua (Easter)
-DESCRIPTION:Pascua (Easter) (Group: Native North American Peoples\, Source:
-  Tarahumara (Rarámuri))
+UID:Fiesta de la Santa Cruz (Feast of the Holy Cross)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240503T000000Z
+DTEND:20240504T000000Z
+SUMMARY:Fiesta de la Santa Cruz (Feast of the Holy Cross)
+DESCRIPTION:Fiesta de la Santa Cruz (Feast of the Holy Cross) (Group:
+  Native North American Peoples\, Source: Tarahumara (Rarámuri))
 END:VEVENT
 BEGIN:VEVENT
-UID:Day of the Dead (Día de los Muertos)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20241101T000000Z
-DTEND:20241103T000000Z
-SUMMARY:Day of the Dead (Día de los Muertos)
-DESCRIPTION:Day of the Dead (Día de los Muertos) (Group: Native North
-  American Peoples\, Source: Tarahumara (Rarámuri)) - From 2024-11-01 to
-  2024-11-02
-END:VEVENT
-BEGIN:VEVENT
-UID:Tunarí (Ceremonial Dance)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240623T000000Z
-DTEND:20240624T000000Z
-SUMMARY:Tunarí (Ceremonial Dance)
-DESCRIPTION:Tunarí (Ceremonial Dance) (Group: Native North American
-  Peoples\, Source: Tarahumara (Rarámuri))
-END:VEVENT
-BEGIN:VEVENT
-UID:Rarajípari (Foot Race)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20241214T000000Z
-DTEND:20241215T000000Z
-SUMMARY:Rarajípari (Foot Race)
-DESCRIPTION:Rarajípari (Foot Race) (Group: Native North American Peoples\,
-  Source: Tarahumara (Rarámuri))
+UID:Danza de los Matachines (Dance of the Matachines)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20241212T000000Z
+DTEND:20241213T000000Z
+SUMMARY:Danza de los Matachines (Dance of the Matachines)
+DESCRIPTION:Danza de los Matachines (Dance of the Matachines) (Group:
+  Native North American Peoples\, Source: Tarahumara (Rarámuri))
 END:VEVENT
 END:VCALENDAR
