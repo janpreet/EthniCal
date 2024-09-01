@@ -1,0 +1,122 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//arran4//Golang ICS Library
+METHOD:PUBLISH
+CALSCALE:GREGORIAN
+NAME:Global Calendar - Blackfoot (Siksika)
+X-WR-CALNAME:Global Calendar - Blackfoot (Siksika)
+DESCRIPTION:AI-generated calendar of events for Blackfoot (Siksika)
+BEGIN:VEVENT
+UID:Blackfoot Sun Dance-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240621T000000Z
+DTEND:20240701T000000Z
+SUMMARY:Blackfoot Sun Dance
+DESCRIPTION:Blackfoot Sun Dance (Group: Native North American Peoples\,
+  Source: Blackfoot (Siksika)) - From 2024-06-21 to 2024-06-30
+END:VEVENT
+BEGIN:VEVENT
+UID:Aamsskaahkomattsiksi (Sundance Transfer Ceremony)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240620T000000Z
+DTEND:20240621T000000Z
+SUMMARY:Aamsskaahkomattsiksi (Sundance Transfer Ceremony)
+DESCRIPTION:Aamsskaahkomattsiksi (Sundance Transfer Ceremony) (Group:
+  Native North American Peoples\, Source: Blackfoot (Siksika))
+END:VEVENT
+BEGIN:VEVENT
+UID:Iitskinoyi (Tobacco Ceremony)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240618T000000Z
+DTEND:20240619T000000Z
+SUMMARY:Iitskinoyi (Tobacco Ceremony)
+DESCRIPTION:Iitskinoyi (Tobacco Ceremony) (Group: Native North American
+  Peoples\, Source: Blackfoot (Siksika))
+END:VEVENT
+BEGIN:VEVENT
+UID:Aakakomimmaatssiksi (Transfer of Ceremonial Bundle)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240619T000000Z
+DTEND:20240620T000000Z
+SUMMARY:Aakakomimmaatssiksi (Transfer of Ceremonial Bundle)
+DESCRIPTION:Aakakomimmaatssiksi (Transfer of Ceremonial Bundle) (Group:
+  Native North American Peoples\, Source: Blackfoot (Siksika))
+END:VEVENT
+BEGIN:VEVENT
+UID:Naatoyiihkaan (Sundance Feast)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240630T000000Z
+DTEND:20240701T000000Z
+SUMMARY:Naatoyiihkaan (Sundance Feast)
+DESCRIPTION:Naatoyiihkaan (Sundance Feast) (Group: Native North American
+  Peoples\, Source: Blackfoot (Siksika))
+END:VEVENT
+BEGIN:VEVENT
+UID:Aakainoomahtsiksi (Ceremonial Release)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240630T000000Z
+DTEND:20240701T000000Z
+SUMMARY:Aakainoomahtsiksi (Ceremonial Release)
+DESCRIPTION:Aakainoomahtsiksi (Ceremonial Release) (Group: Native North
+  American Peoples\, Source: Blackfoot (Siksika))
+END:VEVENT
+BEGIN:VEVENT
+UID:Aakaitsiniksistsiksi (Offering of Sacred Goods)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240629T000000Z
+DTEND:20240630T000000Z
+SUMMARY:Aakaitsiniksistsiksi (Offering of Sacred Goods)
+DESCRIPTION:Aakaitsiniksistsiksi (Offering of Sacred Goods) (Group: Native
+  North American Peoples\, Source: Blackfoot (Siksika))
+END:VEVENT
+BEGIN:VEVENT
+UID:Aakaitsinimanistsi (Piercing Ceremony)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240622T000000Z
+DTEND:20240630T000000Z
+SUMMARY:Aakaitsinimanistsi (Piercing Ceremony)
+DESCRIPTION:Aakaitsinimanistsi (Piercing Ceremony) (Group: Native North
+  American Peoples\, Source: Blackfoot (Siksika)) - From 2024-06-22 to
+  2024-06-29
+END:VEVENT
+BEGIN:VEVENT
+UID:Iihtsipaitapiiyssinni (Sweat Lodge Ceremonies)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240620T000000Z
+DTEND:20240630T000000Z
+SUMMARY:Iihtsipaitapiiyssinni (Sweat Lodge Ceremonies)
+DESCRIPTION:Iihtsipaitapiiyssinni (Sweat Lodge Ceremonies) (Group: Native
+  North American Peoples\, Source: Blackfoot (Siksika)) - From 2024-06-20
+  to 2024-06-29
+END:VEVENT
+BEGIN:VEVENT
+UID:Aakaitapiiyssinni (Ceremonial Fasting)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240621T000000Z
+DTEND:20240630T000000Z
+SUMMARY:Aakaitapiiyssinni (Ceremonial Fasting)
+DESCRIPTION:Aakaitapiiyssinni (Ceremonial Fasting) (Group: Native North
+  American Peoples\, Source: Blackfoot (Siksika)) - From 2024-06-21 to
+  2024-06-29
+END:VEVENT
+END:VCALENDAR

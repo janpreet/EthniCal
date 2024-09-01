@@ -1,0 +1,78 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//arran4//Golang ICS Library
+METHOD:PUBLISH
+CALSCALE:GREGORIAN
+NAME:Global Calendar - Pan-Native American
+X-WR-CALNAME:Global Calendar - Pan-Native American
+DESCRIPTION:AI-generated calendar of events for Pan-Native American
+BEGIN:VEVENT
+UID:Native American Music Awards-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20241012T000000Z
+DTEND:20241013T000000Z
+SUMMARY:Native American Music Awards
+DESCRIPTION:Native American Music Awards (Group: Native North American
+  Peoples\, Source: Pan-Native American)
+END:VEVENT
+BEGIN:VEVENT
+UID:Pueblo Governors' Feast Day-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240101T000000Z
+DTEND:20240102T000000Z
+SUMMARY:Pueblo Governors' Feast Day
+DESCRIPTION:Pueblo Governors' Feast Day (Group: Native North American
+  Peoples\, Source: Pan-Native American)
+END:VEVENT
+BEGIN:VEVENT
+UID:National Day of Prayer for Protection of Sacred Places-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240621T000000Z
+DTEND:20240622T000000Z
+SUMMARY:National Day of Prayer for Protection of Sacred Places
+DESCRIPTION:National Day of Prayer for Protection of Sacred Places (Group:
+  Native North American Peoples\, Source: Pan-Native American)
+END:VEVENT
+BEGIN:VEVENT
+UID:National Native HIV/AIDS Awareness Day-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240320T000000Z
+DTEND:20240321T000000Z
+SUMMARY:National Native HIV/AIDS Awareness Day
+DESCRIPTION:National Native HIV/AIDS Awareness Day (Group: Native North
+  American Peoples\, Source: Pan-Native American)
+END:VEVENT
+BEGIN:VEVENT
+UID:American Indian Heritage Day-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20241129T000000Z
+DTEND:20241130T000000Z
+SUMMARY:American Indian Heritage Day
+DESCRIPTION:American Indian Heritage Day (Group: Native North American
+  Peoples\, Source: Pan-Native American)
+END:VEVENT
+BEGIN:VEVENT
+UID:National American Indian and Alaska Native Heritage Month Cultural
+  Night-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20241130T000000Z
+DTEND:20241201T000000Z
+SUMMARY:National American Indian and Alaska Native Heritage Month Cultural
+  Night
+DESCRIPTION:National American Indian and Alaska Native Heritage Month
+  Cultural Night (Group: Native North American Peoples\, Source: Pan-Native
+  American)
+END:VEVENT
+END:VCALENDAR

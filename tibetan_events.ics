@@ -1,0 +1,98 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//arran4//Golang ICS Library
+METHOD:PUBLISH
+CALSCALE:GREGORIAN
+NAME:Global Calendar - Tibetan
+X-WR-CALNAME:Global Calendar - Tibetan
+DESCRIPTION:AI-generated calendar of events for Tibetan
+BEGIN:VEVENT
+UID:Losar (Tibetan New Year)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240224T000000Z
+DTEND:20240225T000000Z
+SUMMARY:Losar (Tibetan New Year)
+DESCRIPTION:Losar (Tibetan New Year) (Group: Asian Ethnicities\, Source:
+  Tibetan)
+END:VEVENT
+BEGIN:VEVENT
+UID:Chotrul Duchen (Commemoration of the Buddha's Miracles)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240305T000000Z
+DTEND:20240306T000000Z
+SUMMARY:Chotrul Duchen (Commemoration of the Buddha's Miracles)
+DESCRIPTION:Chotrul Duchen (Commemoration of the Buddha's Miracles) (Group:
+  Asian Ethnicities\, Source: Tibetan)
+END:VEVENT
+BEGIN:VEVENT
+UID:Saga Dawa (Buddha's Birth\, Enlightenment\, and Parinirvana)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240519T000000Z
+DTEND:20240520T000000Z
+SUMMARY:Saga Dawa (Buddha's Birth\, Enlightenment\, and Parinirvana)
+DESCRIPTION:Saga Dawa (Buddha's Birth\, Enlightenment\, and Parinirvana)
+  (Group: Asian Ethnicities\, Source: Tibetan)
+END:VEVENT
+BEGIN:VEVENT
+UID:Chokhor Duchen (Commemoration of the First Sermon of the Buddha)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240713T000000Z
+DTEND:20240714T000000Z
+SUMMARY:Chokhor Duchen (Commemoration of the First Sermon of the Buddha)
+DESCRIPTION:Chokhor Duchen (Commemoration of the First Sermon of the
+  Buddha) (Group: Asian Ethnicities\, Source: Tibetan)
+END:VEVENT
+BEGIN:VEVENT
+UID:Lhabab Duchen (Commemoration of the Buddha's Descent from Heaven)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240906T000000Z
+DTEND:20240907T000000Z
+SUMMARY:Lhabab Duchen (Commemoration of the Buddha's Descent from Heaven)
+DESCRIPTION:Lhabab Duchen (Commemoration of the Buddha's Descent from
+  Heaven) (Group: Asian Ethnicities\, Source: Tibetan)
+END:VEVENT
+BEGIN:VEVENT
+UID:Lhalung (Archery Festival)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240915T000000Z
+DTEND:20240916T000000Z
+SUMMARY:Lhalung (Archery Festival)
+DESCRIPTION:Lhalung (Archery Festival) (Group: Asian Ethnicities\, Source:
+  Tibetan)
+END:VEVENT
+BEGIN:VEVENT
+UID:Drekha (Yoga Festival)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20241005T000000Z
+DTEND:20241006T000000Z
+SUMMARY:Drekha (Yoga Festival)
+DESCRIPTION:Drekha (Yoga Festival) (Group: Asian Ethnicities\, Source:
+  Tibetan)
+END:VEVENT
+BEGIN:VEVENT
+UID:Ganden Ngachok (Commemoration of Je Tsongkhapa's Death
+  Anniversary)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20241207T000000Z
+DTEND:20241208T000000Z
+SUMMARY:Ganden Ngachok (Commemoration of Je Tsongkhapa's Death Anniversary)
+DESCRIPTION:Ganden Ngachok (Commemoration of Je Tsongkhapa's Death
+  Anniversary) (Group: Asian Ethnicities\, Source: Tibetan)
+END:VEVENT
+END:VCALENDAR
