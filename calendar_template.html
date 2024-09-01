@@ -14,20 +14,90 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/tippy.js@6.3.7/dist/tippy-bundle.umd.min.js"></script>
     <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        #calendar { margin-top: 20px; }
-        select { font-size: 16px; padding: 5px; margin-right: 10px; width: 300px; }
-        #aboutButton { margin-left: 10px; }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+        #calendar {
+            margin-top: 20px;
+            background-color: #2a2a2a;
+        }
+        select {
+            font-size: 16px;
+            padding: 5px;
+            margin-right: 10px;
+            width: 300px;
+            background-color: #2a2a2a;
+            color: #ffffff;
+            border: 1px solid #444;
+        }
+        #aboutButton {
+            margin-left: 10px;
+            background-color: #3a3a3a;
+            color: #ffffff;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
         #aboutInfo {
             display: none;
-            background-color: #f0f0f0;
-            border: 1px solid #ddd;
+            background-color: #2a2a2a;
+            border: 1px solid #444;
             padding: 10px;
             margin-top: 10px;
             border-radius: 5px;
             font-size: 14px;
         }
-        #controls { margin-bottom: 20px; }
+        #controls {
+            margin-bottom: 20px;
+        }
+        a {
+            color: #4a9eff;
+        }
+        .fc-theme-standard td, .fc-theme-standard th {
+            border-color: #444;
+        }
+        .fc .fc-daygrid-day-number {
+            color: #ffffff;
+        }
+        .fc .fc-col-header-cell-cushion {
+            color: #ffffff;
+        }
+        .fc .fc-button-primary {
+            background-color: #3a3a3a;
+            border-color: #444;
+        }
+        .fc .fc-button-primary:not(:disabled):active,
+        .fc .fc-button-primary:not(:disabled).fc-button-active {
+            background-color: #4a4a4a;
+        }
+        .select2-container--default .select2-selection--single {
+            background-color: #2a2a2a;
+            border: 1px solid #444;
+            color: #ffffff;
+        }
+        .select2-container--default .select2-results__option[aria-selected=true] {
+            background-color: #3a3a3a;
+        }
+        .select2-container--default .select2-results__option--highlighted[aria-selected] {
+            background-color: #4a4a4a;
+        }
+        .select2-dropdown {
+            background-color: #2a2a2a;
+            border: 1px solid #444;
+        }
+        .select2-container--default .select2-search--dropdown .select2-search__field {
+            background-color: #3a3a3a;
+            color: #ffffff;
+            border: 1px solid #444;
+        }
+        .tippy-box {
+            background-color: #2a2a2a;
+            color: #ffffff;
+            border: 1px solid #444;
+        }
     </style>
 </head>
 <body>
@@ -78,6 +148,7 @@
 
                 calendar = new FullCalendar.Calendar(calendarEl, {
                     initialView: 'dayGridMonth',
+                    themeSystem: 'standard',
                     eventDidMount: function(info) {
                         tippy(info.el, {
                             content: info.event.extendedProps.description || info.event.title,
@@ -139,10 +210,13 @@
             $('#calendarSelect').select2({
                 placeholder: 'Select or search for events',
                 allowClear: true
+            }).on('select2:unselecting', function(e) {
+                e.preventDefault();
+                $(this).val('all_events.ics').trigger('change');
             });
 
             $('#calendarSelect').on('change', function() {
-                var selectedFile = this.value;
+                var selectedFile = this.value || 'all_events.ics';
                 document.getElementById('downloadLink').href = 'https://raw.githubusercontent.com/janpreet/EthniCal/main/docs/' + selectedFile;
                 initCalendar();
             });

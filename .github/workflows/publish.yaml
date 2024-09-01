@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '0 0 1 1 *'
   workflow_dispatch:
+    inputs:
+      calendars:
+        description: 'Comma-separated list of calendars to build (e.g., Pan-Indian, Gujarati etc). Leave empty to build all.'
+        required: false
   push:
     branches:
       - main
@@ -24,16 +28,18 @@ jobs:
       with:
         go-version: '1.20'
 
-    - name: Install dependencies
-      run: |
-        go mod download
-
     - name: Generate Calendar
       env:
         AI_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
-        AI_MODEL: ${{ secrets.AI_MODEL }}
-        DISABLE_AI: false
-      run: go run main.go
+        AI_MODEL: 'claude-3-sonnet-20240229'
+      run: |
+        if [ -n "${{ github.event.inputs.calendars }}" ]; then
+          go run main.go -calendars "${{ github.event.inputs.calendars }}"
+        else
+          go run main.go
+        fi
+
+    # ... (rest of the workflow remains the same) ...
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3

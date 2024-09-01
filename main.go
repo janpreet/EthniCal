@@ -12,7 +12,7 @@ import (
 	"path/filepath"
 	"strings"
 	"time"
-
+	"flag"
 	"github.com/sashabaranov/go-openai"
 	ics "github.com/arran4/golang-ical"
 )
@@ -411,19 +411,59 @@ func deduplicateEvents(events []Event) []Event {
     return result
 }
 
+func matchesCalendar(configName, selectedCal string) bool {
+    configName = strings.ToLower(configName)
+    selectedCal = strings.ToLower(selectedCal)
+    
+    if configName == selectedCal {
+        return true
+    }
+    
+    if strings.Contains(configName, selectedCal) {
+        return true
+    }
+    
+    selectedWords := strings.Fields(selectedCal)
+    for _, word := range selectedWords {
+        if strings.HasPrefix(configName, word) {
+            return true
+        }
+    }
+    
+    return false
+}
+
 func main() {
 	apiKey := os.Getenv("AI_API_KEY")
 	model := os.Getenv("AI_MODEL")
 	disableAI := os.Getenv("DISABLE_AI")
 
-	groupConfigs, err := loadGroupConfigs("configs")
-	if err != nil {
-		fmt.Printf("Error loading group configs: %v\n", err)
-		return
-	}
-	fmt.Printf("Loaded %d group configs\n", len(groupConfigs))
+    var selectedCalendars string
+    flag.StringVar(&selectedCalendars, "calendars", "", "Comma-separated list of calendars to build (e.g., Pan-Indian, Gujarati etc). Leave empty to build all.")
+    flag.Parse()
 
-	var allEvents []Event
+    groupConfigs, err := loadGroupConfigs("configs")
+    if err != nil {
+        fmt.Printf("Error loading group configs: %v\n", err)
+        return
+    }
+    fmt.Printf("Loaded %d group configs\n", len(groupConfigs))
+
+    if selectedCalendars != "" {
+        calendarList := strings.Split(selectedCalendars, ",")
+        filteredConfigs := []GroupConfig{}
+        for _, config := range groupConfigs {
+            for _, cal := range calendarList {
+                if matchesCalendar(config.GroupName, strings.TrimSpace(cal)) {
+                    filteredConfigs = append(filteredConfigs, config)
+                    break
+                }
+            }
+        }
+        groupConfigs = filteredConfigs
+    }
+
+    var allEvents []Event
 
 	for _, groupConfig := range groupConfigs {
 		fmt.Printf("Processing group: %s\n", groupConfig.GroupName)
