@@ -272,9 +272,11 @@ func createCalendar(events []Event, name string) *ics.Calendar {
         }
         icsEvent.SetSummary(event.Name)
         if event.EndDate.After(event.StartDate) {
-            icsEvent.SetDescription(fmt.Sprintf("%s (Group: %s, Source: %s) - From %s to %s", event.Name, event.Group, event.Item, event.StartDate.Format("2006-01-02"), event.EndDate.Format("2006-01-02")))
+            icsEvent.SetDescription(fmt.Sprintf("%s (Group: %s, Source: %s) - From %s to %s", 
+                event.Name, event.Group, event.Item, event.StartDate.Format("2006-01-02"), event.EndDate.Format("2006-01-02")))
         } else {
-            icsEvent.SetDescription(fmt.Sprintf("%s (Group: %s, Source: %s)", event.Name, event.Group, event.Item))
+            icsEvent.SetDescription(fmt.Sprintf("%s (Group: %s, Source: %s)", 
+                event.Name, event.Group, event.Item))
         }
     }
 

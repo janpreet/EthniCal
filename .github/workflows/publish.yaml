@@ -39,8 +39,6 @@ jobs:
           go run main.go
         fi
 
-    # ... (rest of the workflow remains the same) ...
-
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
