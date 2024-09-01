@@ -395,6 +395,21 @@ func generateHTMLCalendar(events []Event, groupConfigs []GroupConfig) error {
     return nil
 }
 
+func deduplicateEvents(events []Event) []Event {
+    seen := make(map[string]bool)
+    result := []Event{}
+
+    for _, event := range events {
+        key := fmt.Sprintf("%s_%s_%s", event.Name, event.StartDate.Format("2006-01-02"), event.EndDate.Format("2006-01-02"))
+        if _, exists := seen[key]; !exists {
+            seen[key] = true
+            result = append(result, event)
+        }
+    }
+
+    return result
+}
+
 func main() {
 	apiKey := os.Getenv("AI_API_KEY")
 	model := os.Getenv("AI_MODEL")
@@ -441,7 +456,9 @@ func main() {
 		}
 	}
 
-	fmt.Printf("Total number of events generated: %d\n", len(allEvents))
+	allEvents = deduplicateEvents(allEvents)
+
+	fmt.Printf("Total number of unique events generated: %d\n", len(allEvents))
 
 	err = generateICSFiles(allEvents, groupConfigs)
 	if err != nil {
