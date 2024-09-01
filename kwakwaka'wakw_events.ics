@@ -7,70 +7,91 @@ NAME:Global Calendar - Kwakwaka'wakw
 X-WR-CALNAME:Global Calendar - Kwakwaka'wakw
 DESCRIPTION:AI-generated calendar of events for Kwakwaka'wakw
 BEGIN:VEVENT
-UID:Tlowitsis Winter Ceremonial-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240201T000000Z
-DTEND:20240211T000000Z
-SUMMARY:Tlowitsis Winter Ceremonial
-DESCRIPTION:Tlowitsis Winter Ceremonial (Group: Native North American
-  Peoples\, Source: Kwakwaka'wakw) - From 2024-02-01 to 2024-02-10
+UID:Baxwbakwalanusiwa (Magical Potlatch)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240112T000000Z
+DTEND:20240113T000000Z
+SUMMARY:Baxwbakwalanusiwa (Magical Potlatch)
+DESCRIPTION:Baxwbakwalanusiwa (Magical Potlatch) (Group: Native North
+  American Peoples\, Source: Kwakwaka'wakw)
 END:VEVENT
 BEGIN:VEVENT
-UID:K'omoks Potlatch Ceremony-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240325T000000Z
-DTEND:20240401T000000Z
-SUMMARY:K'omoks Potlatch Ceremony
-DESCRIPTION:K'omoks Potlatch Ceremony (Group: Native North American
-  Peoples\, Source: Kwakwaka'wakw) - From 2024-03-25 to 2024-03-31
+UID:Ukti'nusimas (Return of Wealth)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240319T000000Z
+DTEND:20240320T000000Z
+SUMMARY:Ukti'nusimas (Return of Wealth)
+DESCRIPTION:Ukti'nusimas (Return of Wealth) (Group: Native North American
+  Peoples\, Source: Kwakwaka'wakw)
 END:VEVENT
 BEGIN:VEVENT
-UID:Wei Wai Kum Potlatch Ceremony-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240515T000000Z
-DTEND:20240521T000000Z
-SUMMARY:Wei Wai Kum Potlatch Ceremony
-DESCRIPTION:Wei Wai Kum Potlatch Ceremony (Group: Native North American
-  Peoples\, Source: Kwakwaka'wakw) - From 2024-05-15 to 2024-05-20
+UID:T'sasala (Canoe Launching Ceremony)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240510T000000Z
+DTEND:20240511T000000Z
+SUMMARY:T'sasala (Canoe Launching Ceremony)
+DESCRIPTION:T'sasala (Canoe Launching Ceremony) (Group: Native North
+  American Peoples\, Source: Kwakwaka'wakw)
 END:VEVENT
 BEGIN:VEVENT
-UID:Kwakwaka'wakw Potlatch Ceremony-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240701T000000Z
-DTEND:20240716T000000Z
-SUMMARY:Kwakwaka'wakw Potlatch Ceremony
-DESCRIPTION:Kwakwaka'wakw Potlatch Ceremony (Group: Native North American
-  Peoples\, Source: Kwakwaka'wakw) - From 2024-07-01 to 2024-07-15
+UID:Tsēka (Memorial Potlatch)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240622T000000Z
+DTEND:20240623T000000Z
+SUMMARY:Tsēka (Memorial Potlatch)
+DESCRIPTION:Tsēka (Memorial Potlatch) (Group: Native North American
+  Peoples\, Source: Kwakwaka'wakw)
 END:VEVENT
 BEGIN:VEVENT
-UID:Ḵwiḵwasutinuxw Haxwa'mis Winter Dance Festival-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20241101T000000Z
-DTEND:20241111T000000Z
-SUMMARY:Ḵwiḵwasutinuxw Haxwa'mis Winter Dance Festival
-DESCRIPTION:Ḵwiḵwasutinuxw Haxwa'mis Winter Dance Festival (Group:
-  Native North American Peoples\, Source: Kwakwaka'wakw) - From 2024-11-01
-  to 2024-11-10
+UID:Nułamłayu'gwayusdas (First Salmon Ceremony)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240705T000000Z
+DTEND:20240706T000000Z
+SUMMARY:Nułamłayu'gwayusdas (First Salmon Ceremony)
+DESCRIPTION:Nułamłayu'gwayusdas (First Salmon Ceremony) (Group: Native
+  North American Peoples\, Source: Kwakwaka'wakw)
 END:VEVENT
 BEGIN:VEVENT
-UID:Kwakwaka'wakw Winter Ceremonial-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20241201T000000Z
-DTEND:20241216T000000Z
-SUMMARY:Kwakwaka'wakw Winter Ceremonial
-DESCRIPTION:Kwakwaka'wakw Winter Ceremonial (Group: Native North American
-  Peoples\, Source: Kwakwaka'wakw) - From 2024-12-01 to 2024-12-15
+UID:Ğvikva'am (Berry-Picking Celebration)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240818T000000Z
+DTEND:20240819T000000Z
+SUMMARY:Ğvikva'am (Berry-Picking Celebration)
+DESCRIPTION:Ğvikva'am (Berry-Picking Celebration) (Group: Native North
+  American Peoples\, Source: Kwakwaka'wakw)
+END:VEVENT
+BEGIN:VEVENT
+UID:Baxwbakwalanusiwa (Magical Potlatch)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20241004T000000Z
+DTEND:20241005T000000Z
+SUMMARY:Baxwbakwalanusiwa (Magical Potlatch)
+DESCRIPTION:Baxwbakwalanusiwa (Magical Potlatch) (Group: Native North
+  American Peoples\, Source: Kwakwaka'wakw)
+END:VEVENT
+BEGIN:VEVENT
+UID:Tsagiu (Winter Ceremonial)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20241129T000000Z
+DTEND:20241130T000000Z
+SUMMARY:Tsagiu (Winter Ceremonial)
+DESCRIPTION:Tsagiu (Winter Ceremonial) (Group: Native North American
+  Peoples\, Source: Kwakwaka'wakw)
 END:VEVENT
 END:VCALENDAR

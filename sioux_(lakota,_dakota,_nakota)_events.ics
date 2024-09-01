@@ -8,118 +8,121 @@ X-WR-CALNAME:Global Calendar - Sioux (Lakota\, Dakota\, Nakota)
 DESCRIPTION:AI-generated calendar of events for Sioux (Lakota\, Dakota\,
   Nakota)
 BEGIN:VEVENT
-UID:Waniyetu Wi (Winter Count Ceremony)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240101T000000Z
-DTEND:20240102T000000Z
-SUMMARY:Waniyetu Wi (Winter Count Ceremony)
-DESCRIPTION:Waniyetu Wi (Winter Count Ceremony) (Group: Native North
-  American Peoples\, Source: Sioux (Lakota\, Dakota\, Nakota))
+UID:Sisseton Wahpeton Oyate Wacipi-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240712T000000Z
+DTEND:20240715T000000Z
+SUMMARY:Sisseton Wahpeton Oyate Wacipi
+DESCRIPTION:Sisseton Wahpeton Oyate Wacipi (Group: Native North American
+  Peoples\, Source: Sioux (Lakota\, Dakota\, Nakota)) - From 2024-07-12 to
+  2024-07-14
 END:VEVENT
 BEGIN:VEVENT
-UID:Isnati Awicalowanpi (Sundance Ceremony)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240621T000000Z
-DTEND:20240622T000000Z
-SUMMARY:Isnati Awicalowanpi (Sundance Ceremony)
-DESCRIPTION:Isnati Awicalowanpi (Sundance Ceremony) (Group: Native North
-  American Peoples\, Source: Sioux (Lakota\, Dakota\, Nakota))
-END:VEVENT
-BEGIN:VEVENT
-UID:Hunkapi Ceremony (Making Relatives Ceremony)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240701T000000Z
-DTEND:20240702T000000Z
-SUMMARY:Hunkapi Ceremony (Making Relatives Ceremony)
-DESCRIPTION:Hunkapi Ceremony (Making Relatives Ceremony) (Group: Native
-  North American Peoples\, Source: Sioux (Lakota\, Dakota\, Nakota))
-END:VEVENT
-BEGIN:VEVENT
-UID:Denver March Powwow-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240322T000000Z
-DTEND:20240325T000000Z
-SUMMARY:Denver March Powwow
-DESCRIPTION:Denver March Powwow (Group: Native North American Peoples\,
-  Source: Sioux (Lakota\, Dakota\, Nakota)) - From 2024-03-22 to 2024-03-24
-END:VEVENT
-BEGIN:VEVENT
-UID:United Tribes Technical College International Powwow-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240404T000000Z
-DTEND:20240407T000000Z
-SUMMARY:United Tribes Technical College International Powwow
-DESCRIPTION:United Tribes Technical College International Powwow (Group:
-  Native North American Peoples\, Source: Sioux (Lakota\, Dakota\, Nakota))
-  - From 2024-04-04 to 2024-04-06
-END:VEVENT
-BEGIN:VEVENT
-UID:Gathering of Nations Powwow-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240425T000000Z
-DTEND:20240428T000000Z
-SUMMARY:Gathering of Nations Powwow
-DESCRIPTION:Gathering of Nations Powwow (Group: Native North American
-  Peoples\, Source: Sioux (Lakota\, Dakota\, Nakota)) - From 2024-04-25 to
-  2024-04-27
-END:VEVENT
-BEGIN:VEVENT
-UID:Rosebud Fair and Wacipi (Powwow)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240808T000000Z
+UID:Oglala Lakota Nation Pow Wow-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240809T000000Z
 DTEND:20240812T000000Z
-SUMMARY:Rosebud Fair and Wacipi (Powwow)
-DESCRIPTION:Rosebud Fair and Wacipi (Powwow) (Group: Native North American
-  Peoples\, Source: Sioux (Lakota\, Dakota\, Nakota)) - From 2024-08-08 to
+SUMMARY:Oglala Lakota Nation Pow Wow
+DESCRIPTION:Oglala Lakota Nation Pow Wow (Group: Native North American
+  Peoples\, Source: Sioux (Lakota\, Dakota\, Nakota)) - From 2024-08-09 to
   2024-08-11
 END:VEVENT
 BEGIN:VEVENT
-UID:Oglala Nation Powwow and Rodeo-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240815T000000Z
-DTEND:20240819T000000Z
-SUMMARY:Oglala Nation Powwow and Rodeo
-DESCRIPTION:Oglala Nation Powwow and Rodeo (Group: Native North American
-  Peoples\, Source: Sioux (Lakota\, Dakota\, Nakota)) - From 2024-08-15 to
-  2024-08-18
+UID:Cheyenne River Sioux Tribe Fair and Rodeo-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240726T000000Z
+DTEND:20240729T000000Z
+SUMMARY:Cheyenne River Sioux Tribe Fair and Rodeo
+DESCRIPTION:Cheyenne River Sioux Tribe Fair and Rodeo (Group: Native North
+  American Peoples\, Source: Sioux (Lakota\, Dakota\, Nakota)) - From
+  2024-07-26 to 2024-07-28
 END:VEVENT
 BEGIN:VEVENT
-UID:Sisseton Wahpeton Oyate Wacipi (Powwow)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
+UID:Rosebud Fair and Wacipi-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240816T000000Z
+DTEND:20240819T000000Z
+SUMMARY:Rosebud Fair and Wacipi
+DESCRIPTION:Rosebud Fair and Wacipi (Group: Native North American Peoples\,
+  Source: Sioux (Lakota\, Dakota\, Nakota)) - From 2024-08-16 to 2024-08-18
+END:VEVENT
+BEGIN:VEVENT
+UID:Standing Rock Sioux Tribe Fair and Rodeo-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240823T000000Z
+DTEND:20240826T000000Z
+SUMMARY:Standing Rock Sioux Tribe Fair and Rodeo
+DESCRIPTION:Standing Rock Sioux Tribe Fair and Rodeo (Group: Native North
+  American Peoples\, Source: Sioux (Lakota\, Dakota\, Nakota)) - From
+  2024-08-23 to 2024-08-25
+END:VEVENT
+BEGIN:VEVENT
+UID:Crow Creek Sioux Tribe Annual Fair and Wacipi-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
 DTSTART:20240906T000000Z
 DTEND:20240909T000000Z
-SUMMARY:Sisseton Wahpeton Oyate Wacipi (Powwow)
-DESCRIPTION:Sisseton Wahpeton Oyate Wacipi (Powwow) (Group: Native North
-  American Peoples\, Source: Sioux (Lakota\, Dakota\, Nakota)) - From
+SUMMARY:Crow Creek Sioux Tribe Annual Fair and Wacipi
+DESCRIPTION:Crow Creek Sioux Tribe Annual Fair and Wacipi (Group: Native
+  North American Peoples\, Source: Sioux (Lakota\, Dakota\, Nakota)) - From
   2024-09-06 to 2024-09-08
 END:VEVENT
 BEGIN:VEVENT
-UID:Huŋkapi Ceremonies (Making Relatives Ceremonies)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20241225T000000Z
-DTEND:20241226T000000Z
-SUMMARY:Huŋkapi Ceremonies (Making Relatives Ceremonies)
-DESCRIPTION:Huŋkapi Ceremonies (Making Relatives Ceremonies) (Group:
-  Native North American Peoples\, Source: Sioux (Lakota\, Dakota\, Nakota))
+UID:Sisseton Wahpeton Oyate Spring Equinox Ceremony-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240320T000000Z
+DTEND:20240321T000000Z
+SUMMARY:Sisseton Wahpeton Oyate Spring Equinox Ceremony
+DESCRIPTION:Sisseton Wahpeton Oyate Spring Equinox Ceremony (Group: Native
+  North American Peoples\, Source: Sioux (Lakota\, Dakota\, Nakota))
+END:VEVENT
+BEGIN:VEVENT
+UID:Lakota Sundance Ceremonies-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240621T000000Z
+DTEND:20240701T000000Z
+SUMMARY:Lakota Sundance Ceremonies
+DESCRIPTION:Lakota Sundance Ceremonies (Group: Native North American
+  Peoples\, Source: Sioux (Lakota\, Dakota\, Nakota)) - From 2024-06-21 to
+  2024-06-30
+END:VEVENT
+BEGIN:VEVENT
+UID:Spirit Lake Nation Memorial Powwow-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240525T000000Z
+DTEND:20240528T000000Z
+SUMMARY:Spirit Lake Nation Memorial Powwow
+DESCRIPTION:Spirit Lake Nation Memorial Powwow (Group: Native North
+  American Peoples\, Source: Sioux (Lakota\, Dakota\, Nakota)) - From
+  2024-05-25 to 2024-05-27
+END:VEVENT
+BEGIN:VEVENT
+UID:Santee Sioux Nation Powwow-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240719T000000Z
+DTEND:20240722T000000Z
+SUMMARY:Santee Sioux Nation Powwow
+DESCRIPTION:Santee Sioux Nation Powwow (Group: Native North American
+  Peoples\, Source: Sioux (Lakota\, Dakota\, Nakota)) - From 2024-07-19 to
+  2024-07-21
 END:VEVENT
 END:VCALENDAR

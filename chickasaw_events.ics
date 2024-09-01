@@ -7,124 +7,70 @@ NAME:Global Calendar - Chickasaw
 X-WR-CALNAME:Global Calendar - Chickasaw
 DESCRIPTION:AI-generated calendar of events for Chickasaw
 BEGIN:VEVENT
-UID:Annual Meeting and Chickasaw Festival-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240926T000000Z
-DTEND:20240929T000000Z
-SUMMARY:Annual Meeting and Chickasaw Festival
-DESCRIPTION:Annual Meeting and Chickasaw Festival (Group: Native North
-  American Peoples\, Source: Chickasaw) - From 2024-09-26 to 2024-09-28
-END:VEVENT
-BEGIN:VEVENT
-UID:Chickasaw Nation Arts & Crafts Christmas Sale-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20241207T000000Z
-DTEND:20241208T000000Z
-SUMMARY:Chickasaw Nation Arts & Crafts Christmas Sale
-DESCRIPTION:Chickasaw Nation Arts & Crafts Christmas Sale (Group: Native
-  North American Peoples\, Source: Chickasaw)
-END:VEVENT
-BEGIN:VEVENT
-UID:Chickasaw Housing Authority Housing Fair-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240420T000000Z
-DTEND:20240421T000000Z
-SUMMARY:Chickasaw Housing Authority Housing Fair
-DESCRIPTION:Chickasaw Housing Authority Housing Fair (Group: Native North
-  American Peoples\, Source: Chickasaw)
-END:VEVENT
-BEGIN:VEVENT
-UID:Chickasaw Nation Solar Eclipse Viewing Event-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20241014T000000Z
-DTEND:20241015T000000Z
-SUMMARY:Chickasaw Nation Solar Eclipse Viewing Event
-DESCRIPTION:Chickasaw Nation Solar Eclipse Viewing Event (Group: Native
-  North American Peoples\, Source: Chickasaw)
-END:VEVENT
-BEGIN:VEVENT
-UID:Chickasaw White Dog Memorial-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240615T000000Z
-DTEND:20240616T000000Z
-SUMMARY:Chickasaw White Dog Memorial
-DESCRIPTION:Chickasaw White Dog Memorial (Group: Native North American
+UID:Chickasaw New Year's Celebration-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240101T000000Z
+DTEND:20240102T000000Z
+SUMMARY:Chickasaw New Year's Celebration
+DESCRIPTION:Chickasaw New Year's Celebration (Group: Native North American
   Peoples\, Source: Chickasaw)
 END:VEVENT
 BEGIN:VEVENT
-UID:Chickasaw Nation Labor Day Festival-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240902T000000Z
-DTEND:20240903T000000Z
-SUMMARY:Chickasaw Nation Labor Day Festival
-DESCRIPTION:Chickasaw Nation Labor Day Festival (Group: Native North
-  American Peoples\, Source: Chickasaw)
+UID:Chickasaw Nation Inauguration Day-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20241001T000000Z
+DTEND:20241002T000000Z
+SUMMARY:Chickasaw Nation Inauguration Day
+DESCRIPTION:Chickasaw Nation Inauguration Day (Group: Native North American
+  Peoples\, Source: Chickasaw)
 END:VEVENT
 BEGIN:VEVENT
-UID:Chickasaw Nation Veterans Day Celebration-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20241111T000000Z
-DTEND:20241112T000000Z
-SUMMARY:Chickasaw Nation Veterans Day Celebration
-DESCRIPTION:Chickasaw Nation Veterans Day Celebration (Group: Native North
-  American Peoples\, Source: Chickasaw)
+UID:Chickasaw Nation Annual Meeting and Fair-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240926T000000Z
+DTEND:20240929T000000Z
+SUMMARY:Chickasaw Nation Annual Meeting and Fair
+DESCRIPTION:Chickasaw Nation Annual Meeting and Fair (Group: Native North
+  American Peoples\, Source: Chickasaw) - From 2024-09-26 to 2024-09-28
 END:VEVENT
 BEGIN:VEVENT
-UID:Chickasaw Nation New Year's Celebration-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240101T000000Z
-DTEND:20240102T000000Z
-SUMMARY:Chickasaw Nation New Year's Celebration
-DESCRIPTION:Chickasaw Nation New Year's Celebration (Group: Native North
-  American Peoples\, Source: Chickasaw)
+UID:Chickasaw Nation Arts Celebration-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240427T000000Z
+DTEND:20240428T000000Z
+SUMMARY:Chickasaw Nation Arts Celebration
+DESCRIPTION:Chickasaw Nation Arts Celebration (Group: Native North American
+  Peoples\, Source: Chickasaw)
 END:VEVENT
 BEGIN:VEVENT
-UID:Chickasaw Nation Thanksgiving Celebration-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20241128T000000Z
-DTEND:20241129T000000Z
-SUMMARY:Chickasaw Nation Thanksgiving Celebration
-DESCRIPTION:Chickasaw Nation Thanksgiving Celebration (Group: Native North
-  American Peoples\, Source: Chickasaw)
+UID:Chickasaw Press Association Storytellers Conference-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240614T000000Z
+DTEND:20240617T000000Z
+SUMMARY:Chickasaw Press Association Storytellers Conference
+DESCRIPTION:Chickasaw Press Association Storytellers Conference (Group:
+  Native North American Peoples\, Source: Chickasaw) - From 2024-06-14 to
+  2024-06-16
 END:VEVENT
 BEGIN:VEVENT
-UID:Chickasaw Nation Storytelling Festival-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240608T000000Z
-DTEND:20240609T000000Z
-SUMMARY:Chickasaw Nation Storytelling Festival
-DESCRIPTION:Chickasaw Nation Storytelling Festival (Group: Native North
+UID:Chickasha Annual Trail of Tears Walk-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240518T000000Z
+DTEND:20240519T000000Z
+SUMMARY:Chickasha Annual Trail of Tears Walk
+DESCRIPTION:Chickasha Annual Trail of Tears Walk (Group: Native North
   American Peoples\, Source: Chickasaw)
-END:VEVENT
-BEGIN:VEVENT
-UID:Chickasaw Nation Family Wellness & Health Fair-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240413T000000Z
-DTEND:20240414T000000Z
-SUMMARY:Chickasaw Nation Family Wellness & Health Fair
-DESCRIPTION:Chickasaw Nation Family Wellness & Health Fair (Group: Native
-  North American Peoples\, Source: Chickasaw)
 END:VEVENT
 END:VCALENDAR
