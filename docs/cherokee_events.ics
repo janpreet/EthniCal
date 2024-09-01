@@ -7,93 +7,58 @@ NAME:Global Calendar - Cherokee
 X-WR-CALNAME:Global Calendar - Cherokee
 DESCRIPTION:AI-generated calendar of events for Cherokee
 BEGIN:VEVENT
-UID:Kanawhidigvnvnv (Celebration of the First New Moon)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240122T000000Z
-DTEND:20240123T000000Z
-SUMMARY:Kanawhidigvnvnv (Celebration of the First New Moon)
-DESCRIPTION:Kanawhidigvnvnv (Celebration of the First New Moon) (Group:
-  Native North American Peoples\, Source: Cherokee)
+UID:Green Corn Ceremony-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240826T000000Z
+DTEND:20240827T000000Z
+SUMMARY:Green Corn Ceremony
+DESCRIPTION:Green Corn Ceremony (Group: Native North American Peoples\,
+  Source: Cherokee)
 END:VEVENT
 BEGIN:VEVENT
-UID:Cherokee National Holiday (Honoring the Cherokee Nation's
-  Sovereignty)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240101T000000Z
-DTEND:20240102T000000Z
-SUMMARY:Cherokee National Holiday (Honoring the Cherokee Nation's
-  Sovereignty)
-DESCRIPTION:Cherokee National Holiday (Honoring the Cherokee Nation's
-  Sovereignty) (Group: Native North American Peoples\, Source: Cherokee)
-END:VEVENT
-BEGIN:VEVENT
-UID:Trail of Tears National Historic Trail Commemoration-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240519T000000Z
-DTEND:20240520T000000Z
-SUMMARY:Trail of Tears National Historic Trail Commemoration
-DESCRIPTION:Trail of Tears National Historic Trail Commemoration (Group:
-  Native North American Peoples\, Source: Cherokee)
-END:VEVENT
-BEGIN:VEVENT
-UID:Cherokee National Holiday (Cherokee Nation Holiday)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240603T000000Z
-DTEND:20240604T000000Z
-SUMMARY:Cherokee National Holiday (Cherokee Nation Holiday)
-DESCRIPTION:Cherokee National Holiday (Cherokee Nation Holiday) (Group:
-  Native North American Peoples\, Source: Cherokee)
-END:VEVENT
-BEGIN:VEVENT
-UID:Cherokee National Holiday (Cherokee National Holiday)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240902T000000Z
-DTEND:20240903T000000Z
-SUMMARY:Cherokee National Holiday (Cherokee National Holiday)
-DESCRIPTION:Cherokee National Holiday (Cherokee National Holiday) (Group:
-  Native North American Peoples\, Source: Cherokee)
-END:VEVENT
-BEGIN:VEVENT
-UID:Cherokee Ancestral Celebration-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20241019T000000Z
-DTEND:20241020T000000Z
-SUMMARY:Cherokee Ancestral Celebration
-DESCRIPTION:Cherokee Ancestral Celebration (Group: Native North American
+UID:Cherokee National Holiday-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240906T000000Z
+DTEND:20240907T000000Z
+SUMMARY:Cherokee National Holiday
+DESCRIPTION:Cherokee National Holiday (Group: Native North American
   Peoples\, Source: Cherokee)
 END:VEVENT
 BEGIN:VEVENT
-UID:Cherokee National Holiday (Cherokee National Holiday)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
+UID:Cherokee National Holiday-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
 DTSTART:20241128T000000Z
 DTEND:20241129T000000Z
-SUMMARY:Cherokee National Holiday (Cherokee National Holiday)
-DESCRIPTION:Cherokee National Holiday (Cherokee National Holiday) (Group:
-  Native North American Peoples\, Source: Cherokee)
+SUMMARY:Cherokee National Holiday
+DESCRIPTION:Cherokee National Holiday (Group: Native North American
+  Peoples\, Source: Cherokee)
 END:VEVENT
 BEGIN:VEVENT
-UID:Cherokee National Holiday (Cherokee National Holiday)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20241225T000000Z
-DTEND:20241226T000000Z
-SUMMARY:Cherokee National Holiday (Cherokee National Holiday)
-DESCRIPTION:Cherokee National Holiday (Cherokee National Holiday) (Group:
-  Native North American Peoples\, Source: Cherokee)
+UID:Cherokee Heritage Center's Annual Overhill Cherokee Celebration-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240921T000000Z
+DTEND:20240922T000000Z
+SUMMARY:Cherokee Heritage Center's Annual Overhill Cherokee Celebration
+DESCRIPTION:Cherokee Heritage Center's Annual Overhill Cherokee Celebration
+  (Group: Native North American Peoples\, Source: Cherokee)
+END:VEVENT
+BEGIN:VEVENT
+UID:Trail of Tears Commemoration-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240518T000000Z
+DTEND:20240519T000000Z
+SUMMARY:Trail of Tears Commemoration
+DESCRIPTION:Trail of Tears Commemoration (Group: Native North American
+  Peoples\, Source: Cherokee)
 END:VEVENT
 END:VCALENDAR

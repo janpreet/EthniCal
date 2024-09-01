@@ -7,92 +7,80 @@ NAME:Global Calendar - Vietnamese
 X-WR-CALNAME:Global Calendar - Vietnamese
 DESCRIPTION:AI-generated calendar of events for Vietnamese
 BEGIN:VEVENT
-UID:Tết Nguyên Đán (Vietnamese Lunar New Year)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
+UID:Vietnamese New Year (Tết Nguyên Đán)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
 DTSTART:20240122T000000Z
 DTEND:20240123T000000Z
-SUMMARY:Tết Nguyên Đán (Vietnamese Lunar New Year)
-DESCRIPTION:Tết Nguyên Đán (Vietnamese Lunar New Year) (Group: Asian
+SUMMARY:Vietnamese New Year (Tết Nguyên Đán)
+DESCRIPTION:Vietnamese New Year (Tết Nguyên Đán) (Group: Asian
   Ethnicities\, Source: Vietnamese)
 END:VEVENT
 BEGIN:VEVENT
-UID:Giỗ Tổ Hùng Vương (Hùng Kings' Ancestral Anniversary)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
+UID:Hung Kings Commemoration Day (Ngày Giỗ Tổ Hùng Vương)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
 DTSTART:20240414T000000Z
 DTEND:20240415T000000Z
-SUMMARY:Giỗ Tổ Hùng Vương (Hùng Kings' Ancestral Anniversary)
-DESCRIPTION:Giỗ Tổ Hùng Vương (Hùng Kings' Ancestral Anniversary)
+SUMMARY:Hung Kings Commemoration Day (Ngày Giỗ Tổ Hùng Vương)
+DESCRIPTION:Hung Kings Commemoration Day (Ngày Giỗ Tổ Hùng Vương)
   (Group: Asian Ethnicities\, Source: Vietnamese)
 END:VEVENT
 BEGIN:VEVENT
-UID:Ngày Giải Phóng Miền Nam (Reunification Day)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
+UID:Reunification Day (Ngày Giải Phóng Miền Nam)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
 DTSTART:20240430T000000Z
 DTEND:20240501T000000Z
-SUMMARY:Ngày Giải Phóng Miền Nam (Reunification Day)
-DESCRIPTION:Ngày Giải Phóng Miền Nam (Reunification Day) (Group:
+SUMMARY:Reunification Day (Ngày Giải Phóng Miền Nam)
+DESCRIPTION:Reunification Day (Ngày Giải Phóng Miền Nam) (Group:
   Asian Ethnicities\, Source: Vietnamese)
 END:VEVENT
 BEGIN:VEVENT
-UID:Ngày Quốc Tế Lao Động (International Labor Day)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
+UID:International Workers' Day (Ngày Quốc Tế Lao Động)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
 DTSTART:20240501T000000Z
 DTEND:20240502T000000Z
-SUMMARY:Ngày Quốc Tế Lao Động (International Labor Day)
-DESCRIPTION:Ngày Quốc Tế Lao Động (International Labor Day) (Group:
-  Asian Ethnicities\, Source: Vietnamese)
+SUMMARY:International Workers' Day (Ngày Quốc Tế Lao Động)
+DESCRIPTION:International Workers' Day (Ngày Quốc Tế Lao Động)
+  (Group: Asian Ethnicities\, Source: Vietnamese)
 END:VEVENT
 BEGIN:VEVENT
-UID:Ngày Giỗ Tổ Hùng Vương (Hùng Kings' Ancestral
-  Anniversary)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240414T000000Z
-DTEND:20240415T000000Z
-SUMMARY:Ngày Giỗ Tổ Hùng Vương (Hùng Kings' Ancestral Anniversary)
-DESCRIPTION:Ngày Giỗ Tổ Hùng Vương (Hùng Kings' Ancestral
-  Anniversary) (Group: Asian Ethnicities\, Source: Vietnamese)
-END:VEVENT
-BEGIN:VEVENT
-UID:Ngày Quốc Khánh (National Day)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240902T000000Z
-DTEND:20240903T000000Z
-SUMMARY:Ngày Quốc Khánh (National Day)
-DESCRIPTION:Ngày Quốc Khánh (National Day) (Group: Asian Ethnicities\,
+UID:Buddha's Birthday (Phật Đản)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240519T000000Z
+DTEND:20240520T000000Z
+SUMMARY:Buddha's Birthday (Phật Đản)
+DESCRIPTION:Buddha's Birthday (Phật Đản) (Group: Asian Ethnicities\,
   Source: Vietnamese)
 END:VEVENT
 BEGIN:VEVENT
-UID:Tết Trung Thu (Mid-Autumn Festival)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240915T000000Z
-DTEND:20240916T000000Z
-SUMMARY:Tết Trung Thu (Mid-Autumn Festival)
-DESCRIPTION:Tết Trung Thu (Mid-Autumn Festival) (Group: Asian
-  Ethnicities\, Source: Vietnamese)
+UID:National Day (Quốc Khánh)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240902T000000Z
+DTEND:20240903T000000Z
+SUMMARY:National Day (Quốc Khánh)
+DESCRIPTION:National Day (Quốc Khánh) (Group: Asian Ethnicities\,
+  Source: Vietnamese)
 END:VEVENT
 BEGIN:VEVENT
-UID:Ngày Nhà Giáo Việt Nam (Vietnamese Teachers' Day)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20241120T000000Z
-DTEND:20241121T000000Z
-SUMMARY:Ngày Nhà Giáo Việt Nam (Vietnamese Teachers' Day)
-DESCRIPTION:Ngày Nhà Giáo Việt Nam (Vietnamese Teachers' Day) (Group:
-  Asian Ethnicities\, Source: Vietnamese)
+UID:Christmas (Lễ Giáng Sinh)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20241225T000000Z
+DTEND:20241226T000000Z
+SUMMARY:Christmas (Lễ Giáng Sinh)
+DESCRIPTION:Christmas (Lễ Giáng Sinh) (Group: Asian Ethnicities\,
+  Source: Vietnamese)
 END:VEVENT
 END:VCALENDAR

@@ -7,91 +7,58 @@ NAME:Global Calendar - Kwakwaka'wakw
 X-WR-CALNAME:Global Calendar - Kwakwaka'wakw
 DESCRIPTION:AI-generated calendar of events for Kwakwaka'wakw
 BEGIN:VEVENT
-UID:Baxwbakwalanusiwa (Magical Potlatch)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240112T000000Z
-DTEND:20240113T000000Z
-SUMMARY:Baxwbakwalanusiwa (Magical Potlatch)
-DESCRIPTION:Baxwbakwalanusiwa (Magical Potlatch) (Group: Native North
+UID:Baxwbakwalanuksiwe' (Winter Ceremonial)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240214T000000Z
+DTEND:20240215T000000Z
+SUMMARY:Baxwbakwalanuksiwe' (Winter Ceremonial)
+DESCRIPTION:Baxwbakwalanuksiwe' (Winter Ceremonial) (Group: Native North
   American Peoples\, Source: Kwakwaka'wakw)
 END:VEVENT
 BEGIN:VEVENT
-UID:Ukti'nusimas (Return of Wealth)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240319T000000Z
-DTEND:20240320T000000Z
-SUMMARY:Ukti'nusimas (Return of Wealth)
-DESCRIPTION:Ukti'nusimas (Return of Wealth) (Group: Native North American
+UID:Tsetseka (Canoe Races)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240701T000000Z
+DTEND:20240702T000000Z
+SUMMARY:Tsetseka (Canoe Races)
+DESCRIPTION:Tsetseka (Canoe Races) (Group: Native North American Peoples\,
+  Source: Kwakwaka'wakw)
+END:VEVENT
+BEGIN:VEVENT
+UID:Gukwdzi'lxa (Berry Picking Celebrations)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240815T000000Z
+DTEND:20240816T000000Z
+SUMMARY:Gukwdzi'lxa (Berry Picking Celebrations)
+DESCRIPTION:Gukwdzi'lxa (Berry Picking Celebrations) (Group: Native North
+  American Peoples\, Source: Kwakwaka'wakw)
+END:VEVENT
+BEGIN:VEVENT
+UID:Galga'mdzega (Salmon Ceremony)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240923T000000Z
+DTEND:20240924T000000Z
+SUMMARY:Galga'mdzega (Salmon Ceremony)
+DESCRIPTION:Galga'mdzega (Salmon Ceremony) (Group: Native North American
   Peoples\, Source: Kwakwaka'wakw)
 END:VEVENT
 BEGIN:VEVENT
-UID:T'sasala (Canoe Launching Ceremony)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240510T000000Z
-DTEND:20240511T000000Z
-SUMMARY:T'sasala (Canoe Launching Ceremony)
-DESCRIPTION:T'sasala (Canoe Launching Ceremony) (Group: Native North
-  American Peoples\, Source: Kwakwaka'wakw)
-END:VEVENT
-BEGIN:VEVENT
-UID:Tsēka (Memorial Potlatch)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240622T000000Z
-DTEND:20240623T000000Z
-SUMMARY:Tsēka (Memorial Potlatch)
-DESCRIPTION:Tsēka (Memorial Potlatch) (Group: Native North American
-  Peoples\, Source: Kwakwaka'wakw)
-END:VEVENT
-BEGIN:VEVENT
-UID:Nułamłayu'gwayusdas (First Salmon Ceremony)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240705T000000Z
-DTEND:20240706T000000Z
-SUMMARY:Nułamłayu'gwayusdas (First Salmon Ceremony)
-DESCRIPTION:Nułamłayu'gwayusdas (First Salmon Ceremony) (Group: Native
-  North American Peoples\, Source: Kwakwaka'wakw)
-END:VEVENT
-BEGIN:VEVENT
-UID:Ğvikva'am (Berry-Picking Celebration)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240818T000000Z
-DTEND:20240819T000000Z
-SUMMARY:Ğvikva'am (Berry-Picking Celebration)
-DESCRIPTION:Ğvikva'am (Berry-Picking Celebration) (Group: Native North
-  American Peoples\, Source: Kwakwaka'wakw)
-END:VEVENT
-BEGIN:VEVENT
-UID:Baxwbakwalanusiwa (Magical Potlatch)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20241004T000000Z
-DTEND:20241005T000000Z
-SUMMARY:Baxwbakwalanusiwa (Magical Potlatch)
-DESCRIPTION:Baxwbakwalanusiwa (Magical Potlatch) (Group: Native North
-  American Peoples\, Source: Kwakwaka'wakw)
-END:VEVENT
-BEGIN:VEVENT
-UID:Tsagiu (Winter Ceremonial)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20241129T000000Z
-DTEND:20241130T000000Z
-SUMMARY:Tsagiu (Winter Ceremonial)
-DESCRIPTION:Tsagiu (Winter Ceremonial) (Group: Native North American
+UID:Tsayka (Potlatch Ceremony)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20241101T000000Z
+DTEND:20241102T000000Z
+SUMMARY:Tsayka (Potlatch Ceremony)
+DESCRIPTION:Tsayka (Potlatch Ceremony) (Group: Native North American
   Peoples\, Source: Kwakwaka'wakw)
 END:VEVENT
 END:VCALENDAR
