@@ -7,36 +7,113 @@ NAME:Global Calendar - Ojibwe (Chippewa)
 X-WR-CALNAME:Global Calendar - Ojibwe (Chippewa)
 DESCRIPTION:AI-generated calendar of events for Ojibwe (Chippewa)
 BEGIN:VEVENT
-UID:Midwinter Ceremonial-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240120T000000Z
-DTEND:20240121T000000Z
-SUMMARY:Midwinter Ceremonial
-DESCRIPTION:Midwinter Ceremonial (Group: Native North American Peoples\,
-  Source: Ojibwe (Chippewa))
-END:VEVENT
-BEGIN:VEVENT
-UID:Spring Equinox Ceremony-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
+UID:Ziigwanendamowin (Maple Sugar Moon/Maple Syrup Making)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
 DTSTART:20240320T000000Z
 DTEND:20240321T000000Z
-SUMMARY:Spring Equinox Ceremony
-DESCRIPTION:Spring Equinox Ceremony (Group: Native North American Peoples\,
+SUMMARY:Ziigwanendamowin (Maple Sugar Moon/Maple Syrup Making)
+DESCRIPTION:Ziigwanendamowin (Maple Sugar Moon/Maple Syrup Making) (Group:
+  Native North American Peoples\, Source: Ojibwe (Chippewa))
+END:VEVENT
+BEGIN:VEVENT
+UID:Spring Equinox Ceremonies-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240320T000000Z
+DTEND:20240321T000000Z
+SUMMARY:Spring Equinox Ceremonies
+DESCRIPTION:Spring Equinox Ceremonies (Group: Native North American
+  Peoples\, Source: Ojibwe (Chippewa))
+END:VEVENT
+BEGIN:VEVENT
+UID:Bawating Anishinaabe Pow Wow-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240622T000000Z
+DTEND:20240623T000000Z
+SUMMARY:Bawating Anishinaabe Pow Wow
+DESCRIPTION:Bawating Anishinaabe Pow Wow (Group: Native North American
+  Peoples\, Source: Ojibwe (Chippewa))
+END:VEVENT
+BEGIN:VEVENT
+UID:Madelinged (Strawberry Moon Ceremony)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240620T000000Z
+DTEND:20240621T000000Z
+SUMMARY:Madelinged (Strawberry Moon Ceremony)
+DESCRIPTION:Madelinged (Strawberry Moon Ceremony) (Group: Native North
+  American Peoples\, Source: Ojibwe (Chippewa))
+END:VEVENT
+BEGIN:VEVENT
+UID:Miin-gizhi-gitigaan (Corn Planting Ceremony)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240515T000000Z
+DTEND:20240516T000000Z
+SUMMARY:Miin-gizhi-gitigaan (Corn Planting Ceremony)
+DESCRIPTION:Miin-gizhi-gitigaan (Corn Planting Ceremony) (Group: Native
+  North American Peoples\, Source: Ojibwe (Chippewa))
+END:VEVENT
+BEGIN:VEVENT
+UID:Manoomin (Wild Rice Harvesting)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240825T000000Z
+DTEND:20240826T000000Z
+SUMMARY:Manoomin (Wild Rice Harvesting)
+DESCRIPTION:Manoomin (Wild Rice Harvesting) (Group: Native North American
+  Peoples\, Source: Ojibwe (Chippewa))
+END:VEVENT
+BEGIN:VEVENT
+UID:Manoominike-giizis (Wild Rice Making Moon)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240908T000000Z
+DTEND:20240909T000000Z
+SUMMARY:Manoominike-giizis (Wild Rice Making Moon)
+DESCRIPTION:Manoominike-giizis (Wild Rice Making Moon) (Group: Native North
+  American Peoples\, Source: Ojibwe (Chippewa))
+END:VEVENT
+BEGIN:VEVENT
+UID:Fall Equinox Ceremonies-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240922T000000Z
+DTEND:20240923T000000Z
+SUMMARY:Fall Equinox Ceremonies
+DESCRIPTION:Fall Equinox Ceremonies (Group: Native North American Peoples\,
   Source: Ojibwe (Chippewa))
 END:VEVENT
 BEGIN:VEVENT
-UID:Autumn Equinox Ceremony-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240923T000000Z
-DTEND:20240924T000000Z
-SUMMARY:Autumn Equinox Ceremony
-DESCRIPTION:Autumn Equinox Ceremony (Group: Native North American Peoples\,
+UID:Gichi-manidoo-giizis (Great Spirit Moon Ceremonies)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20241207T000000Z
+DTEND:20241208T000000Z
+SUMMARY:Gichi-manidoo-giizis (Great Spirit Moon Ceremonies)
+DESCRIPTION:Gichi-manidoo-giizis (Great Spirit Moon Ceremonies) (Group:
+  Native North American Peoples\, Source: Ojibwe (Chippewa))
+END:VEVENT
+BEGIN:VEVENT
+UID:Midwinter Ceremonies-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240101T000000Z
+DTEND:20240102T000000Z
+SUMMARY:Midwinter Ceremonies
+DESCRIPTION:Midwinter Ceremonies (Group: Native North American Peoples\,
   Source: Ojibwe (Chippewa))
 END:VEVENT
 END:VCALENDAR

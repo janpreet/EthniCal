@@ -7,69 +7,58 @@ NAME:Global Calendar - Mayan Quiché
 X-WR-CALNAME:Global Calendar - Mayan Quiché
 DESCRIPTION:AI-generated calendar of events for Mayan Quiché
 BEGIN:VEVENT
-UID:Wayeb (5 Unlucky Days)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240208T000000Z
-DTEND:20240213T000000Z
-SUMMARY:Wayeb (5 Unlucky Days)
-DESCRIPTION:Wayeb (5 Unlucky Days) (Group: Native North American Peoples\,
-  Source: Mayan Quiché) - From 2024-02-08 to 2024-02-12
-END:VEVENT
-BEGIN:VEVENT
-UID:Wajxaqib' B'atz' (Eighth Meshcal Festival)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240303T000000Z
-DTEND:20240304T000000Z
-SUMMARY:Wajxaqib' B'atz' (Eighth Meshcal Festival)
-DESCRIPTION:Wajxaqib' B'atz' (Eighth Meshcal Festival) (Group: Native North
+UID:Wajxaqib' B'atz' (Day of the Eight Monkey)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240125T000000Z
+DTEND:20240126T000000Z
+SUMMARY:Wajxaqib' B'atz' (Day of the Eight Monkey)
+DESCRIPTION:Wajxaqib' B'atz' (Day of the Eight Monkey) (Group: Native North
   American Peoples\, Source: Mayan Quiché)
 END:VEVENT
 BEGIN:VEVENT
-UID:Kab'lajuj B'atz' (Twelfth Meshcal Festival)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240402T000000Z
-DTEND:20240403T000000Z
-SUMMARY:Kab'lajuj B'atz' (Twelfth Meshcal Festival)
-DESCRIPTION:Kab'lajuj B'atz' (Twelfth Meshcal Festival) (Group: Native
-  North American Peoples\, Source: Mayan Quiché)
-END:VEVENT
-BEGIN:VEVENT
-UID:Kab'lajuj Q'anab'aj (Second Mushroom Festival)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240527T000000Z
-DTEND:20240528T000000Z
-SUMMARY:Kab'lajuj Q'anab'aj (Second Mushroom Festival)
-DESCRIPTION:Kab'lajuj Q'anab'aj (Second Mushroom Festival) (Group: Native
-  North American Peoples\, Source: Mayan Quiché)
-END:VEVENT
-BEGIN:VEVENT
-UID:Rip'aneel (Day of the Ancestors)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20241101T000000Z
-DTEND:20241102T000000Z
-SUMMARY:Rip'aneel (Day of the Ancestors)
-DESCRIPTION:Rip'aneel (Day of the Ancestors) (Group: Native North American
+UID:Pawahtunil (Planting Ceremony)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240503T000000Z
+DTEND:20240504T000000Z
+SUMMARY:Pawahtunil (Planting Ceremony)
+DESCRIPTION:Pawahtunil (Planting Ceremony) (Group: Native North American
   Peoples\, Source: Mayan Quiché)
 END:VEVENT
 BEGIN:VEVENT
-UID:Itz'aneet (Day of the Deer)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20241127T000000Z
-DTEND:20241128T000000Z
-SUMMARY:Itz'aneet (Day of the Deer)
-DESCRIPTION:Itz'aneet (Day of the Deer) (Group: Native North American
-  Peoples\, Source: Mayan Quiché)
+UID:Iq' Achi' Laj Hunahpu (Festival of the Hero Twins)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240626T000000Z
+DTEND:20240627T000000Z
+SUMMARY:Iq' Achi' Laj Hunahpu (Festival of the Hero Twins)
+DESCRIPTION:Iq' Achi' Laj Hunahpu (Festival of the Hero Twins) (Group:
+  Native North American Peoples\, Source: Mayan Quiché)
+END:VEVENT
+BEGIN:VEVENT
+UID:Raxnaq'Rismal (Day of the Deer Dance)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240812T000000Z
+DTEND:20240813T000000Z
+SUMMARY:Raxnaq'Rismal (Day of the Deer Dance)
+DESCRIPTION:Raxnaq'Rismal (Day of the Deer Dance) (Group: Native North
+  American Peoples\, Source: Mayan Quiché)
+END:VEVENT
+BEGIN:VEVENT
+UID:Jachi' Alab'al (Ceremony of Fire Renewal)-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20241221T000000Z
+DTEND:20241222T000000Z
+SUMMARY:Jachi' Alab'al (Ceremony of Fire Renewal)
+DESCRIPTION:Jachi' Alab'al (Ceremony of Fire Renewal) (Group: Native North
+  American Peoples\, Source: Mayan Quiché)
 END:VEVENT
 END:VCALENDAR

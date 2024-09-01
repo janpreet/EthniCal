@@ -7,108 +7,69 @@ NAME:Global Calendar - Navajo (Diné)
 X-WR-CALNAME:Global Calendar - Navajo (Diné)
 DESCRIPTION:AI-generated calendar of events for Navajo (Diné)
 BEGIN:VEVENT
-UID:Kinaalda (Navajo Girl's Puberty Ceremony)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240601T000000Z
-DTEND:20240610T000000Z
-SUMMARY:Kinaalda (Navajo Girl's Puberty Ceremony)
-DESCRIPTION:Kinaalda (Navajo Girl's Puberty Ceremony) (Group: Native North
-  American Peoples\, Source: Navajo (Diné)) - From 2024-06-01 to
-  2024-06-09
+UID:Navajo Nation Fair-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240905T000000Z
+DTEND:20240910T000000Z
+SUMMARY:Navajo Nation Fair
+DESCRIPTION:Navajo Nation Fair (Group: Native North American Peoples\,
+  Source: Navajo (Diné)) - From 2024-09-05 to 2024-09-09
 END:VEVENT
 BEGIN:VEVENT
-UID:Ye'ii Bicheii (Night Way Ceremony)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240501T000000Z
-DTEND:20240510T000000Z
-SUMMARY:Ye'ii Bicheii (Night Way Ceremony)
-DESCRIPTION:Ye'ii Bicheii (Night Way Ceremony) (Group: Native North
-  American Peoples\, Source: Navajo (Diné)) - From 2024-05-01 to
-  2024-05-09
+UID:Navajo Code Talkers Day-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240814T000000Z
+DTEND:20240815T000000Z
+SUMMARY:Navajo Code Talkers Day
+DESCRIPTION:Navajo Code Talkers Day (Group: Native North American Peoples\,
+  Source: Navajo (Diné))
 END:VEVENT
 BEGIN:VEVENT
-UID:Baa'akonitziin (Whirling Logs Ceremony)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240701T000000Z
-DTEND:20240710T000000Z
-SUMMARY:Baa'akonitziin (Whirling Logs Ceremony)
-DESCRIPTION:Baa'akonitziin (Whirling Logs Ceremony) (Group: Native North
-  American Peoples\, Source: Navajo (Diné)) - From 2024-07-01 to
-  2024-07-09
+UID:Navajo Nation Sovereignty Day-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240414T000000Z
+DTEND:20240415T000000Z
+SUMMARY:Navajo Nation Sovereignty Day
+DESCRIPTION:Navajo Nation Sovereignty Day (Group: Native North American
+  Peoples\, Source: Navajo (Diné))
 END:VEVENT
 BEGIN:VEVENT
-UID:Naachid (Navajo New Year Ceremony)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20241101T000000Z
-DTEND:20241110T000000Z
-SUMMARY:Naachid (Navajo New Year Ceremony)
-DESCRIPTION:Naachid (Navajo New Year Ceremony) (Group: Native North
-  American Peoples\, Source: Navajo (Diné)) - From 2024-11-01 to
-  2024-11-09
-END:VEVENT
-BEGIN:VEVENT
-UID:Hozhó̜̜̜̜́ Nahasdlii (Navajo Beauty Way Ceremony)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240301T000000Z
-DTEND:20240310T000000Z
-SUMMARY:Hozhó̜̜̜̜́ Nahasdlii (Navajo Beauty Way Ceremony)
-DESCRIPTION:Hozhó̜̜̜̜́ Nahasdlii (Navajo Beauty Way Ceremony) (Group:
-  Native North American Peoples\, Source: Navajo (Diné)) - From 2024-03-01
-  to 2024-03-09
-END:VEVENT
-BEGIN:VEVENT
-UID:Diné Tsiiyeeł (Navajo Hair Washing Ceremony)-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240401T000000Z
-DTEND:20240410T000000Z
-SUMMARY:Diné Tsiiyeeł (Navajo Hair Washing Ceremony)
-DESCRIPTION:Diné Tsiiyeeł (Navajo Hair Washing Ceremony) (Group: Native
-  North American Peoples\, Source: Navajo (Diné)) - From 2024-04-01 to
-  2024-04-09
-END:VEVENT
-BEGIN:VEVENT
-UID:Diné College Spring Graduation Ceremony-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240510T000000Z
-DTEND:20240511T000000Z
-SUMMARY:Diné College Spring Graduation Ceremony
-DESCRIPTION:Diné College Spring Graduation Ceremony (Group: Native North
+UID:Navajo Nation Fourth of July Celebration-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240704T000000Z
+DTEND:20240705T000000Z
+SUMMARY:Navajo Nation Fourth of July Celebration
+DESCRIPTION:Navajo Nation Fourth of July Celebration (Group: Native North
   American Peoples\, Source: Navajo (Diné))
 END:VEVENT
 BEGIN:VEVENT
-UID:Navajo Nation Fair-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240905T000000Z
-DTEND:20240915T000000Z
-SUMMARY:Navajo Nation Fair
-DESCRIPTION:Navajo Nation Fair (Group: Native North American Peoples\,
-  Source: Navajo (Diné)) - From 2024-09-05 to 2024-09-14
+UID:Navajo Nation Memorial Day Commemoration-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20240527T000000Z
+DTEND:20240528T000000Z
+SUMMARY:Navajo Nation Memorial Day Commemoration
+DESCRIPTION:Navajo Nation Memorial Day Commemoration (Group: Native North
+  American Peoples\, Source: Navajo (Diné))
 END:VEVENT
 BEGIN:VEVENT
-UID:Diné College Fall Graduation Ceremony-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20241213T000000Z
-DTEND:20241214T000000Z
-SUMMARY:Diné College Fall Graduation Ceremony
-DESCRIPTION:Diné College Fall Graduation Ceremony (Group: Native North
+UID:Navajo Nation Veterans Day Observance-2024
+CREATED:20240901T020050Z
+DTSTAMP:20240901T020050Z
+LAST-MODIFIED:20240901T020050Z
+DTSTART:20241111T000000Z
+DTEND:20241112T000000Z
+SUMMARY:Navajo Nation Veterans Day Observance
+DESCRIPTION:Navajo Nation Veterans Day Observance (Group: Native North
   American Peoples\, Source: Navajo (Diné))
 END:VEVENT
 END:VCALENDAR
