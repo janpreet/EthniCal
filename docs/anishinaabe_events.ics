@@ -1,0 +1,119 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//arran4//Golang ICS Library
+METHOD:PUBLISH
+CALSCALE:GREGORIAN
+NAME:Global Calendar - Anishinaabe
+X-WR-CALNAME:Global Calendar - Anishinaabe
+DESCRIPTION:AI-generated calendar of events for Anishinaabe
+BEGIN:VEVENT
+UID:Midewigan (Ceremony for the Sacred Mjigiziwag Shell)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240401T000000Z
+DTEND:20240402T000000Z
+SUMMARY:Midewigan (Ceremony for the Sacred Mjigiziwag Shell)
+DESCRIPTION:Midewigan (Ceremony for the Sacred Mjigiziwag Shell) (Group:
+  Native North American Peoples\, Source: Anishinaabe)
+END:VEVENT
+BEGIN:VEVENT
+UID:Ziigwan (Spring Ceremony)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240501T000000Z
+DTEND:20240502T000000Z
+SUMMARY:Ziigwan (Spring Ceremony)
+DESCRIPTION:Ziigwan (Spring Ceremony) (Group: Native North American
+  Peoples\, Source: Anishinaabe)
+END:VEVENT
+BEGIN:VEVENT
+UID:Namewinini Giizis (Suckerfish Moon)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240501T000000Z
+DTEND:20240502T000000Z
+SUMMARY:Namewinini Giizis (Suckerfish Moon)
+DESCRIPTION:Namewinini Giizis (Suckerfish Moon) (Group: Native North
+  American Peoples\, Source: Anishinaabe)
+END:VEVENT
+BEGIN:VEVENT
+UID:Odeminitiki Giizis (Strawberry Moon)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240601T000000Z
+DTEND:20240602T000000Z
+SUMMARY:Odeminitiki Giizis (Strawberry Moon)
+DESCRIPTION:Odeminitiki Giizis (Strawberry Moon) (Group: Native North
+  American Peoples\, Source: Anishinaabe)
+END:VEVENT
+BEGIN:VEVENT
+UID:Waatebagaa Giizis (Leaves Changing Color Moon)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240901T000000Z
+DTEND:20240902T000000Z
+SUMMARY:Waatebagaa Giizis (Leaves Changing Color Moon)
+DESCRIPTION:Waatebagaa Giizis (Leaves Changing Color Moon) (Group: Native
+  North American Peoples\, Source: Anishinaabe)
+END:VEVENT
+BEGIN:VEVENT
+UID:Gichi-Manidoo Giizis (Great Spirit Moon)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20241001T000000Z
+DTEND:20241002T000000Z
+SUMMARY:Gichi-Manidoo Giizis (Great Spirit Moon)
+DESCRIPTION:Gichi-Manidoo Giizis (Great Spirit Moon) (Group: Native North
+  American Peoples\, Source: Anishinaabe)
+END:VEVENT
+BEGIN:VEVENT
+UID:Binaakwe Giizis (Falling Leaves Moon)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20241001T000000Z
+DTEND:20241002T000000Z
+SUMMARY:Binaakwe Giizis (Falling Leaves Moon)
+DESCRIPTION:Binaakwe Giizis (Falling Leaves Moon) (Group: Native North
+  American Peoples\, Source: Anishinaabe)
+END:VEVENT
+BEGIN:VEVENT
+UID:Gaskadino Giizis (Freezing Over Moon)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20241101T000000Z
+DTEND:20241102T000000Z
+SUMMARY:Gaskadino Giizis (Freezing Over Moon)
+DESCRIPTION:Gaskadino Giizis (Freezing Over Moon) (Group: Native North
+  American Peoples\, Source: Anishinaabe)
+END:VEVENT
+BEGIN:VEVENT
+UID:Manidoo Giizisoons (Little Spirit Moon)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20241201T000000Z
+DTEND:20241202T000000Z
+SUMMARY:Manidoo Giizisoons (Little Spirit Moon)
+DESCRIPTION:Manidoo Giizisoons (Little Spirit Moon) (Group: Native North
+  American Peoples\, Source: Anishinaabe)
+END:VEVENT
+BEGIN:VEVENT
+UID:Midewigaan (Ceremony for the Sacred Drums)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20241201T000000Z
+DTEND:20241202T000000Z
+SUMMARY:Midewigaan (Ceremony for the Sacred Drums)
+DESCRIPTION:Midewigaan (Ceremony for the Sacred Drums) (Group: Native North
+  American Peoples\, Source: Anishinaabe)
+END:VEVENT
+END:VCALENDAR

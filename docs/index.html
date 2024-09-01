@@ -338,22 +338,23 @@
                                 var vevents = comp.getAllSubcomponents('vevent');
                                 allEvents = vevents.map(vevent => {
                                     var event = new ICAL.Event(vevent);
-                                    var endDate = event.endDate.toJSDate();
-                                    endDate.setDate(endDate.getDate() - 1);
-                                    var group = event.description.split('(')[1].split(')')[0];
+                                    var description = event.description.split('(')[1].split(')')[0];
+                                    var group = description.split(',')[0].trim().split(': ')[1];
+                                    var source = description.split(',')[1].trim().split(': ')[1];
                                     if (!groupColors[group]) {
                                         groupColors[group] = generateColor(group);
                                     }
                                     return {
                                         title: event.summary,
                                         start: event.startDate.toJSDate(),
-                                        end: endDate,
+                                        end: event.endDate.toJSDate(),
                                         allDay: true,
                                         backgroundColor: groupColors[group],
                                         borderColor: groupColors[group],
                                         extendedProps: {
-                                            description: event.description || event.summary,
-                                            group: group
+                                            description: event.description,
+                                            group: group,
+                                            source: source
                                         }
                                     };
                                 });

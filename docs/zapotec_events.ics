@@ -1,0 +1,109 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//arran4//Golang ICS Library
+METHOD:PUBLISH
+CALSCALE:GREGORIAN
+NAME:Global Calendar - Zapotec
+X-WR-CALNAME:Global Calendar - Zapotec
+DESCRIPTION:AI-generated calendar of events for Zapotec
+BEGIN:VEVENT
+UID:Zapotec Guelaguetza-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240722T000000Z
+DTEND:20240730T000000Z
+SUMMARY:Zapotec Guelaguetza
+DESCRIPTION:Zapotec Guelaguetza (Group: Native North American Peoples\,
+  Source: Zapotec) - From 2024-07-22 to 2024-07-29
+END:VEVENT
+BEGIN:VEVENT
+UID:Día de los Muertos (Day of the Dead) Celebrations-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20241031T000000Z
+DTEND:20241103T000000Z
+SUMMARY:Día de los Muertos (Day of the Dead) Celebrations
+DESCRIPTION:Día de los Muertos (Day of the Dead) Celebrations (Group:
+  Native North American Peoples\, Source: Zapotec) - From 2024-10-31 to
+  2024-11-02
+END:VEVENT
+BEGIN:VEVENT
+UID:Velas de Xaquixe (Candle Festival)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20241207T000000Z
+DTEND:20241208T000000Z
+SUMMARY:Velas de Xaquixe (Candle Festival)
+DESCRIPTION:Velas de Xaquixe (Candle Festival) (Group: Native North
+  American Peoples\, Source: Zapotec)
+END:VEVENT
+BEGIN:VEVENT
+UID:Danza de la Pluma (Feather Dance)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240503T000000Z
+DTEND:20240504T000000Z
+SUMMARY:Danza de la Pluma (Feather Dance)
+DESCRIPTION:Danza de la Pluma (Feather Dance) (Group: Native North American
+  Peoples\, Source: Zapotec)
+END:VEVENT
+BEGIN:VEVENT
+UID:Fiesta de la Santa Cruz (Holy Cross Festival)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240503T000000Z
+DTEND:20240504T000000Z
+SUMMARY:Fiesta de la Santa Cruz (Holy Cross Festival)
+DESCRIPTION:Fiesta de la Santa Cruz (Holy Cross Festival) (Group: Native
+  North American Peoples\, Source: Zapotec)
+END:VEVENT
+BEGIN:VEVENT
+UID:Fiesta de Santiago Apóstol (St. James the Apostle Festival)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240725T000000Z
+DTEND:20240726T000000Z
+SUMMARY:Fiesta de Santiago Apóstol (St. James the Apostle Festival)
+DESCRIPTION:Fiesta de Santiago Apóstol (St. James the Apostle Festival)
+  (Group: Native North American Peoples\, Source: Zapotec)
+END:VEVENT
+BEGIN:VEVENT
+UID:Fiesta de San Juan Bautista (St. John the Baptist Festival)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240624T000000Z
+DTEND:20240625T000000Z
+SUMMARY:Fiesta de San Juan Bautista (St. John the Baptist Festival)
+DESCRIPTION:Fiesta de San Juan Bautista (St. John the Baptist Festival)
+  (Group: Native North American Peoples\, Source: Zapotec)
+END:VEVENT
+BEGIN:VEVENT
+UID:Fiesta de la Virgen de la Soledad (Our Lady of Solitude Festival)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20241218T000000Z
+DTEND:20241219T000000Z
+SUMMARY:Fiesta de la Virgen de la Soledad (Our Lady of Solitude Festival)
+DESCRIPTION:Fiesta de la Virgen de la Soledad (Our Lady of Solitude
+  Festival) (Group: Native North American Peoples\, Source: Zapotec)
+END:VEVENT
+BEGIN:VEVENT
+UID:Fiesta de la Virgen del Carmen (Our Lady of Mount Carmel Festival)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240716T000000Z
+DTEND:20240717T000000Z
+SUMMARY:Fiesta de la Virgen del Carmen (Our Lady of Mount Carmel Festival)
+DESCRIPTION:Fiesta de la Virgen del Carmen (Our Lady of Mount Carmel
+  Festival) (Group: Native North American Peoples\, Source: Zapotec)
+END:VEVENT
+END:VCALENDAR
