@@ -1,0 +1,75 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//arran4//Golang ICS Library
+METHOD:PUBLISH
+CALSCALE:GREGORIAN
+NAME:Global Calendar - Mayan Quiché
+X-WR-CALNAME:Global Calendar - Mayan Quiché
+DESCRIPTION:AI-generated calendar of events for Mayan Quiché
+BEGIN:VEVENT
+UID:Wayeb (5 Unlucky Days)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240208T000000Z
+DTEND:20240213T000000Z
+SUMMARY:Wayeb (5 Unlucky Days)
+DESCRIPTION:Wayeb (5 Unlucky Days) (Group: Native North American Peoples\,
+  Source: Mayan Quiché) - From 2024-02-08 to 2024-02-12
+END:VEVENT
+BEGIN:VEVENT
+UID:Wajxaqib' B'atz' (Eighth Meshcal Festival)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240303T000000Z
+DTEND:20240304T000000Z
+SUMMARY:Wajxaqib' B'atz' (Eighth Meshcal Festival)
+DESCRIPTION:Wajxaqib' B'atz' (Eighth Meshcal Festival) (Group: Native North
+  American Peoples\, Source: Mayan Quiché)
+END:VEVENT
+BEGIN:VEVENT
+UID:Kab'lajuj B'atz' (Twelfth Meshcal Festival)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240402T000000Z
+DTEND:20240403T000000Z
+SUMMARY:Kab'lajuj B'atz' (Twelfth Meshcal Festival)
+DESCRIPTION:Kab'lajuj B'atz' (Twelfth Meshcal Festival) (Group: Native
+  North American Peoples\, Source: Mayan Quiché)
+END:VEVENT
+BEGIN:VEVENT
+UID:Kab'lajuj Q'anab'aj (Second Mushroom Festival)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20240527T000000Z
+DTEND:20240528T000000Z
+SUMMARY:Kab'lajuj Q'anab'aj (Second Mushroom Festival)
+DESCRIPTION:Kab'lajuj Q'anab'aj (Second Mushroom Festival) (Group: Native
+  North American Peoples\, Source: Mayan Quiché)
+END:VEVENT
+BEGIN:VEVENT
+UID:Rip'aneel (Day of the Ancestors)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20241101T000000Z
+DTEND:20241102T000000Z
+SUMMARY:Rip'aneel (Day of the Ancestors)
+DESCRIPTION:Rip'aneel (Day of the Ancestors) (Group: Native North American
+  Peoples\, Source: Mayan Quiché)
+END:VEVENT
+BEGIN:VEVENT
+UID:Itz'aneet (Day of the Deer)-2024
+CREATED:20240901T013839Z
+DTSTAMP:20240901T013839Z
+LAST-MODIFIED:20240901T013839Z
+DTSTART:20241127T000000Z
+DTEND:20241128T000000Z
+SUMMARY:Itz'aneet (Day of the Deer)
+DESCRIPTION:Itz'aneet (Day of the Deer) (Group: Native North American
+  Peoples\, Source: Mayan Quiché)
+END:VEVENT
+END:VCALENDAR
