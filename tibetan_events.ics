@@ -7,69 +7,82 @@ NAME:Global Calendar - Tibetan
 X-WR-CALNAME:Global Calendar - Tibetan
 DESCRIPTION:AI-generated calendar of events for Tibetan
 BEGIN:VEVENT
-UID:Losar (Tibetan New Year)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240224T000000Z
-DTEND:20240227T000000Z
-SUMMARY:Losar (Tibetan New Year)
-DESCRIPTION:Losar (Tibetan New Year) (Group: Asian Ethnicities\, Source:
-  Tibetan) - From 2024-02-24 to 2024-02-26
-END:VEVENT
-BEGIN:VEVENT
-UID:Chotrul Duchen (Commemoration of Buddha's Miracles)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
+UID:Chotrul Duchen (Day commemorating the Buddha's miraculous
+  abilities)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
 DTSTART:20240308T000000Z
 DTEND:20240309T000000Z
-SUMMARY:Chotrul Duchen (Commemoration of Buddha's Miracles)
-DESCRIPTION:Chotrul Duchen (Commemoration of Buddha's Miracles) (Group:
+SUMMARY:Chotrul Duchen (Day commemorating the Buddha's miraculous
+  abilities)
+DESCRIPTION:Chotrul Duchen (Day commemorating the Buddha's miraculous
+  abilities) (Group: Asian Ethnicities\, Source: Tibetan)
+END:VEVENT
+BEGIN:VEVENT
+UID:Saka Dawa (Buddha's Birth\, Enlightenment\, and Parinirvana)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240519T000000Z
+DTEND:20240520T000000Z
+SUMMARY:Saka Dawa (Buddha's Birth\, Enlightenment\, and Parinirvana)
+DESCRIPTION:Saka Dawa (Buddha's Birth\, Enlightenment\, and Parinirvana)
+  (Group: Asian Ethnicities\, Source: Tibetan)
+END:VEVENT
+BEGIN:VEVENT
+UID:Chokhor Duchen (First Turning of the Dharma Wheel)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240705T000000Z
+DTEND:20240706T000000Z
+SUMMARY:Chokhor Duchen (First Turning of the Dharma Wheel)
+DESCRIPTION:Chokhor Duchen (First Turning of the Dharma Wheel) (Group:
   Asian Ethnicities\, Source: Tibetan)
 END:VEVENT
 BEGIN:VEVENT
-UID:Saga Dawa (Buddha's Birth\, Enlightenment\, and Parinirvana)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240604T000000Z
-DTEND:20240605T000000Z
-SUMMARY:Saga Dawa (Buddha's Birth\, Enlightenment\, and Parinirvana)
-DESCRIPTION:Saga Dawa (Buddha's Birth\, Enlightenment\, and Parinirvana)
-  (Group: Asian Ethnicities\, Source: Tibetan)
-END:VEVENT
-BEGIN:VEVENT
-UID:Chokhor Duchen (Commemoration of Buddha's First Teachings)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240727T000000Z
-DTEND:20240728T000000Z
-SUMMARY:Chokhor Duchen (Commemoration of Buddha's First Teachings)
-DESCRIPTION:Chokhor Duchen (Commemoration of Buddha's First Teachings)
-  (Group: Asian Ethnicities\, Source: Tibetan)
-END:VEVENT
-BEGIN:VEVENT
-UID:Lhabab Duchen (Descent from the Heavens)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20241115T000000Z
-DTEND:20241116T000000Z
-SUMMARY:Lhabab Duchen (Descent from the Heavens)
-DESCRIPTION:Lhabab Duchen (Descent from the Heavens) (Group: Asian
+UID:Lhabab Duchen (Descent from the God Realm)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240902T000000Z
+DTEND:20240903T000000Z
+SUMMARY:Lhabab Duchen (Descent from the God Realm)
+DESCRIPTION:Lhabab Duchen (Descent from the God Realm) (Group: Asian
   Ethnicities\, Source: Tibetan)
 END:VEVENT
 BEGIN:VEVENT
-UID:Ganden Ngamchoe (Celebration of Je Tsongkhapa's Parinirvana)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20241207T000000Z
-DTEND:20241208T000000Z
-SUMMARY:Ganden Ngamchoe (Celebration of Je Tsongkhapa's Parinirvana)
-DESCRIPTION:Ganden Ngamchoe (Celebration of Je Tsongkhapa's Parinirvana)
+UID:Lhalung (Harvest Festival)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240923T000000Z
+DTEND:20240924T000000Z
+SUMMARY:Lhalung (Harvest Festival)
+DESCRIPTION:Lhalung (Harvest Festival) (Group: Asian Ethnicities\, Source:
+  Tibetan)
+END:VEVENT
+BEGIN:VEVENT
+UID:Ganden Ngamchoe (Feast of the Attainment of Immortality)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20241125T000000Z
+DTEND:20241126T000000Z
+SUMMARY:Ganden Ngamchoe (Feast of the Attainment of Immortality)
+DESCRIPTION:Ganden Ngamchoe (Feast of the Attainment of Immortality)
+  (Group: Asian Ethnicities\, Source: Tibetan)
+END:VEVENT
+BEGIN:VEVENT
+UID:Ganden Tshungrub (Feast of the Miraculous Manifestation)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20241210T000000Z
+DTEND:20241211T000000Z
+SUMMARY:Ganden Tshungrub (Feast of the Miraculous Manifestation)
+DESCRIPTION:Ganden Tshungrub (Feast of the Miraculous Manifestation)
   (Group: Asian Ethnicities\, Source: Tibetan)
 END:VEVENT
 END:VCALENDAR

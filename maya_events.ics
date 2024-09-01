@@ -7,103 +7,136 @@ NAME:Global Calendar - Maya
 X-WR-CALNAME:Global Calendar - Maya
 DESCRIPTION:AI-generated calendar of events for Maya
 BEGIN:VEVENT
-UID:Día de los Reyes Magos (Three Kings Day)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240106T000000Z
-DTEND:20240107T000000Z
-SUMMARY:Día de los Reyes Magos (Three Kings Day)
-DESCRIPTION:Día de los Reyes Magos (Three Kings Day) (Group: Native North
-  American Peoples\, Source: Maya)
+UID:Mayan New Year-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240726T000000Z
+DTEND:20240727T000000Z
+SUMMARY:Mayan New Year
+DESCRIPTION:Mayan New Year (Group: Native North American Peoples\, Source:
+  Maya)
 END:VEVENT
 BEGIN:VEVENT
-UID:Día de la Cruz (Day of the Cross)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240503T000000Z
-DTEND:20240504T000000Z
-SUMMARY:Día de la Cruz (Day of the Cross)
-DESCRIPTION:Día de la Cruz (Day of the Cross) (Group: Native North
-  American Peoples\, Source: Maya)
+UID:Tz'olkin New Year (Maya Haab' Calendar New Year)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240726T000000Z
+DTEND:20240727T000000Z
+SUMMARY:Tz'olkin New Year (Maya Haab' Calendar New Year)
+DESCRIPTION:Tz'olkin New Year (Maya Haab' Calendar New Year) (Group: Native
+  North American Peoples\, Source: Maya)
 END:VEVENT
 BEGIN:VEVENT
-UID:Día de San Pedro y San Pablo (St. Peter and St. Paul's Day)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240629T000000Z
-DTEND:20240630T000000Z
-SUMMARY:Día de San Pedro y San Pablo (St. Peter and St. Paul's Day)
-DESCRIPTION:Día de San Pedro y San Pablo (St. Peter and St. Paul's Day)
-  (Group: Native North American Peoples\, Source: Maya)
+UID:Wayeb' (5 Unlucky Days)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240721T000000Z
+DTEND:20240726T000000Z
+SUMMARY:Wayeb' (5 Unlucky Days)
+DESCRIPTION:Wayeb' (5 Unlucky Days) (Group: Native North American Peoples\,
+  Source: Maya) - From 2024-07-21 to 2024-07-25
 END:VEVENT
 BEGIN:VEVENT
-UID:Día de Santiago Apóstol (St. James the Apostle Day)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
+UID:Chol Q'uin (Day Out of Time)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
 DTSTART:20240725T000000Z
 DTEND:20240726T000000Z
-SUMMARY:Día de Santiago Apóstol (St. James the Apostle Day)
-DESCRIPTION:Día de Santiago Apóstol (St. James the Apostle Day) (Group:
+SUMMARY:Chol Q'uin (Day Out of Time)
+DESCRIPTION:Chol Q'uin (Day Out of Time) (Group: Native North American
+  Peoples\, Source: Maya)
+END:VEVENT
+BEGIN:VEVENT
+UID:Oxlajun Bak'tun (Completion of the 13th Bak'tun Cycle)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20241221T000000Z
+DTEND:20241222T000000Z
+SUMMARY:Oxlajun Bak'tun (Completion of the 13th Bak'tun Cycle)
+DESCRIPTION:Oxlajun Bak'tun (Completion of the 13th Bak'tun Cycle) (Group:
   Native North American Peoples\, Source: Maya)
 END:VEVENT
 BEGIN:VEVENT
-UID:Día de la Asunción (Assumption Day)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240815T000000Z
-DTEND:20240816T000000Z
-SUMMARY:Día de la Asunción (Assumption Day)
-DESCRIPTION:Día de la Asunción (Assumption Day) (Group: Native North
-  American Peoples\, Source: Maya)
-END:VEVENT
-BEGIN:VEVENT
-UID:Día de la Independencia de Guatemala (Guatemalan Independence
-  Day)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240915T000000Z
-DTEND:20240916T000000Z
-SUMMARY:Día de la Independencia de Guatemala (Guatemalan Independence Day)
-DESCRIPTION:Día de la Independencia de Guatemala (Guatemalan Independence
-  Day) (Group: Native North American Peoples\, Source: Maya)
-END:VEVENT
-BEGIN:VEVENT
-UID:Día de Todos los Santos (All Saints' Day)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20241101T000000Z
-DTEND:20241102T000000Z
-SUMMARY:Día de Todos los Santos (All Saints' Day)
-DESCRIPTION:Día de Todos los Santos (All Saints' Day) (Group: Native North
-  American Peoples\, Source: Maya)
-END:VEVENT
-BEGIN:VEVENT
-UID:Día de los Fieles Difuntos (Day of the Deceased)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20241102T000000Z
+UID:Day of the Dead (Hanal Pixan)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20241031T000000Z
 DTEND:20241103T000000Z
-SUMMARY:Día de los Fieles Difuntos (Day of the Deceased)
-DESCRIPTION:Día de los Fieles Difuntos (Day of the Deceased) (Group:
-  Native North American Peoples\, Source: Maya)
+SUMMARY:Day of the Dead (Hanal Pixan)
+DESCRIPTION:Day of the Dead (Hanal Pixan) (Group: Native North American
+  Peoples\, Source: Maya) - From 2024-10-31 to 2024-11-02
 END:VEVENT
 BEGIN:VEVENT
-UID:Navidad (Christmas)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20241225T000000Z
-DTEND:20241226T000000Z
-SUMMARY:Navidad (Christmas)
-DESCRIPTION:Navidad (Christmas) (Group: Native North American Peoples\,
-  Source: Maya)
+UID:Feast of San Simón (San Simón Festival)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20241028T000000Z
+DTEND:20241029T000000Z
+SUMMARY:Feast of San Simón (San Simón Festival)
+DESCRIPTION:Feast of San Simón (San Simón Festival) (Group: Native North
+  American Peoples\, Source: Maya)
+END:VEVENT
+BEGIN:VEVENT
+UID:Guelaguetza (Oaxaca Dance Festival)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240722T000000Z
+DTEND:20240729T000000Z
+SUMMARY:Guelaguetza (Oaxaca Dance Festival)
+DESCRIPTION:Guelaguetza (Oaxaca Dance Festival) (Group: Native North
+  American Peoples\, Source: Maya) - From 2024-07-22 to 2024-07-28
+END:VEVENT
+BEGIN:VEVENT
+UID:Ixchel Festival (Fertility and Childbirth Celebrations)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240501T000000Z
+DTEND:20240509T000000Z
+SUMMARY:Ixchel Festival (Fertility and Childbirth Celebrations)
+DESCRIPTION:Ixchel Festival (Fertility and Childbirth Celebrations) (Group:
+  Native North American Peoples\, Source: Maya) - From 2024-05-01 to
+  2024-05-08
+END:VEVENT
+BEGIN:VEVENT
+UID:Tun Festival (Stone Festival)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240311T000000Z
+DTEND:20240318T000000Z
+SUMMARY:Tun Festival (Stone Festival)
+DESCRIPTION:Tun Festival (Stone Festival) (Group: Native North American
+  Peoples\, Source: Maya) - From 2024-03-11 to 2024-03-17
+END:VEVENT
+BEGIN:VEVENT
+UID:Deer Dance (Danza del Venado)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240206T000000Z
+DTEND:20240213T000000Z
+SUMMARY:Deer Dance (Danza del Venado)
+DESCRIPTION:Deer Dance (Danza del Venado) (Group: Native North American
+  Peoples\, Source: Maya) - From 2024-02-06 to 2024-02-12
+END:VEVENT
+BEGIN:VEVENT
+UID:Voladores (Flying Men Ceremony)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240402T000000Z
+DTEND:20240403T000000Z
+SUMMARY:Voladores (Flying Men Ceremony)
+DESCRIPTION:Voladores (Flying Men Ceremony) (Group: Native North American
+  Peoples\, Source: Maya)
 END:VEVENT
 END:VCALENDAR

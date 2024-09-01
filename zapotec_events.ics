@@ -7,61 +7,47 @@ NAME:Global Calendar - Zapotec
 X-WR-CALNAME:Global Calendar - Zapotec
 DESCRIPTION:AI-generated calendar of events for Zapotec
 BEGIN:VEVENT
-UID:Zapotec Guelaguetza-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240715T000000Z
-DTEND:20240801T000000Z
-SUMMARY:Zapotec Guelaguetza
-DESCRIPTION:Zapotec Guelaguetza (Group: Native North American Peoples\,
-  Source: Zapotec) - From 2024-07-15 to 2024-07-31
+UID:Guelaguetza-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240722T000000Z
+DTEND:20240730T000000Z
+SUMMARY:Guelaguetza
+DESCRIPTION:Guelaguetza (Group: Native North American Peoples\, Source:
+  Zapotec) - From 2024-07-22 to 2024-07-29
 END:VEVENT
 BEGIN:VEVENT
-UID:Zapotec New Year (Yiza Cuiine)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240321T000000Z
-DTEND:20240322T000000Z
-SUMMARY:Zapotec New Year (Yiza Cuiine)
-DESCRIPTION:Zapotec New Year (Yiza Cuiine) (Group: Native North American
-  Peoples\, Source: Zapotec)
+UID:Danza de la Pluma-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240503T000000Z
+DTEND:20240504T000000Z
+SUMMARY:Danza de la Pluma
+DESCRIPTION:Danza de la Pluma (Group: Native North American Peoples\,
+  Source: Zapotec)
 END:VEVENT
 BEGIN:VEVENT
-UID:Zapotec Day of the Dead (Cob Guelaguetza)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
+UID:Día de los Muertos (Day of the Dead)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
 DTSTART:20241101T000000Z
 DTEND:20241103T000000Z
-SUMMARY:Zapotec Day of the Dead (Cob Guelaguetza)
-DESCRIPTION:Zapotec Day of the Dead (Cob Guelaguetza) (Group: Native North
+SUMMARY:Día de los Muertos (Day of the Dead)
+DESCRIPTION:Día de los Muertos (Day of the Dead) (Group: Native North
   American Peoples\, Source: Zapotec) - From 2024-11-01 to 2024-11-02
 END:VEVENT
 BEGIN:VEVENT
-UID:Zapotec Corn Festival (Lhuillil Guelaguetza)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240503T000000Z
-DTEND:20240504T000000Z
-SUMMARY:Zapotec Corn Festival (Lhuillil Guelaguetza)
-DESCRIPTION:Zapotec Corn Festival (Lhuillil Guelaguetza) (Group: Native
-  North American Peoples\, Source: Zapotec)
-END:VEVENT
-BEGIN:VEVENT
-UID:Zapotec Festival of the Virgin of Juquila (Guelaguetza de la Virgen de
-  Juquila)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20241208T000000Z
-DTEND:20241209T000000Z
-SUMMARY:Zapotec Festival of the Virgin of Juquila (Guelaguetza de la Virgen
-  de Juquila)
-DESCRIPTION:Zapotec Festival of the Virgin of Juquila (Guelaguetza de la
-  Virgen de Juquila) (Group: Native North American Peoples\, Source:
-  Zapotec)
+UID:Velas de San Miguel-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240929T000000Z
+DTEND:20240930T000000Z
+SUMMARY:Velas de San Miguel
+DESCRIPTION:Velas de San Miguel (Group: Native North American Peoples\,
+  Source: Zapotec)
 END:VEVENT
 END:VCALENDAR

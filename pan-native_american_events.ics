@@ -7,72 +7,140 @@ NAME:Global Calendar - Pan-Native American
 X-WR-CALNAME:Global Calendar - Pan-Native American
 DESCRIPTION:AI-generated calendar of events for Pan-Native American
 BEGIN:VEVENT
-UID:Native American Music Awards-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20241012T000000Z
-DTEND:20241013T000000Z
-SUMMARY:Native American Music Awards
-DESCRIPTION:Native American Music Awards (Group: Native North American
-  Peoples\, Source: Pan-Native American)
+UID:1. Seminole Tribal Fair and Pow Wow-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240209T000000Z
+DTEND:20240212T000000Z
+SUMMARY:1. Seminole Tribal Fair and Pow Wow
+DESCRIPTION:1. Seminole Tribal Fair and Pow Wow (Group: Native North
+  American Peoples\, Source: Pan-Native American) - From 2024-02-09 to
+  2024-02-11
 END:VEVENT
 BEGIN:VEVENT
-UID:Pueblo Governors' Feast Day-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240101T000000Z
-DTEND:20240102T000000Z
-SUMMARY:Pueblo Governors' Feast Day
-DESCRIPTION:Pueblo Governors' Feast Day (Group: Native North American
-  Peoples\, Source: Pan-Native American)
-END:VEVENT
-BEGIN:VEVENT
-UID:National Day of Prayer for Protection of Sacred Places-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20240621T000000Z
-DTEND:20240622T000000Z
-SUMMARY:National Day of Prayer for Protection of Sacred Places
-DESCRIPTION:National Day of Prayer for Protection of Sacred Places (Group:
-  Native North American Peoples\, Source: Pan-Native American)
-END:VEVENT
-BEGIN:VEVENT
-UID:National Native HIV/AIDS Awareness Day-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
+UID:2. National Native HIV/AIDS Awareness Day-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
 DTSTART:20240320T000000Z
 DTEND:20240321T000000Z
-SUMMARY:National Native HIV/AIDS Awareness Day
-DESCRIPTION:National Native HIV/AIDS Awareness Day (Group: Native North
+SUMMARY:2. National Native HIV/AIDS Awareness Day
+DESCRIPTION:2. National Native HIV/AIDS Awareness Day (Group: Native North
   American Peoples\, Source: Pan-Native American)
 END:VEVENT
 BEGIN:VEVENT
-UID:American Indian Heritage Day-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20241129T000000Z
-DTEND:20241130T000000Z
-SUMMARY:American Indian Heritage Day
-DESCRIPTION:American Indian Heritage Day (Group: Native North American
+UID:3. Gathering of Nations Pow Wow-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240425T000000Z
+DTEND:20240428T000000Z
+SUMMARY:3. Gathering of Nations Pow Wow
+DESCRIPTION:3. Gathering of Nations Pow Wow (Group: Native North American
+  Peoples\, Source: Pan-Native American) - From 2024-04-25 to 2024-04-27
+END:VEVENT
+BEGIN:VEVENT
+UID:4. National Day of Prayer-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240502T000000Z
+DTEND:20240503T000000Z
+SUMMARY:4. National Day of Prayer
+DESCRIPTION:4. National Day of Prayer (Group: Native North American
   Peoples\, Source: Pan-Native American)
 END:VEVENT
 BEGIN:VEVENT
-UID:National American Indian and Alaska Native Heritage Month Cultural
-  Night-2024
-CREATED:20240901T013839Z
-DTSTAMP:20240901T013839Z
-LAST-MODIFIED:20240901T013839Z
-DTSTART:20241130T000000Z
-DTEND:20241201T000000Z
-SUMMARY:National American Indian and Alaska Native Heritage Month Cultural
-  Night
-DESCRIPTION:National American Indian and Alaska Native Heritage Month
-  Cultural Night (Group: Native North American Peoples\, Source: Pan-Native
+UID:5. National Native American Veterans Memorial Visitors Center Grand
+  Opening-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240525T000000Z
+DTEND:20240526T000000Z
+SUMMARY:5. National Native American Veterans Memorial Visitors Center Grand
+  Opening
+DESCRIPTION:5. National Native American Veterans Memorial Visitors Center
+  Grand Opening (Group: Native North American Peoples\, Source: Pan-Native
   American)
+END:VEVENT
+BEGIN:VEVENT
+UID:6. Navajo Nation Parade and Rodeo-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240704T000000Z
+DTEND:20240708T000000Z
+SUMMARY:6. Navajo Nation Parade and Rodeo
+DESCRIPTION:6. Navajo Nation Parade and Rodeo (Group: Native North American
+  Peoples\, Source: Pan-Native American) - From 2024-07-04 to 2024-07-07
+END:VEVENT
+BEGIN:VEVENT
+UID:7. Lumbee Homecoming-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240705T000000Z
+DTEND:20240708T000000Z
+SUMMARY:7. Lumbee Homecoming
+DESCRIPTION:7. Lumbee Homecoming (Group: Native North American Peoples\,
+  Source: Pan-Native American) - From 2024-07-05 to 2024-07-07
+END:VEVENT
+BEGIN:VEVENT
+UID:8. Cheyenne Frontier Days-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240719T000000Z
+DTEND:20240729T000000Z
+SUMMARY:8. Cheyenne Frontier Days
+DESCRIPTION:8. Cheyenne Frontier Days (Group: Native North American
+  Peoples\, Source: Pan-Native American) - From 2024-07-19 to 2024-07-28
+END:VEVENT
+BEGIN:VEVENT
+UID:9. Santa Fe Indian Market-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240817T000000Z
+DTEND:20240819T000000Z
+SUMMARY:9. Santa Fe Indian Market
+DESCRIPTION:9. Santa Fe Indian Market (Group: Native North American
+  Peoples\, Source: Pan-Native American) - From 2024-08-17 to 2024-08-18
+END:VEVENT
+BEGIN:VEVENT
+UID:10. National Navajo Code Talkers Day-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240814T000000Z
+DTEND:20240815T000000Z
+SUMMARY:10. National Navajo Code Talkers Day
+DESCRIPTION:10. National Navajo Code Talkers Day (Group: Native North
+  American Peoples\, Source: Pan-Native American)
+END:VEVENT
+BEGIN:VEVENT
+UID:11. National Native American Heritage Month-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20241101T000000Z
+DTEND:20241201T000000Z
+SUMMARY:11. National Native American Heritage Month
+DESCRIPTION:11. National Native American Heritage Month (Group: Native
+  North American Peoples\, Source: Pan-Native American) - From 2024-11-01
+  to 2024-11-30
+END:VEVENT
+BEGIN:VEVENT
+UID:12. National Day of Mourning-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20241128T000000Z
+DTEND:20241129T000000Z
+SUMMARY:12. National Day of Mourning
+DESCRIPTION:12. National Day of Mourning (Group: Native North American
+  Peoples\, Source: Pan-Native American)
 END:VEVENT
 END:VCALENDAR

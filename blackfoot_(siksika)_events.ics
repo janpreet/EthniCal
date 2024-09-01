@@ -7,92 +7,100 @@ NAME:Global Calendar - Blackfoot (Siksika)
 X-WR-CALNAME:Global Calendar - Blackfoot (Siksika)
 DESCRIPTION:AI-generated calendar of events for Blackfoot (Siksika)
 BEGIN:VEVENT
-UID:Blackfoot Sun Dance-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
+UID:Aakaitsinikssiistsi (Sundance Ceremony)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
 DTSTART:20240621T000000Z
-DTEND:20240622T000000Z
-SUMMARY:Blackfoot Sun Dance
-DESCRIPTION:Blackfoot Sun Dance (Group: Native North American Peoples\,
-  Source: Blackfoot (Siksika))
+DTEND:20240701T000000Z
+SUMMARY:Aakaitsinikssiistsi (Sundance Ceremony)
+DESCRIPTION:Aakaitsinikssiistsi (Sundance Ceremony) (Group: Native North
+  American Peoples\, Source: Blackfoot (Siksika)) - From 2024-06-21 to
+  2024-06-30
 END:VEVENT
 BEGIN:VEVENT
-UID:Okan (Blackfoot New Year)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240725T000000Z
-DTEND:20240726T000000Z
-SUMMARY:Okan (Blackfoot New Year)
-DESCRIPTION:Okan (Blackfoot New Year) (Group: Native North American
-  Peoples\, Source: Blackfoot (Siksika))
+UID:Naatoyiihkaohtsiitsinikssiistsi (Sundance Transfer Ceremony)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240701T000000Z
+DTEND:20240702T000000Z
+SUMMARY:Naatoyiihkaohtsiitsinikssiistsi (Sundance Transfer Ceremony)
+DESCRIPTION:Naatoyiihkaohtsiitsinikssiistsi (Sundance Transfer Ceremony)
+  (Group: Native North American Peoples\, Source: Blackfoot (Siksika))
 END:VEVENT
 BEGIN:VEVENT
-UID:Motokiiks (Sundance Transfer Ceremony)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240727T000000Z
-DTEND:20240728T000000Z
-SUMMARY:Motokiiks (Sundance Transfer Ceremony)
-DESCRIPTION:Motokiiks (Sundance Transfer Ceremony) (Group: Native North
+UID:Ihtsipaitapiiyssinnoohtsiyiohkaan (Spiritual Route to Well-Being
+  Ceremony)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240515T000000Z
+DTEND:20240518T000000Z
+SUMMARY:Ihtsipaitapiiyssinnoohtsiyiohkaan (Spiritual Route to Well-Being
+  Ceremony)
+DESCRIPTION:Ihtsipaitapiiyssinnoohtsiyiohkaan (Spiritual Route to
+  Well-Being Ceremony) (Group: Native North American Peoples\, Source:
+  Blackfoot (Siksika)) - From 2024-05-15 to 2024-05-17
+END:VEVENT
+BEGIN:VEVENT
+UID:Oohkitsikamiksmahtsikoi (Blackfoot Crossing Historical Park Ceremonial
+  Events)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240601T000000Z
+DTEND:20240901T000000Z
+SUMMARY:Oohkitsikamiksmahtsikoi (Blackfoot Crossing Historical Park
+  Ceremonial Events)
+DESCRIPTION:Oohkitsikamiksmahtsikoi (Blackfoot Crossing Historical Park
+  Ceremonial Events) (Group: Native North American Peoples\, Source:
+  Blackfoot (Siksika)) - From 2024-06-01 to 2024-08-31
+END:VEVENT
+BEGIN:VEVENT
+UID:Niitsitapi'pahssin (Blackfoot Traditional Games)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240715T000000Z
+DTEND:20240721T000000Z
+SUMMARY:Niitsitapi'pahssin (Blackfoot Traditional Games)
+DESCRIPTION:Niitsitapi'pahssin (Blackfoot Traditional Games) (Group: Native
+  North American Peoples\, Source: Blackfoot (Siksika)) - From 2024-07-15
+  to 2024-07-20
+END:VEVENT
+BEGIN:VEVENT
+UID:Aakaiiwa (Ceremonial Fasting)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240401T000000Z
+DTEND:20241001T000000Z
+SUMMARY:Aakaiiwa (Ceremonial Fasting)
+DESCRIPTION:Aakaiiwa (Ceremonial Fasting) (Group: Native North American
+  Peoples\, Source: Blackfoot (Siksika)) - From 2024-04-01 to 2024-09-30
+END:VEVENT
+BEGIN:VEVENT
+UID:Naatoyiihkaahsiistsi (Ceremonial Transfer)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20241001T000000Z
+DTEND:20241002T000000Z
+SUMMARY:Naatoyiihkaahsiistsi (Ceremonial Transfer)
+DESCRIPTION:Naatoyiihkaahsiistsi (Ceremonial Transfer) (Group: Native North
   American Peoples\, Source: Blackfoot (Siksika))
 END:VEVENT
 BEGIN:VEVENT
-UID:Aatsinikssistoo'too'p (Sacred Buffalo Calf Pipe Bundle Transfer)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240811T000000Z
-DTEND:20240812T000000Z
-SUMMARY:Aatsinikssistoo'too'p (Sacred Buffalo Calf Pipe Bundle Transfer)
-DESCRIPTION:Aatsinikssistoo'too'p (Sacred Buffalo Calf Pipe Bundle
-  Transfer) (Group: Native North American Peoples\, Source: Blackfoot
-  (Siksika))
-END:VEVENT
-BEGIN:VEVENT
-UID:Iihtsisinaa'pohkaan (Sacred Feather Pipe Bundle Transfer)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240816T000000Z
-DTEND:20240817T000000Z
-SUMMARY:Iihtsisinaa'pohkaan (Sacred Feather Pipe Bundle Transfer)
-DESCRIPTION:Iihtsisinaa'pohkaan (Sacred Feather Pipe Bundle Transfer)
-  (Group: Native North American Peoples\, Source: Blackfoot (Siksika))
-END:VEVENT
-BEGIN:VEVENT
-UID:Naatoyiitsinaa'pohkaan (Sacred Beaver Bundle Transfer)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240821T000000Z
-DTEND:20240822T000000Z
-SUMMARY:Naatoyiitsinaa'pohkaan (Sacred Beaver Bundle Transfer)
-DESCRIPTION:Naatoyiitsinaa'pohkaan (Sacred Beaver Bundle Transfer) (Group:
-  Native North American Peoples\, Source: Blackfoot (Siksika))
-END:VEVENT
-BEGIN:VEVENT
-UID:Aapohsikaan (Blackfoot Sundance Sacrifice Ceremony)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240905T000000Z
-DTEND:20240906T000000Z
-SUMMARY:Aapohsikaan (Blackfoot Sundance Sacrifice Ceremony)
-DESCRIPTION:Aapohsikaan (Blackfoot Sundance Sacrifice Ceremony) (Group:
-  Native North American Peoples\, Source: Blackfoot (Siksika))
-END:VEVENT
-BEGIN:VEVENT
-UID:Aakaawathssikaan (Blackfoot Sundance Sacrifice Ceremony)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240911T000000Z
-DTEND:20240912T000000Z
-SUMMARY:Aakaawathssikaan (Blackfoot Sundance Sacrifice Ceremony)
-DESCRIPTION:Aakaawathssikaan (Blackfoot Sundance Sacrifice Ceremony)
-  (Group: Native North American Peoples\, Source: Blackfoot (Siksika))
+UID:Ihtsipaitapiiyssinnoohtsiyiohkaan (Spiritual Healing Ceremonies)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240301T000000Z
+DTEND:20241201T000000Z
+SUMMARY:Ihtsipaitapiiyssinnoohtsiyiohkaan (Spiritual Healing Ceremonies)
+DESCRIPTION:Ihtsipaitapiiyssinnoohtsiyiohkaan (Spiritual Healing
+  Ceremonies) (Group: Native North American Peoples\, Source: Blackfoot
+  (Siksika)) - From 2024-03-01 to 2024-11-30
 END:VEVENT
 END:VCALENDAR

@@ -7,82 +7,14 @@ NAME:Global Calendar - Anishinaabe
 X-WR-CALNAME:Global Calendar - Anishinaabe
 DESCRIPTION:AI-generated calendar of events for Anishinaabe
 BEGIN:VEVENT
-UID:Midewiwn (Anishinaabe Ceremony of Sacred Scrolls)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240321T000000Z
-DTEND:20240322T000000Z
-SUMMARY:Midewiwn (Anishinaabe Ceremony of Sacred Scrolls)
-DESCRIPTION:Midewiwn (Anishinaabe Ceremony of Sacred Scrolls) (Group:
-  Native North American Peoples\, Source: Anishinaabe)
-END:VEVENT
-BEGIN:VEVENT
-UID:Zeesbaakodaading (Maple Sugar Camp)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240301T000000Z
-DTEND:20240416T000000Z
-SUMMARY:Zeesbaakodaading (Maple Sugar Camp)
-DESCRIPTION:Zeesbaakodaading (Maple Sugar Camp) (Group: Native North
-  American Peoples\, Source: Anishinaabe) - From 2024-03-01 to 2024-04-15
-END:VEVENT
-BEGIN:VEVENT
-UID:Ziigwanishinowin (Yellow/Birch Bark Harvesting)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240601T000000Z
-DTEND:20240716T000000Z
-SUMMARY:Ziigwanishinowin (Yellow/Birch Bark Harvesting)
-DESCRIPTION:Ziigwanishinowin (Yellow/Birch Bark Harvesting) (Group: Native
-  North American Peoples\, Source: Anishinaabe) - From 2024-06-01 to
-  2024-07-15
-END:VEVENT
-BEGIN:VEVENT
-UID:Odaminowin (Strawberry Ceremony)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240621T000000Z
-DTEND:20240622T000000Z
-SUMMARY:Odaminowin (Strawberry Ceremony)
-DESCRIPTION:Odaminowin (Strawberry Ceremony) (Group: Native North American
-  Peoples\, Source: Anishinaabe)
-END:VEVENT
-BEGIN:VEVENT
-UID:Manoominike-giizis (Ricing Moon/Wild Rice Harvesting)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240815T000000Z
-DTEND:20240916T000000Z
-SUMMARY:Manoominike-giizis (Ricing Moon/Wild Rice Harvesting)
-DESCRIPTION:Manoominike-giizis (Ricing Moon/Wild Rice Harvesting) (Group:
-  Native North American Peoples\, Source: Anishinaabe) - From 2024-08-15 to
-  2024-09-15
-END:VEVENT
-BEGIN:VEVENT
-UID:Bawaajigewin (Fall Ceremony)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240922T000000Z
-DTEND:20240923T000000Z
-SUMMARY:Bawaajigewin (Fall Ceremony)
-DESCRIPTION:Bawaajigewin (Fall Ceremony) (Group: Native North American
-  Peoples\, Source: Anishinaabe)
-END:VEVENT
-BEGIN:VEVENT
-UID:Gichi-manidoo-giizis (Great Spirit Moon/Midwinter Ceremony)-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20241222T000000Z
-DTEND:20241223T000000Z
-SUMMARY:Gichi-manidoo-giizis (Great Spirit Moon/Midwinter Ceremony)
-DESCRIPTION:Gichi-manidoo-giizis (Great Spirit Moon/Midwinter Ceremony)
-  (Group: Native North American Peoples\, Source: Anishinaabe)
+UID:Midaaswi-shi-ningo-gizis (Powwow Moon)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240413T000000Z
+DTEND:20240414T000000Z
+SUMMARY:Midaaswi-shi-ningo-gizis (Powwow Moon)
+DESCRIPTION:Midaaswi-shi-ningo-gizis (Powwow Moon) (Group: Native North
+  American Peoples\, Source: Anishinaabe)
 END:VEVENT
 END:VCALENDAR

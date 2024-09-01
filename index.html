@@ -395,8 +395,8 @@
                     eventContent: function(arg) {
                         return {
                             html: '<div class="fc-event-main">' +
-                                  '<div class="fc-event-title">' + arg.event.title + '</div>' +
-                                  '</div>'
+                                '<div class="fc-event-title">' + arg.event.title + '</div>' +
+                                '</div>'
                         };
                     },
                     events: function(info, successCallback, failureCallback) {
@@ -409,12 +409,20 @@
                                 var vevents = comp.getAllSubcomponents('vevent');
                                 allEvents = vevents.map(vevent => {
                                     var event = new ICAL.Event(vevent);
-                                    var description = event.description.split('(')[1].split(')')[0];
-                                    var group = description.split(',')[0].trim().split(': ')[1];
-                                    var source = description.split(',')[1].trim().split(': ')[1];
+                                    var description = event.description || '';
+                                    var group = 'Unknown';
+                                    var source = 'Unknown';
+
+                                    var match = description.match(/Group:\s*(.*?),\s*Source:\s*(.*?)(\s|$)/i);
+                                    if (match) {
+                                        group = match[1];
+                                        source = match[2];
+                                    }
+
                                     if (!groupColors[group]) {
                                         groupColors[group] = generateColor(group);
                                     }
+
                                     return {
                                         title: event.summary,
                                         start: event.startDate.toJSDate(),
@@ -423,7 +431,7 @@
                                         backgroundColor: groupColors[group],
                                         borderColor: groupColors[group],
                                         extendedProps: {
-                                            description: event.description,
+                                            description: description,
                                             group: group,
                                             source: source
                                         }

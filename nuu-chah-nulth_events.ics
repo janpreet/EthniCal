@@ -8,82 +8,105 @@ X-WR-CALNAME:Global Calendar - Nuu-chah-nulth
 DESCRIPTION:AI-generated calendar of events for Nuu-chah-nulth
 BEGIN:VEVENT
 UID:Tlu-piich Games-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240321T000000Z
-DTEND:20240325T000000Z
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240621T000000Z
+DTEND:20240622T000000Z
 SUMMARY:Tlu-piich Games
 DESCRIPTION:Tlu-piich Games (Group: Native North American Peoples\, Source:
-  Nuu-chah-nulth) - From 2024-03-21 to 2024-03-24
-END:VEVENT
-BEGIN:VEVENT
-UID:Spring Whaling Ceremonial Lands-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240415T000000Z
-DTEND:20240416T000000Z
-SUMMARY:Spring Whaling Ceremonial Lands
-DESCRIPTION:Spring Whaling Ceremonial Lands (Group: Native North American
-  Peoples\, Source: Nuu-chah-nulth)
+  Nuu-chah-nulth)
 END:VEVENT
 BEGIN:VEVENT
 UID:Nuu-chah-nulth Tribal Council Annual General Meeting-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240716T000000Z
-DTEND:20240720T000000Z
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240925T000000Z
+DTEND:20240928T000000Z
 SUMMARY:Nuu-chah-nulth Tribal Council Annual General Meeting
 DESCRIPTION:Nuu-chah-nulth Tribal Council Annual General Meeting (Group:
-  Native North American Peoples\, Source: Nuu-chah-nulth) - From 2024-07-16
-  to 2024-07-19
+  Native North American Peoples\, Source: Nuu-chah-nulth) - From 2024-09-25
+  to 2024-09-27
 END:VEVENT
 BEGIN:VEVENT
-UID:Nuu-chah-nulth Tlu-piich Summer Games-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240803T000000Z
-DTEND:20240807T000000Z
-SUMMARY:Nuu-chah-nulth Tlu-piich Summer Games
-DESCRIPTION:Nuu-chah-nulth Tlu-piich Summer Games (Group: Native North
-  American Peoples\, Source: Nuu-chah-nulth) - From 2024-08-03 to
-  2024-08-06
+UID:Nuu-chah-nulth Canoe Journey-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240715T000000Z
+DTEND:20240729T000000Z
+SUMMARY:Nuu-chah-nulth Canoe Journey
+DESCRIPTION:Nuu-chah-nulth Canoe Journey (Group: Native North American
+  Peoples\, Source: Nuu-chah-nulth) - From 2024-07-15 to 2024-07-28
 END:VEVENT
 BEGIN:VEVENT
-UID:Nuu-chah-nulth Hunting and Gathering Camp-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240901T000000Z
-DTEND:20240908T000000Z
-SUMMARY:Nuu-chah-nulth Hunting and Gathering Camp
-DESCRIPTION:Nuu-chah-nulth Hunting and Gathering Camp (Group: Native North
-  American Peoples\, Source: Nuu-chah-nulth) - From 2024-09-01 to
-  2024-09-07
+UID:Ahousaht First Nation Traditional Food Festival-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240518T000000Z
+DTEND:20240520T000000Z
+SUMMARY:Ahousaht First Nation Traditional Food Festival
+DESCRIPTION:Ahousaht First Nation Traditional Food Festival (Group: Native
+  North American Peoples\, Source: Nuu-chah-nulth) - From 2024-05-18 to
+  2024-05-19
 END:VEVENT
 BEGIN:VEVENT
-UID:Huu-ay-aht First Nations Annual Feast-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20241012T000000Z
-DTEND:20241013T000000Z
-SUMMARY:Huu-ay-aht First Nations Annual Feast
-DESCRIPTION:Huu-ay-aht First Nations Annual Feast (Group: Native North
+UID:Hupacasath First Nation Cultural Night-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240810T000000Z
+DTEND:20240811T000000Z
+SUMMARY:Hupacasath First Nation Cultural Night
+DESCRIPTION:Hupacasath First Nation Cultural Night (Group: Native North
   American Peoples\, Source: Nuu-chah-nulth)
 END:VEVENT
 BEGIN:VEVENT
-UID:Ditidaht First Nation Annual Potlatch-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20241102T000000Z
-DTEND:20241103T000000Z
-SUMMARY:Ditidaht First Nation Annual Potlatch
-DESCRIPTION:Ditidaht First Nation Annual Potlatch (Group: Native North
-  American Peoples\, Source: Nuu-chah-nulth)
+UID:Ditidaht First Nation Whale Watching Ceremony-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240315T000000Z
+DTEND:20240316T000000Z
+SUMMARY:Ditidaht First Nation Whale Watching Ceremony
+DESCRIPTION:Ditidaht First Nation Whale Watching Ceremony (Group: Native
+  North American Peoples\, Source: Nuu-chah-nulth)
+END:VEVENT
+BEGIN:VEVENT
+UID:Huu-ay-aht First Nation Language Revitalization Gathering-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20241101T000000Z
+DTEND:20241104T000000Z
+SUMMARY:Huu-ay-aht First Nation Language Revitalization Gathering
+DESCRIPTION:Huu-ay-aht First Nation Language Revitalization Gathering
+  (Group: Native North American Peoples\, Source: Nuu-chah-nulth) - From
+  2024-11-01 to 2024-11-03
+END:VEVENT
+BEGIN:VEVENT
+UID:Tla-o-qui-aht First Nation Seafood Festival-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240608T000000Z
+DTEND:20240610T000000Z
+SUMMARY:Tla-o-qui-aht First Nation Seafood Festival
+DESCRIPTION:Tla-o-qui-aht First Nation Seafood Festival (Group: Native
+  North American Peoples\, Source: Nuu-chah-nulth) - From 2024-06-08 to
+  2024-06-09
+END:VEVENT
+BEGIN:VEVENT
+UID:Uchucklesaht Tribe Canoe Races-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240720T000000Z
+DTEND:20240721T000000Z
+SUMMARY:Uchucklesaht Tribe Canoe Races
+DESCRIPTION:Uchucklesaht Tribe Canoe Races (Group: Native North American
+  Peoples\, Source: Nuu-chah-nulth)
 END:VEVENT
 END:VCALENDAR

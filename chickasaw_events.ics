@@ -7,70 +7,36 @@ NAME:Global Calendar - Chickasaw
 X-WR-CALNAME:Global Calendar - Chickasaw
 DESCRIPTION:AI-generated calendar of events for Chickasaw
 BEGIN:VEVENT
-UID:Chickasaw New Year's Celebration-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240101T000000Z
-DTEND:20240102T000000Z
-SUMMARY:Chickasaw New Year's Celebration
-DESCRIPTION:Chickasaw New Year's Celebration (Group: Native North American
-  Peoples\, Source: Chickasaw)
-END:VEVENT
-BEGIN:VEVENT
-UID:Chickasaw Nation Inauguration Day-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20241001T000000Z
-DTEND:20241002T000000Z
-SUMMARY:Chickasaw Nation Inauguration Day
-DESCRIPTION:Chickasaw Nation Inauguration Day (Group: Native North American
-  Peoples\, Source: Chickasaw)
-END:VEVENT
-BEGIN:VEVENT
-UID:Chickasaw Nation Annual Meeting and Fair-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240926T000000Z
-DTEND:20240929T000000Z
-SUMMARY:Chickasaw Nation Annual Meeting and Fair
-DESCRIPTION:Chickasaw Nation Annual Meeting and Fair (Group: Native North
-  American Peoples\, Source: Chickasaw) - From 2024-09-26 to 2024-09-28
-END:VEVENT
-BEGIN:VEVENT
-UID:Chickasaw Nation Arts Celebration-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240427T000000Z
-DTEND:20240428T000000Z
-SUMMARY:Chickasaw Nation Arts Celebration
-DESCRIPTION:Chickasaw Nation Arts Celebration (Group: Native North American
-  Peoples\, Source: Chickasaw)
-END:VEVENT
-BEGIN:VEVENT
-UID:Chickasaw Press Association Storytellers Conference-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240614T000000Z
-DTEND:20240617T000000Z
-SUMMARY:Chickasaw Press Association Storytellers Conference
-DESCRIPTION:Chickasaw Press Association Storytellers Conference (Group:
-  Native North American Peoples\, Source: Chickasaw) - From 2024-06-14 to
-  2024-06-16
-END:VEVENT
-BEGIN:VEVENT
-UID:Chickasha Annual Trail of Tears Walk-2024
-CREATED:20240901T020050Z
-DTSTAMP:20240901T020050Z
-LAST-MODIFIED:20240901T020050Z
-DTSTART:20240518T000000Z
-DTEND:20240519T000000Z
-SUMMARY:Chickasha Annual Trail of Tears Walk
-DESCRIPTION:Chickasha Annual Trail of Tears Walk (Group: Native North
+UID:Hiloha Iskitini (Chickasaw New Year)-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240724T000000Z
+DTEND:20240725T000000Z
+SUMMARY:Hiloha Iskitini (Chickasaw New Year)
+DESCRIPTION:Hiloha Iskitini (Chickasaw New Year) (Group: Native North
   American Peoples\, Source: Chickasaw)
+END:VEVENT
+BEGIN:VEVENT
+UID:Chickasaw Annual Meeting and Fair-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20240927T000000Z
+DTEND:20240930T000000Z
+SUMMARY:Chickasaw Annual Meeting and Fair
+DESCRIPTION:Chickasaw Annual Meeting and Fair (Group: Native North American
+  Peoples\, Source: Chickasaw) - From 2024-09-27 to 2024-09-29
+END:VEVENT
+BEGIN:VEVENT
+UID:Chickasaw Nation Anniversary-2024
+CREATED:20240901T021552Z
+DTSTAMP:20240901T021552Z
+LAST-MODIFIED:20240901T021552Z
+DTSTART:20241018T000000Z
+DTEND:20241019T000000Z
+SUMMARY:Chickasaw Nation Anniversary
+DESCRIPTION:Chickasaw Nation Anniversary (Group: Native North American
+  Peoples\, Source: Chickasaw)
 END:VEVENT
 END:VCALENDAR
