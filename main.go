@@ -142,10 +142,11 @@ type GroupConfig struct {
 }
 
 type Event struct {
-	Name  string
-	Date  time.Time
-	Item  string
-	Group string
+    Name      string
+    StartDate time.Time
+    EndDate   time.Time
+    Item      string
+    Group     string
 }
 
 func loadGroupConfigs(configDir string) ([]GroupConfig, error) {
@@ -207,15 +208,41 @@ func parseEvents(aiResponse, itemName string) ([]Event, error) {
             fmt.Printf("Warning: Skipping invalid line: %s\n", line)
             continue
         }
-        date, err := time.Parse("2006-01-02", parts[1])
-        if err != nil {
-            fmt.Printf("Warning: Error parsing date %s: %v\n", parts[1], err)
-            continue
+        eventName := parts[0]
+        dateStr := parts[1]
+
+        // Check if it's a date range
+        dateParts := strings.Split(dateStr, " - ")
+        var startDate, endDate time.Time
+        var err error
+
+        if len(dateParts) == 2 {
+            // It's a date range
+            startDate, err = time.Parse("2006-01-02", dateParts[0])
+            if err != nil {
+                fmt.Printf("Warning: Error parsing start date %s: %v\n", dateParts[0], err)
+                continue
+            }
+            endDate, err = time.Parse("2006-01-02", dateParts[1])
+            if err != nil {
+                fmt.Printf("Warning: Error parsing end date %s: %v\n", dateParts[1], err)
+                continue
+            }
+        } else {
+            // It's a single date
+            startDate, err = time.Parse("2006-01-02", dateStr)
+            if err != nil {
+                fmt.Printf("Warning: Error parsing date %s: %v\n", dateStr, err)
+                continue
+            }
+            endDate = startDate
         }
+
         events = append(events, Event{
-            Name: parts[0],
-            Date: date,
-            Item: itemName,
+            Name:      eventName,
+            StartDate: startDate,
+            EndDate:   endDate,
+            Item:      itemName,
         })
     }
     if len(events) == 0 {
@@ -228,18 +255,26 @@ func createCalendar(events []Event, name string) *ics.Calendar {
     cal := ics.NewCalendar()
     cal.SetMethod(ics.MethodPublish)
     cal.SetCalscale("GREGORIAN")
-    cal.SetName(fmt.Sprintf("EthniCal - %s", name))
+    cal.SetName(fmt.Sprintf("Global Calendar - %s", name))
     cal.SetDescription(fmt.Sprintf("AI-generated calendar of events for %s", name))
 
     for _, event := range events {
-        icsEvent := cal.AddEvent(fmt.Sprintf("%s-%d", event.Name, event.Date.Year()))
+        icsEvent := cal.AddEvent(fmt.Sprintf("%s-%d", event.Name, event.StartDate.Year()))
         icsEvent.SetCreatedTime(time.Now())
         icsEvent.SetDtStampTime(time.Now())
         icsEvent.SetModifiedAt(time.Now())
-        icsEvent.SetStartAt(event.Date)
-        icsEvent.SetEndAt(event.Date.Add(24 * time.Hour))
+        icsEvent.SetStartAt(event.StartDate)
+        if event.EndDate.After(event.StartDate) {
+            icsEvent.SetEndAt(event.EndDate.AddDate(0, 0, 1)) // Add one day to include the end date
+        } else {
+            icsEvent.SetEndAt(event.StartDate.AddDate(0, 0, 1)) // Single day event
+        }
         icsEvent.SetSummary(event.Name)
-        icsEvent.SetDescription(fmt.Sprintf("%s (%s)", event.Name, event.Group))
+        if event.EndDate.After(event.StartDate) {
+            icsEvent.SetDescription(fmt.Sprintf("%s (%s) - From %s to %s", event.Name, event.Group, event.StartDate.Format("2006-01-02"), event.EndDate.Format("2006-01-02")))
+        } else {
+            icsEvent.SetDescription(fmt.Sprintf("%s (%s)", event.Name, event.Group))
+        }
     }
 
     return cal

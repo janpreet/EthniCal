@@ -13,66 +13,131 @@
     <style>
         body { font-family: Arial, sans-serif; margin: 20px; }
         #calendar { margin-top: 20px; }
-        select { font-size: 16px; padding: 5px; }
+        select, input, button { font-size: 16px; padding: 5px; margin-right: 10px; }
+        #aboutButton { margin-left: 10px; }
+        #aboutInfo {
+            display: none;
+            background-color: #f0f0f0;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        #controls { margin-bottom: 20px; }
     </style>
 </head>
 <body>
-    <h1>EthniCal</h1>
-    <select id="calendarSelect">
-        <option value="all_events.ics">All Events</option>
-        {{range .GroupConfigs}}
-        <option value="{{.GroupName | ToLower | ReplaceSpaces}}_events.ics">{{.GroupName}}</option>
-        {{range .CalendarItems}}
-        <option value="{{.Name | ToLower | ReplaceSpaces}}_events.ics">{{.Name}}</option>
-        {{end}}
-        {{end}}
-    </select>
+    <h1>EthniCal <button id="aboutButton">About</button></h1>
+    <div id="aboutInfo">
+        Author: Janpreet Singh<br>
+        Contact: calendar@janpreet.com<br>
+        Purpose: This calendar serves as a means for inclusivity, celebrating diverse ethnic and cultural events worldwide.
+    </div>
+    <div id="controls">
+        <select id="calendarSelect">
+            <option value="all_events.ics">All Events</option>
+            {{range .GroupConfigs}}
+            <option value="{{.GroupName | ToLower | ReplaceSpaces}}_events.ics">{{.GroupName}}</option>
+            {{range .CalendarItems}}
+            <option value="{{.Name | ToLower | ReplaceSpaces}}_events.ics">{{.Name}}</option>
+            {{end}}
+            {{end}}
+        </select>
+        <a id="downloadLink" href="all_events.ics" download>Download ICS</a>
+        <input type="text" id="searchInput" placeholder="Search events...">
+        <button id="searchButton">Search</button>
+    </div>
     <div id="calendar"></div>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             var calendarEl = document.getElementById('calendar');
-            var calendar = new FullCalendar.Calendar(calendarEl, {
-                initialView: 'dayGridMonth',
-                eventDidMount: function(info) {
-                    tippy(info.el, {
-                        content: info.event.extendedProps.description || info.event.title,
-                        placement: 'top',
-                        arrow: true,
-                        theme: 'light-border'
-                    });
-                },
-                events: function(info, successCallback, failureCallback) {
-                    var selectedFile = document.getElementById('calendarSelect').value;
-                    fetch(selectedFile)
-                        .then(response => response.text())
-                        .then(data => {
-                            var jcalData = ICAL.parse(data);
-                            var comp = new ICAL.Component(jcalData);
-                            var vevents = comp.getAllSubcomponents('vevent');
-                            var events = vevents.map(vevent => {
-                                var event = new ICAL.Event(vevent);
-                                return {
-                                    title: event.summary,
-                                    start: event.startDate.toJSDate(),
-                                    allDay: true,
-                                    extendedProps: {
-                                        description: `${event.summary} (${event.description || 'No group info'})`
-                                    }
-                                };
-                            });
-                            successCallback(events);
-                        })
-                        .catch(error => {
-                            console.error('Error fetching calendar data:', error);
-                            failureCallback(error);
-                        });
+            var calendar;
+            var allEvents = [];
+
+            function initCalendar() {
+                if (calendar) {
+                    calendar.destroy();
                 }
-            });
-            calendar.render();
+
+                calendar = new FullCalendar.Calendar(calendarEl, {
+                    initialView: 'dayGridMonth',
+                    eventDidMount: function(info) {
+                        tippy(info.el, {
+                            content: info.event.extendedProps.description || info.event.title,
+                            placement: 'top',
+                            arrow: true,
+                            theme: 'light-border'
+                        });
+                    },
+                    events: function(info, successCallback, failureCallback) {
+                        var selectedFile = document.getElementById('calendarSelect').value;
+                        fetch(selectedFile)
+                            .then(response => response.text())
+                            .then(data => {
+                                var jcalData = ICAL.parse(data);
+                                var comp = new ICAL.Component(jcalData);
+                                var vevents = comp.getAllSubcomponents('vevent');
+                                allEvents = vevents.map(vevent => {
+                                    var event = new ICAL.Event(vevent);
+                                    var endDate = event.endDate.toJSDate();
+                                    endDate.setDate(endDate.getDate() - 1);
+                                    return {
+                                        title: event.summary,
+                                        start: event.startDate.toJSDate(),
+                                        end: endDate,
+                                        allDay: true,
+                                        extendedProps: {
+                                            description: event.description || event.summary
+                                        }
+                                    };
+                                });
+                                successCallback(allEvents);
+                            })
+                            .catch(error => {
+                                console.error('Error fetching calendar data:', error);
+                                failureCallback(error);
+                            });
+                    }
+                });
+                calendar.render();
+            }
+
+            initCalendar();
 
             document.getElementById('calendarSelect').addEventListener('change', function() {
-                calendar.refetchEvents();
+                var selectedFile = this.value;
+                document.getElementById('downloadLink').href = selectedFile;
+                initCalendar();
+            });
+
+            document.getElementById('searchButton').addEventListener('click', function() {
+                var searchTerm = document.getElementById('searchInput').value.toLowerCase();
+                var filteredEvents = allEvents.filter(event => 
+                    event.title.toLowerCase().includes(searchTerm) || 
+                    (event.extendedProps.description && event.extendedProps.description.toLowerCase().includes(searchTerm))
+                );
+                calendar.removeAllEvents();
+                calendar.addEventSource(filteredEvents);
+            });
+
+            
+            var aboutButton = document.getElementById('aboutButton');
+            var aboutInfo = document.getElementById('aboutInfo');
+            var aboutTimeout;
+
+            aboutButton.addEventListener('click', function() {
+                if (aboutInfo.style.display === 'none' || aboutInfo.style.display === '') {
+                    aboutInfo.style.display = 'block';
+                    clearTimeout(aboutTimeout);
+                    aboutTimeout = setTimeout(function() {
+                        aboutInfo.style.display = 'none';
+                    }, 300000);
+                } else {
+                    aboutInfo.style.display = 'none';
+                    clearTimeout(aboutTimeout);
+                }
             });
         });
     </script>
