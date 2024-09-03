@@ -350,6 +350,14 @@
             
             <option value="mayan_quiché_events.ics">Mayan Quiché</option>
             
+            <option value="haudenosaunee_(iroquois_confederacy)_events.ics">Haudenosaunee (Iroquois Confederacy)</option>
+            
+            <option value="mohican_(mahican)_events.ics">Mohican (Mahican)</option>
+            
+            <option value="wampanoag_events.ics">Wampanoag</option>
+            
+            <option value="pequot_events.ics">Pequot</option>
+            
             
         </select>
         <a id="downloadLink" href="https://raw.githubusercontent.com/janpreet/EthniCal/main/docs/all_events.ics" download>Download ICS</a>
@@ -398,6 +406,9 @@
                                 '<div class="fc-event-title">' + arg.event.title + '</div>' +
                                 '</div>'
                         };
+                    },
+                    datesSet: function(info) {
+                        $('#calendarSelect').val('all_events.ics').trigger('change');
                     },
                     events: function(info, successCallback, failureCallback) {
                         var selectedFile = document.getElementById('calendarSelect').value;

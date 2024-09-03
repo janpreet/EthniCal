@@ -7,82 +7,47 @@ NAME:Global Calendar - Tibetan
 X-WR-CALNAME:Global Calendar - Tibetan
 DESCRIPTION:AI-generated calendar of events for Tibetan
 BEGIN:VEVENT
-UID:Chotrul Duchen (Day commemorating the Buddha's miraculous
-  abilities)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
+UID:Chotrul Duchen (Buddha's Parinirvana)-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
 DTSTART:20240308T000000Z
 DTEND:20240309T000000Z
-SUMMARY:Chotrul Duchen (Day commemorating the Buddha's miraculous
-  abilities)
-DESCRIPTION:Chotrul Duchen (Day commemorating the Buddha's miraculous
-  abilities) (Group: Asian Ethnicities\, Source: Tibetan)
+SUMMARY:Chotrul Duchen (Buddha's Parinirvana)
+DESCRIPTION:Chotrul Duchen (Buddha's Parinirvana) (Group: Asian
+  Ethnicities\, Source: Tibetan)
 END:VEVENT
 BEGIN:VEVENT
 UID:Saka Dawa (Buddha's Birth\, Enlightenment\, and Parinirvana)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240519T000000Z
-DTEND:20240520T000000Z
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240603T000000Z
+DTEND:20240604T000000Z
 SUMMARY:Saka Dawa (Buddha's Birth\, Enlightenment\, and Parinirvana)
 DESCRIPTION:Saka Dawa (Buddha's Birth\, Enlightenment\, and Parinirvana)
   (Group: Asian Ethnicities\, Source: Tibetan)
 END:VEVENT
 BEGIN:VEVENT
-UID:Chokhor Duchen (First Turning of the Dharma Wheel)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240705T000000Z
-DTEND:20240706T000000Z
-SUMMARY:Chokhor Duchen (First Turning of the Dharma Wheel)
-DESCRIPTION:Chokhor Duchen (First Turning of the Dharma Wheel) (Group:
+UID:Chokhor Duchen (First Turning of the Wheel of Dharma)-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240727T000000Z
+DTEND:20240728T000000Z
+SUMMARY:Chokhor Duchen (First Turning of the Wheel of Dharma)
+DESCRIPTION:Chokhor Duchen (First Turning of the Wheel of Dharma) (Group:
   Asian Ethnicities\, Source: Tibetan)
 END:VEVENT
 BEGIN:VEVENT
-UID:Lhabab Duchen (Descent from the God Realm)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240902T000000Z
-DTEND:20240903T000000Z
-SUMMARY:Lhabab Duchen (Descent from the God Realm)
-DESCRIPTION:Lhabab Duchen (Descent from the God Realm) (Group: Asian
-  Ethnicities\, Source: Tibetan)
-END:VEVENT
-BEGIN:VEVENT
-UID:Lhalung (Harvest Festival)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240923T000000Z
-DTEND:20240924T000000Z
-SUMMARY:Lhalung (Harvest Festival)
-DESCRIPTION:Lhalung (Harvest Festival) (Group: Asian Ethnicities\, Source:
-  Tibetan)
-END:VEVENT
-BEGIN:VEVENT
-UID:Ganden Ngamchoe (Feast of the Attainment of Immortality)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20241125T000000Z
-DTEND:20241126T000000Z
-SUMMARY:Ganden Ngamchoe (Feast of the Attainment of Immortality)
-DESCRIPTION:Ganden Ngamchoe (Feast of the Attainment of Immortality)
-  (Group: Asian Ethnicities\, Source: Tibetan)
-END:VEVENT
-BEGIN:VEVENT
-UID:Ganden Tshungrub (Feast of the Miraculous Manifestation)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20241210T000000Z
-DTEND:20241211T000000Z
-SUMMARY:Ganden Tshungrub (Feast of the Miraculous Manifestation)
-DESCRIPTION:Ganden Tshungrub (Feast of the Miraculous Manifestation)
-  (Group: Asian Ethnicities\, Source: Tibetan)
+UID:Lhabab Duchen (Descent from Heaven)-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20241114T000000Z
+DTEND:20241115T000000Z
+SUMMARY:Lhabab Duchen (Descent from Heaven)
+DESCRIPTION:Lhabab Duchen (Descent from Heaven) (Group: Asian Ethnicities\,
+  Source: Tibetan)
 END:VEVENT
 END:VCALENDAR

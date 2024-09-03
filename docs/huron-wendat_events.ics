@@ -7,80 +7,14 @@ NAME:Global Calendar - Huron-Wendat
 X-WR-CALNAME:Global Calendar - Huron-Wendat
 DESCRIPTION:AI-generated calendar of events for Huron-Wendat
 BEGIN:VEVENT
-UID:Bûna'wâ (Mid-Winter Ceremony)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240127T000000Z
-DTEND:20240128T000000Z
-SUMMARY:Bûna'wâ (Mid-Winter Ceremony)
-DESCRIPTION:Bûna'wâ (Mid-Winter Ceremony) (Group: Native North American
-  Peoples\, Source: Huron-Wendat)
-END:VEVENT
-BEGIN:VEVENT
-UID:Awęnâwęndǫ' (Great Bread Dance Ceremony)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240217T000000Z
-DTEND:20240218T000000Z
-SUMMARY:Awęnâwęndǫ' (Great Bread Dance Ceremony)
-DESCRIPTION:Awęnâwęndǫ' (Great Bread Dance Ceremony) (Group: Native
-  North American Peoples\, Source: Huron-Wendat)
-END:VEVENT
-BEGIN:VEVENT
-UID:Ó:nęn Na'tęwaten'rákwa (Great Feather Dance)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240413T000000Z
-DTEND:20240414T000000Z
-SUMMARY:Ó:nęn Na'tęwaten'rákwa (Great Feather Dance)
-DESCRIPTION:Ó:nęn Na'tęwaten'rákwa (Great Feather Dance) (Group: Native
-  North American Peoples\, Source: Huron-Wendat)
-END:VEVENT
-BEGIN:VEVENT
-UID:Endokà:rhen (Naming Ceremony)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240518T000000Z
-DTEND:20240519T000000Z
-SUMMARY:Endokà:rhen (Naming Ceremony)
-DESCRIPTION:Endokà:rhen (Naming Ceremony) (Group: Native North American
-  Peoples\, Source: Huron-Wendat)
-END:VEVENT
-BEGIN:VEVENT
-UID:Edawâkwâ' (Funeral Ceremony)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240907T000000Z
-DTEND:20240908T000000Z
-SUMMARY:Edawâkwâ' (Funeral Ceremony)
-DESCRIPTION:Edawâkwâ' (Funeral Ceremony) (Group: Native North American
-  Peoples\, Source: Huron-Wendat)
-END:VEVENT
-BEGIN:VEVENT
-UID:Ę́ren Enhwahráhkwanión:ni (Midwinter Rite of Entry)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240127T000000Z
-DTEND:20240128T000000Z
-SUMMARY:Ę́ren Enhwahráhkwanión:ni (Midwinter Rite of Entry)
-DESCRIPTION:Ę́ren Enhwahráhkwanión:ni (Midwinter Rite of Entry) (Group:
-  Native North American Peoples\, Source: Huron-Wendat)
-END:VEVENT
-BEGIN:VEVENT
-UID:Ę́ren Kahwà:tsire (Ritual of the Opening of the Woods)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240420T000000Z
-DTEND:20240421T000000Z
-SUMMARY:Ę́ren Kahwà:tsire (Ritual of the Opening of the Woods)
-DESCRIPTION:Ę́ren Kahwà:tsire (Ritual of the Opening of the Woods)
-  (Group: Native North American Peoples\, Source: Huron-Wendat)
+UID:National Day of Remembrance of the Battle of the Plains of Abraham-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240913T000000Z
+DTEND:20240914T000000Z
+SUMMARY:National Day of Remembrance of the Battle of the Plains of Abraham
+DESCRIPTION:National Day of Remembrance of the Battle of the Plains of
+  Abraham (Group: Native North American Peoples\, Source: Huron-Wendat)
 END:VEVENT
 END:VCALENDAR

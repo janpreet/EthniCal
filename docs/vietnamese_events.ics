@@ -7,80 +7,91 @@ NAME:Global Calendar - Vietnamese
 X-WR-CALNAME:Global Calendar - Vietnamese
 DESCRIPTION:AI-generated calendar of events for Vietnamese
 BEGIN:VEVENT
-UID:Vietnamese New Year (Tết Nguyên Đán)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
+UID:Tết Nguyên Đán (Vietnamese New Year)-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
 DTSTART:20240122T000000Z
 DTEND:20240123T000000Z
-SUMMARY:Vietnamese New Year (Tết Nguyên Đán)
-DESCRIPTION:Vietnamese New Year (Tết Nguyên Đán) (Group: Asian
+SUMMARY:Tết Nguyên Đán (Vietnamese New Year)
+DESCRIPTION:Tết Nguyên Đán (Vietnamese New Year) (Group: Asian
   Ethnicities\, Source: Vietnamese)
 END:VEVENT
 BEGIN:VEVENT
-UID:Hung Kings Commemoration Day (Ngày Giỗ Tổ Hùng Vương)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
+UID:Giỗ Tổ Hùng Vương (Hung Kings Commemoration Day)-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
 DTSTART:20240414T000000Z
 DTEND:20240415T000000Z
-SUMMARY:Hung Kings Commemoration Day (Ngày Giỗ Tổ Hùng Vương)
-DESCRIPTION:Hung Kings Commemoration Day (Ngày Giỗ Tổ Hùng Vương)
-  (Group: Asian Ethnicities\, Source: Vietnamese)
-END:VEVENT
-BEGIN:VEVENT
-UID:Reunification Day (Ngày Giải Phóng Miền Nam)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240430T000000Z
-DTEND:20240501T000000Z
-SUMMARY:Reunification Day (Ngày Giải Phóng Miền Nam)
-DESCRIPTION:Reunification Day (Ngày Giải Phóng Miền Nam) (Group:
+SUMMARY:Giỗ Tổ Hùng Vương (Hung Kings Commemoration Day)
+DESCRIPTION:Giỗ Tổ Hùng Vương (Hung Kings Commemoration Day) (Group:
   Asian Ethnicities\, Source: Vietnamese)
 END:VEVENT
 BEGIN:VEVENT
-UID:International Workers' Day (Ngày Quốc Tế Lao Động)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
+UID:Ngày Giải Phóng Miền Nam (Liberation Day)-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240430T000000Z
+DTEND:20240501T000000Z
+SUMMARY:Ngày Giải Phóng Miền Nam (Liberation Day)
+DESCRIPTION:Ngày Giải Phóng Miền Nam (Liberation Day) (Group: Asian
+  Ethnicities\, Source: Vietnamese)
+END:VEVENT
+BEGIN:VEVENT
+UID:Ngày Quốc Tế Lao Động (International Labor Day)-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
 DTSTART:20240501T000000Z
 DTEND:20240502T000000Z
-SUMMARY:International Workers' Day (Ngày Quốc Tế Lao Động)
-DESCRIPTION:International Workers' Day (Ngày Quốc Tế Lao Động)
-  (Group: Asian Ethnicities\, Source: Vietnamese)
+SUMMARY:Ngày Quốc Tế Lao Động (International Labor Day)
+DESCRIPTION:Ngày Quốc Tế Lao Động (International Labor Day) (Group:
+  Asian Ethnicities\, Source: Vietnamese)
 END:VEVENT
 BEGIN:VEVENT
-UID:Buddha's Birthday (Phật Đản)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
+UID:Lễ Phật Đản (Buddha's Birthday)-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
 DTSTART:20240519T000000Z
 DTEND:20240520T000000Z
-SUMMARY:Buddha's Birthday (Phật Đản)
-DESCRIPTION:Buddha's Birthday (Phật Đản) (Group: Asian Ethnicities\,
-  Source: Vietnamese)
+SUMMARY:Lễ Phật Đản (Buddha's Birthday)
+DESCRIPTION:Lễ Phật Đản (Buddha's Birthday) (Group: Asian
+  Ethnicities\, Source: Vietnamese)
 END:VEVENT
 BEGIN:VEVENT
-UID:National Day (Quốc Khánh)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
+UID:Ngày Quốc Khánh (National Day)-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
 DTSTART:20240902T000000Z
 DTEND:20240903T000000Z
-SUMMARY:National Day (Quốc Khánh)
-DESCRIPTION:National Day (Quốc Khánh) (Group: Asian Ethnicities\,
+SUMMARY:Ngày Quốc Khánh (National Day)
+DESCRIPTION:Ngày Quốc Khánh (National Day) (Group: Asian Ethnicities\,
   Source: Vietnamese)
 END:VEVENT
 BEGIN:VEVENT
-UID:Christmas (Lễ Giáng Sinh)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
+UID:Lễ Vu Lan (Ullambana Festival)-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240904T000000Z
+DTEND:20240905T000000Z
+SUMMARY:Lễ Vu Lan (Ullambana Festival)
+DESCRIPTION:Lễ Vu Lan (Ullambana Festival) (Group: Asian Ethnicities\,
+  Source: Vietnamese)
+END:VEVENT
+BEGIN:VEVENT
+UID:Lễ Giáng Sinh (Christmas Day)-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
 DTSTART:20241225T000000Z
 DTEND:20241226T000000Z
-SUMMARY:Christmas (Lễ Giáng Sinh)
-DESCRIPTION:Christmas (Lễ Giáng Sinh) (Group: Asian Ethnicities\,
+SUMMARY:Lễ Giáng Sinh (Christmas Day)
+DESCRIPTION:Lễ Giáng Sinh (Christmas Day) (Group: Asian Ethnicities\,
   Source: Vietnamese)
 END:VEVENT
 END:VCALENDAR
