@@ -7,14 +7,47 @@ NAME:Global Calendar - Huron-Wendat
 X-WR-CALNAME:Global Calendar - Huron-Wendat
 DESCRIPTION:AI-generated calendar of events for Huron-Wendat
 BEGIN:VEVENT
-UID:National Day of Remembrance of the Battle of the Plains of Abraham-2024
-CREATED:20240903T003055Z
-DTSTAMP:20240903T003055Z
-LAST-MODIFIED:20240903T003055Z
-DTSTART:20240913T000000Z
-DTEND:20240914T000000Z
-SUMMARY:National Day of Remembrance of the Battle of the Plains of Abraham
-DESCRIPTION:National Day of Remembrance of the Battle of the Plains of
-  Abraham (Group: Native North American Peoples\, Source: Huron-Wendat)
+UID:Atahuridies Sorahren (New Year)-2024
+CREATED:20240903T004249Z
+DTSTAMP:20240903T004249Z
+LAST-MODIFIED:20240903T004249Z
+DTSTART:20240320T000000Z
+DTEND:20240321T000000Z
+SUMMARY:Atahuridies Sorahren (New Year)
+DESCRIPTION:Atahuridies Sorahren (New Year) (Group: Native North American
+  Peoples\, Source: Huron-Wendat)
+END:VEVENT
+BEGIN:VEVENT
+UID:Ononharoia (Mid-Winter Ceremony)-2024
+CREATED:20240903T004249Z
+DTSTAMP:20240903T004249Z
+LAST-MODIFIED:20240903T004249Z
+DTSTART:20240217T000000Z
+DTEND:20240218T000000Z
+SUMMARY:Ononharoia (Mid-Winter Ceremony)
+DESCRIPTION:Ononharoia (Mid-Winter Ceremony) (Group: Native North American
+  Peoples\, Source: Huron-Wendat)
+END:VEVENT
+BEGIN:VEVENT
+UID:Edohog (Green Corn Ceremony)-2024
+CREATED:20240903T004249Z
+DTSTAMP:20240903T004249Z
+LAST-MODIFIED:20240903T004249Z
+DTSTART:20240801T000000Z
+DTEND:20240802T000000Z
+SUMMARY:Edohog (Green Corn Ceremony)
+DESCRIPTION:Edohog (Green Corn Ceremony) (Group: Native North American
+  Peoples\, Source: Huron-Wendat)
+END:VEVENT
+BEGIN:VEVENT
+UID:Ohnihohren (Harvest Festival)-2024
+CREATED:20240903T004249Z
+DTSTAMP:20240903T004249Z
+LAST-MODIFIED:20240903T004249Z
+DTSTART:20240925T000000Z
+DTEND:20240926T000000Z
+SUMMARY:Ohnihohren (Harvest Festival)
+DESCRIPTION:Ohnihohren (Harvest Festival) (Group: Native North American
+  Peoples\, Source: Huron-Wendat)
 END:VEVENT
 END:VCALENDAR

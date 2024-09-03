@@ -7,58 +7,14 @@ NAME:Global Calendar - Kwakwaka'wakw
 X-WR-CALNAME:Global Calendar - Kwakwaka'wakw
 DESCRIPTION:AI-generated calendar of events for Kwakwaka'wakw
 BEGIN:VEVENT
-UID:Baxwbakwalanuksiwe' (Winter Ceremonial)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240214T000000Z
-DTEND:20240215T000000Z
-SUMMARY:Baxwbakwalanuksiwe' (Winter Ceremonial)
-DESCRIPTION:Baxwbakwalanuksiwe' (Winter Ceremonial) (Group: Native North
+UID:National Indigenous Peoples Day (Canada)-2024
+CREATED:20240903T004249Z
+DTSTAMP:20240903T004249Z
+LAST-MODIFIED:20240903T004249Z
+DTSTART:20240621T000000Z
+DTEND:20240622T000000Z
+SUMMARY:National Indigenous Peoples Day (Canada)
+DESCRIPTION:National Indigenous Peoples Day (Canada) (Group: Native North
   American Peoples\, Source: Kwakwaka'wakw)
-END:VEVENT
-BEGIN:VEVENT
-UID:Tsetseka (Canoe Races)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240701T000000Z
-DTEND:20240702T000000Z
-SUMMARY:Tsetseka (Canoe Races)
-DESCRIPTION:Tsetseka (Canoe Races) (Group: Native North American Peoples\,
-  Source: Kwakwaka'wakw)
-END:VEVENT
-BEGIN:VEVENT
-UID:Gukwdzi'lxa (Berry Picking Celebrations)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240815T000000Z
-DTEND:20240816T000000Z
-SUMMARY:Gukwdzi'lxa (Berry Picking Celebrations)
-DESCRIPTION:Gukwdzi'lxa (Berry Picking Celebrations) (Group: Native North
-  American Peoples\, Source: Kwakwaka'wakw)
-END:VEVENT
-BEGIN:VEVENT
-UID:Galga'mdzega (Salmon Ceremony)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240923T000000Z
-DTEND:20240924T000000Z
-SUMMARY:Galga'mdzega (Salmon Ceremony)
-DESCRIPTION:Galga'mdzega (Salmon Ceremony) (Group: Native North American
-  Peoples\, Source: Kwakwaka'wakw)
-END:VEVENT
-BEGIN:VEVENT
-UID:Tsayka (Potlatch Ceremony)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20241101T000000Z
-DTEND:20241102T000000Z
-SUMMARY:Tsayka (Potlatch Ceremony)
-DESCRIPTION:Tsayka (Potlatch Ceremony) (Group: Native North American
-  Peoples\, Source: Kwakwaka'wakw)
 END:VEVENT
 END:VCALENDAR
