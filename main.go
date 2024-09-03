@@ -178,7 +178,7 @@ func loadGroupConfigs(configDir string) ([]GroupConfig, error) {
 
 func queryAI(item CalendarItem, ai AIProvider) ([]Event, error) {
     currentYear := time.Now().Year()
-    prompt := fmt.Sprintf("Please provide a list of events for %s for the year %d in English. Use your knowledge base and ensure cultural accuracy. %s Format each event STRICTLY as 'Specific Event Name: %d-MM-DD'. Include the full, specific name of each event in English. Do not use generic placeholders like 'Event Name'. If you're unsure about an event's exact date, you may omit it rather than guessing.", item.Name, currentYear, item.AdditionalInfo, currentYear)
+    prompt := fmt.Sprintf("Provide a list of official holidays, major religious observances, and significant cultural celebrations for %s for the year %d. Include only widely recognized events celebrated by a large portion of the %s population. Exclude local events, or regional fairs. Format each event as 'Specific Event Name: %d-MM-DD'. If you're unsure about an event's exact date or its significance, omit it.", item.Name, currentYear, item.Name, currentYear)
 
     fmt.Printf("Querying AI for %s with prompt:\n%s\n", item.Name, prompt)
 

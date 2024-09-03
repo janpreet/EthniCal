@@ -193,6 +193,22 @@
       {
         "name": "Mayan Quiché",
         "additionalInfo": "Include Mayan Quiché ceremonies and cultural events"
-      }
+      },
+      {
+        "name": "Haudenosaunee (Iroquois Confederacy)",
+        "additionalInfo": "Include traditional Haudenosaunee ceremonies and cultural events"
+      },
+      {
+        "name": "Mohican (Mahican)",
+        "additionalInfo": "Include traditional Mohican ceremonies and cultural events"
+      },
+      {
+        "name": "Wampanoag",
+        "additionalInfo": "Include traditional Wampanoag ceremonies and cultural events"
+      },
+      {
+        "name": "Pequot",
+        "additionalInfo": "Include traditional Pequot ceremonies and cultural events"
+      }      
     ]
   }

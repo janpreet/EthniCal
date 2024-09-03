@@ -4,7 +4,7 @@
   "calendarItems": [
     {
       "name": "Pan-Indian",
-      "additionalInfo": "Include major national holidays and festivals common across India"
+      "additionalInfo": "Include only major national holidays and official festivals common across India. Be sure to include Independence Day on August 15."
     },
     {
       "name": "Malayali (Kerala)",
@@ -36,7 +36,7 @@
     },
     {
       "name": "Punjabi",
-      "additionalInfo": "Include Punjabi festivals like Lohri and Baisakhi"
+      "additionalInfo": "Include only official Punjabi festivals and major religious holidays. Exclude local events or regional fairs."
     },
     {
       "name": "Odia (Odisha)",
