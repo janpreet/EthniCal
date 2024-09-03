@@ -164,9 +164,6 @@
                                 '</div>'
                         };
                     },
-                    datesSet: function(info) {
-                        $('#calendarSelect').val('all_events.ics').trigger('change');
-                    },
                     events: function(info, successCallback, failureCallback) {
                         var selectedFile = document.getElementById('calendarSelect').value;
                         fetch('https://raw.githubusercontent.com/janpreet/EthniCal/main/docs/' + selectedFile)
