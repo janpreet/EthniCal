@@ -7,100 +7,25 @@ NAME:Global Calendar - Blackfoot (Siksika)
 X-WR-CALNAME:Global Calendar - Blackfoot (Siksika)
 DESCRIPTION:AI-generated calendar of events for Blackfoot (Siksika)
 BEGIN:VEVENT
-UID:Aakaitsinikssiistsi (Sundance Ceremony)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240621T000000Z
-DTEND:20240701T000000Z
-SUMMARY:Aakaitsinikssiistsi (Sundance Ceremony)
-DESCRIPTION:Aakaitsinikssiistsi (Sundance Ceremony) (Group: Native North
-  American Peoples\, Source: Blackfoot (Siksika)) - From 2024-06-21 to
-  2024-06-30
-END:VEVENT
-BEGIN:VEVENT
-UID:Naatoyiihkaohtsiitsinikssiistsi (Sundance Transfer Ceremony)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240701T000000Z
-DTEND:20240702T000000Z
-SUMMARY:Naatoyiihkaohtsiitsinikssiistsi (Sundance Transfer Ceremony)
-DESCRIPTION:Naatoyiihkaohtsiitsinikssiistsi (Sundance Transfer Ceremony)
-  (Group: Native North American Peoples\, Source: Blackfoot (Siksika))
-END:VEVENT
-BEGIN:VEVENT
-UID:Ihtsipaitapiiyssinnoohtsiyiohkaan (Spiritual Route to Well-Being
-  Ceremony)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240515T000000Z
-DTEND:20240518T000000Z
-SUMMARY:Ihtsipaitapiiyssinnoohtsiyiohkaan (Spiritual Route to Well-Being
-  Ceremony)
-DESCRIPTION:Ihtsipaitapiiyssinnoohtsiyiohkaan (Spiritual Route to
-  Well-Being Ceremony) (Group: Native North American Peoples\, Source:
-  Blackfoot (Siksika)) - From 2024-05-15 to 2024-05-17
-END:VEVENT
-BEGIN:VEVENT
-UID:Oohkitsikamiksmahtsikoi (Blackfoot Crossing Historical Park Ceremonial
-  Events)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240601T000000Z
-DTEND:20240901T000000Z
-SUMMARY:Oohkitsikamiksmahtsikoi (Blackfoot Crossing Historical Park
-  Ceremonial Events)
-DESCRIPTION:Oohkitsikamiksmahtsikoi (Blackfoot Crossing Historical Park
-  Ceremonial Events) (Group: Native North American Peoples\, Source:
-  Blackfoot (Siksika)) - From 2024-06-01 to 2024-08-31
-END:VEVENT
-BEGIN:VEVENT
-UID:Niitsitapi'pahssin (Blackfoot Traditional Games)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240715T000000Z
-DTEND:20240721T000000Z
-SUMMARY:Niitsitapi'pahssin (Blackfoot Traditional Games)
-DESCRIPTION:Niitsitapi'pahssin (Blackfoot Traditional Games) (Group: Native
-  North American Peoples\, Source: Blackfoot (Siksika)) - From 2024-07-15
-  to 2024-07-20
-END:VEVENT
-BEGIN:VEVENT
-UID:Aakaiiwa (Ceremonial Fasting)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240401T000000Z
-DTEND:20241001T000000Z
-SUMMARY:Aakaiiwa (Ceremonial Fasting)
-DESCRIPTION:Aakaiiwa (Ceremonial Fasting) (Group: Native North American
-  Peoples\, Source: Blackfoot (Siksika)) - From 2024-04-01 to 2024-09-30
-END:VEVENT
-BEGIN:VEVENT
-UID:Naatoyiihkaahsiistsi (Ceremonial Transfer)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20241001T000000Z
-DTEND:20241002T000000Z
-SUMMARY:Naatoyiihkaahsiistsi (Ceremonial Transfer)
-DESCRIPTION:Naatoyiihkaahsiistsi (Ceremonial Transfer) (Group: Native North
-  American Peoples\, Source: Blackfoot (Siksika))
-END:VEVENT
-BEGIN:VEVENT
-UID:Ihtsipaitapiiyssinnoohtsiyiohkaan (Spiritual Healing Ceremonies)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
+UID:Blackfoot New Year-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
 DTSTART:20240301T000000Z
-DTEND:20241201T000000Z
-SUMMARY:Ihtsipaitapiiyssinnoohtsiyiohkaan (Spiritual Healing Ceremonies)
-DESCRIPTION:Ihtsipaitapiiyssinnoohtsiyiohkaan (Spiritual Healing
-  Ceremonies) (Group: Native North American Peoples\, Source: Blackfoot
-  (Siksika)) - From 2024-03-01 to 2024-11-30
+DTEND:20240302T000000Z
+SUMMARY:Blackfoot New Year
+DESCRIPTION:Blackfoot New Year (Group: Native North American Peoples\,
+  Source: Blackfoot (Siksika))
+END:VEVENT
+BEGIN:VEVENT
+UID:Blackfoot Heritage Day-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240725T000000Z
+DTEND:20240726T000000Z
+SUMMARY:Blackfoot Heritage Day
+DESCRIPTION:Blackfoot Heritage Day (Group: Native North American Peoples\,
+  Source: Blackfoot (Siksika))
 END:VEVENT
 END:VCALENDAR

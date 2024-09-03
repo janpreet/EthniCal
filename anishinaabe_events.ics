@@ -7,14 +7,47 @@ NAME:Global Calendar - Anishinaabe
 X-WR-CALNAME:Global Calendar - Anishinaabe
 DESCRIPTION:AI-generated calendar of events for Anishinaabe
 BEGIN:VEVENT
-UID:Midaaswi-shi-ningo-gizis (Powwow Moon)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240413T000000Z
-DTEND:20240414T000000Z
-SUMMARY:Midaaswi-shi-ningo-gizis (Powwow Moon)
-DESCRIPTION:Midaaswi-shi-ningo-gizis (Powwow Moon) (Group: Native North
-  American Peoples\, Source: Anishinaabe)
+UID:Ziisbaakdoke Giizis (Sugar Bush Moon/Maple Sugar Moon)-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240307T000000Z
+DTEND:20240308T000000Z
+SUMMARY:Ziisbaakdoke Giizis (Sugar Bush Moon/Maple Sugar Moon)
+DESCRIPTION:Ziisbaakdoke Giizis (Sugar Bush Moon/Maple Sugar Moon) (Group:
+  Native North American Peoples\, Source: Anishinaabe)
+END:VEVENT
+BEGIN:VEVENT
+UID:Odaminowin (Strawberry Moon)-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240624T000000Z
+DTEND:20240625T000000Z
+SUMMARY:Odaminowin (Strawberry Moon)
+DESCRIPTION:Odaminowin (Strawberry Moon) (Group: Native North American
+  Peoples\, Source: Anishinaabe)
+END:VEVENT
+BEGIN:VEVENT
+UID:Bine (Falling Leaves Moon)-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240925T000000Z
+DTEND:20240926T000000Z
+SUMMARY:Bine (Falling Leaves Moon)
+DESCRIPTION:Bine (Falling Leaves Moon) (Group: Native North American
+  Peoples\, Source: Anishinaabe)
+END:VEVENT
+BEGIN:VEVENT
+UID:Gaa-zhigewinini-giizis (Freezing Over Moon)-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20241127T000000Z
+DTEND:20241128T000000Z
+SUMMARY:Gaa-zhigewinini-giizis (Freezing Over Moon)
+DESCRIPTION:Gaa-zhigewinini-giizis (Freezing Over Moon) (Group: Native
+  North American Peoples\, Source: Anishinaabe)
 END:VEVENT
 END:VCALENDAR

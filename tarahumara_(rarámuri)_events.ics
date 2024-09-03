@@ -7,58 +7,36 @@ NAME:Global Calendar - Tarahumara (Rarámuri)
 X-WR-CALNAME:Global Calendar - Tarahumara (Rarámuri)
 DESCRIPTION:AI-generated calendar of events for Tarahumara (Rarámuri)
 BEGIN:VEVENT
-UID:Semana Santa (Holy Week)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240324T000000Z
+UID:Pascua (Easter Sunday)-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240331T000000Z
 DTEND:20240401T000000Z
-SUMMARY:Semana Santa (Holy Week)
-DESCRIPTION:Semana Santa (Holy Week) (Group: Native North American
-  Peoples\, Source: Tarahumara (Rarámuri)) - From 2024-03-24 to 2024-03-31
+SUMMARY:Pascua (Easter Sunday)
+DESCRIPTION:Pascua (Easter Sunday) (Group: Native North American Peoples\,
+  Source: Tarahumara (Rarámuri))
 END:VEVENT
 BEGIN:VEVENT
-UID:Fiesta de la Santa Cruz (Feast of the Holy Cross)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240503T000000Z
-DTEND:20240504T000000Z
-SUMMARY:Fiesta de la Santa Cruz (Feast of the Holy Cross)
-DESCRIPTION:Fiesta de la Santa Cruz (Feast of the Holy Cross) (Group:
-  Native North American Peoples\, Source: Tarahumara (Rarámuri))
+UID:Fiesta de San Juan (St. John's Day)-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240624T000000Z
+DTEND:20240625T000000Z
+SUMMARY:Fiesta de San Juan (St. John's Day)
+DESCRIPTION:Fiesta de San Juan (St. John's Day) (Group: Native North
+  American Peoples\, Source: Tarahumara (Rarámuri))
 END:VEVENT
 BEGIN:VEVENT
-UID:Carreras de Bola (Ball Races)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240725T000000Z
-DTEND:20240729T000000Z
-SUMMARY:Carreras de Bola (Ball Races)
-DESCRIPTION:Carreras de Bola (Ball Races) (Group: Native North American
-  Peoples\, Source: Tarahumara (Rarámuri)) - From 2024-07-25 to 2024-07-28
-END:VEVENT
-BEGIN:VEVENT
-UID:Fiesta de San Francisco (Feast of St. Francis)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20241004T000000Z
-DTEND:20241005T000000Z
-SUMMARY:Fiesta de San Francisco (Feast of St. Francis)
-DESCRIPTION:Fiesta de San Francisco (Feast of St. Francis) (Group: Native
-  North American Peoples\, Source: Tarahumara (Rarámuri))
-END:VEVENT
-BEGIN:VEVENT
-UID:Danza de los Matachines (Dance of the Matachines)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20241212T000000Z
-DTEND:20241213T000000Z
-SUMMARY:Danza de los Matachines (Dance of the Matachines)
-DESCRIPTION:Danza de los Matachines (Dance of the Matachines) (Group:
-  Native North American Peoples\, Source: Tarahumara (Rarámuri))
+UID:Navidad (Christmas)-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20241225T000000Z
+DTEND:20241226T000000Z
+SUMMARY:Navidad (Christmas)
+DESCRIPTION:Navidad (Christmas) (Group: Native North American Peoples\,
+  Source: Tarahumara (Rarámuri))
 END:VEVENT
 END:VCALENDAR

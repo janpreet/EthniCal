@@ -7,136 +7,44 @@ NAME:Global Calendar - Uyghur
 X-WR-CALNAME:Global Calendar - Uyghur
 DESCRIPTION:AI-generated calendar of events for Uyghur
 BEGIN:VEVENT
-UID:1. Nawruz (Uyghur New Year)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240321T000000Z
-DTEND:20240322T000000Z
-SUMMARY:1. Nawruz (Uyghur New Year)
-DESCRIPTION:1. Nawruz (Uyghur New Year) (Group: Asian Ethnicities\, Source:
+UID:New Year's Day-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240101T000000Z
+DTEND:20240102T000000Z
+SUMMARY:New Year's Day
+DESCRIPTION:New Year's Day (Group: Asian Ethnicities\, Source: Uyghur)
+END:VEVENT
+BEGIN:VEVENT
+UID:Uyghur New Year (Nawruz)-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240322T000000Z
+DTEND:20240323T000000Z
+SUMMARY:Uyghur New Year (Nawruz)
+DESCRIPTION:Uyghur New Year (Nawruz) (Group: Asian Ethnicities\, Source:
   Uyghur)
 END:VEVENT
 BEGIN:VEVENT
-UID:2. Ramadan (Islamic holy month of fasting)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240325T000000Z
-DTEND:20240423T000000Z
-SUMMARY:2. Ramadan (Islamic holy month of fasting)
-DESCRIPTION:2. Ramadan (Islamic holy month of fasting) (Group: Asian
-  Ethnicities\, Source: Uyghur) - From 2024-03-25 to 2024-04-22
+UID:Ramadan Begins-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240323T000000Z
+DTEND:20240324T000000Z
+SUMMARY:Ramadan Begins
+DESCRIPTION:Ramadan Begins (Group: Asian Ethnicities\, Source: Uyghur)
 END:VEVENT
 BEGIN:VEVENT
-UID:3. Eid al-Fitr (Festival marking the end of Ramadan)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240423T000000Z
-DTEND:20240424T000000Z
-SUMMARY:3. Eid al-Fitr (Festival marking the end of Ramadan)
-DESCRIPTION:3. Eid al-Fitr (Festival marking the end of Ramadan) (Group:
-  Asian Ethnicities\, Source: Uyghur)
-END:VEVENT
-BEGIN:VEVENT
-UID:4. Roza Heyt (Uyghur festival celebrating the end of fasting)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240423T000000Z
-DTEND:20240424T000000Z
-SUMMARY:4. Roza Heyt (Uyghur festival celebrating the end of fasting)
-DESCRIPTION:4. Roza Heyt (Uyghur festival celebrating the end of fasting)
-  (Group: Asian Ethnicities\, Source: Uyghur)
-END:VEVENT
-BEGIN:VEVENT
-UID:5. Eid al-Adha (Islamic festival of sacrifice)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240617T000000Z
-DTEND:20240618T000000Z
-SUMMARY:5. Eid al-Adha (Islamic festival of sacrifice)
-DESCRIPTION:5. Eid al-Adha (Islamic festival of sacrifice) (Group: Asian
-  Ethnicities\, Source: Uyghur)
-END:VEVENT
-BEGIN:VEVENT
-UID:6. Muharram (Islamic New Year)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240717T000000Z
-DTEND:20240718T000000Z
-SUMMARY:6. Muharram (Islamic New Year)
-DESCRIPTION:6. Muharram (Islamic New Year) (Group: Asian Ethnicities\,
-  Source: Uyghur)
-END:VEVENT
-BEGIN:VEVENT
-UID:7. Mawlud (Observance of the birthday of Prophet Muhammad)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240918T000000Z
-DTEND:20240919T000000Z
-SUMMARY:7. Mawlud (Observance of the birthday of Prophet Muhammad)
-DESCRIPTION:7. Mawlud (Observance of the birthday of Prophet Muhammad)
-  (Group: Asian Ethnicities\, Source: Uyghur)
-END:VEVENT
-BEGIN:VEVENT
-UID:8. Qurban Heyt (Uyghur festival of sacrifice)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240617T000000Z
-DTEND:20240618T000000Z
-SUMMARY:8. Qurban Heyt (Uyghur festival of sacrifice)
-DESCRIPTION:8. Qurban Heyt (Uyghur festival of sacrifice) (Group: Asian
-  Ethnicities\, Source: Uyghur)
-END:VEVENT
-BEGIN:VEVENT
-UID:9. Mehraj (Observance of the Night Journey of Prophet Muhammad)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240205T000000Z
-DTEND:20240206T000000Z
-SUMMARY:9. Mehraj (Observance of the Night Journey of Prophet Muhammad)
-DESCRIPTION:9. Mehraj (Observance of the Night Journey of Prophet Muhammad)
-  (Group: Asian Ethnicities\, Source: Uyghur)
-END:VEVENT
-BEGIN:VEVENT
-UID:10. Korban Heyt (Uyghur festival of sacrifice)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240617T000000Z
-DTEND:20240618T000000Z
-SUMMARY:10. Korban Heyt (Uyghur festival of sacrifice)
-DESCRIPTION:10. Korban Heyt (Uyghur festival of sacrifice) (Group: Asian
-  Ethnicities\, Source: Uyghur)
-END:VEVENT
-BEGIN:VEVENT
-UID:11. Etrap Eyt (Uyghur festival celebrating the harvest season)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240825T000000Z
-DTEND:20240909T000000Z
-SUMMARY:11. Etrap Eyt (Uyghur festival celebrating the harvest season)
-DESCRIPTION:11. Etrap Eyt (Uyghur festival celebrating the harvest season)
-  (Group: Asian Ethnicities\, Source: Uyghur) - From 2024-08-25 to
-  2024-09-08
-END:VEVENT
-BEGIN:VEVENT
-UID:12. Ashura (Islamic day of mourning)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240727T000000Z
-DTEND:20240728T000000Z
-SUMMARY:12. Ashura (Islamic day of mourning)
-DESCRIPTION:12. Ashura (Islamic day of mourning) (Group: Asian
-  Ethnicities\, Source: Uyghur)
+UID:Eid al-Fitr-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240421T000000Z
+DTEND:20240422T000000Z
+SUMMARY:Eid al-Fitr
+DESCRIPTION:Eid al-Fitr (Group: Asian Ethnicities\, Source: Uyghur)
 END:VEVENT
 END:VCALENDAR

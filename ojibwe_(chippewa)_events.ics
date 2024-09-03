@@ -7,106 +7,91 @@ NAME:Global Calendar - Ojibwe (Chippewa)
 X-WR-CALNAME:Global Calendar - Ojibwe (Chippewa)
 DESCRIPTION:AI-generated calendar of events for Ojibwe (Chippewa)
 BEGIN:VEVENT
-UID:Wiikwedong Dbaakaan Idash Niibinshiibag (Maple Sugar Bush)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240320T000000Z
-DTEND:20240421T000000Z
-SUMMARY:Wiikwedong Dbaakaan Idash Niibinshiibag (Maple Sugar Bush)
-DESCRIPTION:Wiikwedong Dbaakaan Idash Niibinshiibag (Maple Sugar Bush)
-  (Group: Native North American Peoples\, Source: Ojibwe (Chippewa)) - From
-  2024-03-20 to 2024-04-20
-END:VEVENT
-BEGIN:VEVENT
-UID:Ziigwan (Spring Ceremony)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240321T000000Z
-DTEND:20240322T000000Z
-SUMMARY:Ziigwan (Spring Ceremony)
-DESCRIPTION:Ziigwan (Spring Ceremony) (Group: Native North American
+UID:Ojibwe Language Renassiance Day-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240213T000000Z
+DTEND:20240214T000000Z
+SUMMARY:Ojibwe Language Renassiance Day
+DESCRIPTION:Ojibwe Language Renassiance Day (Group: Native North American
   Peoples\, Source: Ojibwe (Chippewa))
 END:VEVENT
 BEGIN:VEVENT
-UID:Bawaajigewin (Vision Quest)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240501T000000Z
-DTEND:20240601T000000Z
-SUMMARY:Bawaajigewin (Vision Quest)
-DESCRIPTION:Bawaajigewin (Vision Quest) (Group: Native North American
-  Peoples\, Source: Ojibwe (Chippewa)) - From 2024-05-01 to 2024-05-31
-END:VEVENT
-BEGIN:VEVENT
-UID:Niizhwaaswi Aaniibishan Giizis (Seven Fires Memorial)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240611T000000Z
-DTEND:20240612T000000Z
-SUMMARY:Niizhwaaswi Aaniibishan Giizis (Seven Fires Memorial)
-DESCRIPTION:Niizhwaaswi Aaniibishan Giizis (Seven Fires Memorial) (Group:
+UID:Maple Sugar Moon/Ziinsibaakwadooked (Spring Equinox)-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240320T000000Z
+DTEND:20240321T000000Z
+SUMMARY:Maple Sugar Moon/Ziinsibaakwadooked (Spring Equinox)
+DESCRIPTION:Maple Sugar Moon/Ziinsibaakwadooked (Spring Equinox) (Group:
   Native North American Peoples\, Source: Ojibwe (Chippewa))
 END:VEVENT
 BEGIN:VEVENT
-UID:Manoominike Giizis (Wild Rice Moon)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240801T000000Z
-DTEND:20241001T000000Z
-SUMMARY:Manoominike Giizis (Wild Rice Moon)
-DESCRIPTION:Manoominike Giizis (Wild Rice Moon) (Group: Native North
-  American Peoples\, Source: Ojibwe (Chippewa)) - From 2024-08-01 to
-  2024-09-30
+UID:Earth Day-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240422T000000Z
+DTEND:20240423T000000Z
+SUMMARY:Earth Day
+DESCRIPTION:Earth Day (Group: Native North American Peoples\, Source:
+  Ojibwe (Chippewa))
 END:VEVENT
 BEGIN:VEVENT
-UID:Odaminowin (Storytelling Festival)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20240921T000000Z
-DTEND:20240922T000000Z
-SUMMARY:Odaminowin (Storytelling Festival)
-DESCRIPTION:Odaminowin (Storytelling Festival) (Group: Native North
-  American Peoples\, Source: Ojibwe (Chippewa))
+UID:National Aboriginal Day-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240621T000000Z
+DTEND:20240622T000000Z
+SUMMARY:National Aboriginal Day
+DESCRIPTION:National Aboriginal Day (Group: Native North American Peoples\,
+  Source: Ojibwe (Chippewa))
 END:VEVENT
 BEGIN:VEVENT
-UID:Manidoo Giizisoons (Little Spirit Moon)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20241001T000000Z
-DTEND:20241101T000000Z
-SUMMARY:Manidoo Giizisoons (Little Spirit Moon)
-DESCRIPTION:Manidoo Giizisoons (Little Spirit Moon) (Group: Native North
-  American Peoples\, Source: Ojibwe (Chippewa)) - From 2024-10-01 to
-  2024-10-31
+UID:Summer Solstice/Odawaawi-gizis-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240621T000000Z
+DTEND:20240622T000000Z
+SUMMARY:Summer Solstice/Odawaawi-gizis
+DESCRIPTION:Summer Solstice/Odawaawi-gizis (Group: Native North American
+  Peoples\, Source: Ojibwe (Chippewa))
 END:VEVENT
 BEGIN:VEVENT
-UID:Gichi Manidoo Giizis (Great Spirit Moon)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
-DTSTART:20241101T000000Z
-DTEND:20241201T000000Z
-SUMMARY:Gichi Manidoo Giizis (Great Spirit Moon)
-DESCRIPTION:Gichi Manidoo Giizis (Great Spirit Moon) (Group: Native North
-  American Peoples\, Source: Ojibwe (Chippewa)) - From 2024-11-01 to
-  2024-11-30
+UID:Autumn Equinox/Manoominike-giizis-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20240923T000000Z
+DTEND:20240924T000000Z
+SUMMARY:Autumn Equinox/Manoominike-giizis
+DESCRIPTION:Autumn Equinox/Manoominike-giizis (Group: Native North American
+  Peoples\, Source: Ojibwe (Chippewa))
 END:VEVENT
 BEGIN:VEVENT
-UID:Midewigaan (Ceremonial Lodge)-2024
-CREATED:20240901T021552Z
-DTSTAMP:20240901T021552Z
-LAST-MODIFIED:20240901T021552Z
+UID:Native American Day-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
+DTSTART:20241014T000000Z
+DTEND:20241015T000000Z
+SUMMARY:Native American Day
+DESCRIPTION:Native American Day (Group: Native North American Peoples\,
+  Source: Ojibwe (Chippewa))
+END:VEVENT
+BEGIN:VEVENT
+UID:Winter Solstice/Gichi-bibooni-giizis-2024
+CREATED:20240903T003055Z
+DTSTAMP:20240903T003055Z
+LAST-MODIFIED:20240903T003055Z
 DTSTART:20241221T000000Z
-DTEND:20250101T000000Z
-SUMMARY:Midewigaan (Ceremonial Lodge)
-DESCRIPTION:Midewigaan (Ceremonial Lodge) (Group: Native North American
-  Peoples\, Source: Ojibwe (Chippewa)) - From 2024-12-21 to 2024-12-31
+DTEND:20241222T000000Z
+SUMMARY:Winter Solstice/Gichi-bibooni-giizis
+DESCRIPTION:Winter Solstice/Gichi-bibooni-giizis (Group: Native North
+  American Peoples\, Source: Ojibwe (Chippewa))
 END:VEVENT
 END:VCALENDAR
