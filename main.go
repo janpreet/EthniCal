@@ -363,7 +363,14 @@ func filterEventsByGroup(events []Event, group string) []Event {
 }
 
 func generateHTMLCalendar(events []Event, groupConfigs []GroupConfig) error {
-    fmt.Println("Generating HTML calendar")
+    var err error
+    if events == nil && groupConfigs == nil {
+        groupConfigs, err = loadGroupConfigs("configs")
+        if err != nil {
+            return fmt.Errorf("Error loading group configs: %v", err)
+        }
+    }
+	fmt.Println("Generating HTML calendar")
 
     funcMap := template.FuncMap{
         "ToLower":       strings.ToLower,
@@ -441,8 +448,20 @@ func main() {
 	disableAI := os.Getenv("DISABLE_AI")
 
     var selectedCalendars string
+	var updateFrontendOnly bool
     flag.StringVar(&selectedCalendars, "calendars", "", "Comma-separated list of calendars to build (e.g., Pan-Indian, Gujarati etc). Leave empty to build all.")
+    flag.BoolVar(&updateFrontendOnly, "update-frontend-only", false, "Update only the frontend without regenerating ICS files.")
     flag.Parse()
+
+    if updateFrontendOnly {
+        err := generateHTMLCalendar(nil, nil)
+        if err != nil {
+            fmt.Printf("Error generating HTML calendar: %v\n", err)
+            return
+        }
+        fmt.Println("Frontend updated successfully.")
+        return
+    }
 
     groupConfigs, err := loadGroupConfigs("configs")
     if err != nil {
@@ -464,6 +483,11 @@ func main() {
         }
         groupConfigs = filteredConfigs
     }
+
+	if len(groupConfigs) == 0 {
+		fmt.Println("No matching calendars found. Exiting.")
+		return
+	}
 
     var allEvents []Event
 
