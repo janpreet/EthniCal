@@ -8,9 +8,9 @@ X-WR-CALNAME:Global Calendar - Tibetan
 DESCRIPTION:AI-generated calendar of events for Tibetan
 BEGIN:VEVENT
 UID:Losar (Tibetan New Year)-2024
-CREATED:20240903T004249Z
-DTSTAMP:20240903T004249Z
-LAST-MODIFIED:20240903T004249Z
+CREATED:20240903T010837Z
+DTSTAMP:20240903T010837Z
+LAST-MODIFIED:20240903T010837Z
 DTSTART:20240224T000000Z
 DTEND:20240225T000000Z
 SUMMARY:Losar (Tibetan New Year)
@@ -18,58 +18,58 @@ DESCRIPTION:Losar (Tibetan New Year) (Group: Asian Ethnicities\, Source:
   Tibetan)
 END:VEVENT
 BEGIN:VEVENT
-UID:Chotrul Duchen (Commemoration of the Buddha's miracles)-2024
-CREATED:20240903T004249Z
-DTSTAMP:20240903T004249Z
-LAST-MODIFIED:20240903T004249Z
-DTSTART:20240307T000000Z
-DTEND:20240308T000000Z
-SUMMARY:Chotrul Duchen (Commemoration of the Buddha's miracles)
-DESCRIPTION:Chotrul Duchen (Commemoration of the Buddha's miracles) (Group:
+UID:Chotrul Duchen (Buddha's Miraculous Display)-2024
+CREATED:20240903T010837Z
+DTSTAMP:20240903T010837Z
+LAST-MODIFIED:20240903T010837Z
+DTSTART:20240314T000000Z
+DTEND:20240315T000000Z
+SUMMARY:Chotrul Duchen (Buddha's Miraculous Display)
+DESCRIPTION:Chotrul Duchen (Buddha's Miraculous Display) (Group: Asian
+  Ethnicities\, Source: Tibetan)
+END:VEVENT
+BEGIN:VEVENT
+UID:Saka Dawa (Buddha's Birth\, Enlightenment\, and Parinirvana)-2024
+CREATED:20240903T010837Z
+DTSTAMP:20240903T010837Z
+LAST-MODIFIED:20240903T010837Z
+DTSTART:20240604T000000Z
+DTEND:20240605T000000Z
+SUMMARY:Saka Dawa (Buddha's Birth\, Enlightenment\, and Parinirvana)
+DESCRIPTION:Saka Dawa (Buddha's Birth\, Enlightenment\, and Parinirvana)
+  (Group: Asian Ethnicities\, Source: Tibetan)
+END:VEVENT
+BEGIN:VEVENT
+UID:Chökhor Duchen (First Turning of the Dharma Wheel)-2024
+CREATED:20240903T010837Z
+DTSTAMP:20240903T010837Z
+LAST-MODIFIED:20240903T010837Z
+DTSTART:20240727T000000Z
+DTEND:20240728T000000Z
+SUMMARY:Chökhor Duchen (First Turning of the Dharma Wheel)
+DESCRIPTION:Chökhor Duchen (First Turning of the Dharma Wheel) (Group:
   Asian Ethnicities\, Source: Tibetan)
 END:VEVENT
 BEGIN:VEVENT
-UID:Saga Dawa (Buddha's Birthday\, Enlightenment\, and Parinirvana)-2024
-CREATED:20240903T004249Z
-DTSTAMP:20240903T004249Z
-LAST-MODIFIED:20240903T004249Z
-DTSTART:20240519T000000Z
-DTEND:20240520T000000Z
-SUMMARY:Saga Dawa (Buddha's Birthday\, Enlightenment\, and Parinirvana)
-DESCRIPTION:Saga Dawa (Buddha's Birthday\, Enlightenment\, and Parinirvana)
-  (Group: Asian Ethnicities\, Source: Tibetan)
+UID:Lhabab Duchen (Buddha's Descent from Heaven)-2024
+CREATED:20240903T010837Z
+DTSTAMP:20240903T010837Z
+LAST-MODIFIED:20240903T010837Z
+DTSTART:20241114T000000Z
+DTEND:20241115T000000Z
+SUMMARY:Lhabab Duchen (Buddha's Descent from Heaven)
+DESCRIPTION:Lhabab Duchen (Buddha's Descent from Heaven) (Group: Asian
+  Ethnicities\, Source: Tibetan)
 END:VEVENT
 BEGIN:VEVENT
-UID:Chokhor Duchen (Commemoration of the Buddha's first sermon)-2024
-CREATED:20240903T004249Z
-DTSTAMP:20240903T004249Z
-LAST-MODIFIED:20240903T004249Z
-DTSTART:20240713T000000Z
-DTEND:20240714T000000Z
-SUMMARY:Chokhor Duchen (Commemoration of the Buddha's first sermon)
-DESCRIPTION:Chokhor Duchen (Commemoration of the Buddha's first sermon)
+UID:Ganden Ngamchö (Commemorating Je Tsongkhapa's Teachings)-2024
+CREATED:20240903T010837Z
+DTSTAMP:20240903T010837Z
+LAST-MODIFIED:20240903T010837Z
+DTSTART:20241201T000000Z
+DTEND:20241202T000000Z
+SUMMARY:Ganden Ngamchö (Commemorating Je Tsongkhapa's Teachings)
+DESCRIPTION:Ganden Ngamchö (Commemorating Je Tsongkhapa's Teachings)
   (Group: Asian Ethnicities\, Source: Tibetan)
-END:VEVENT
-BEGIN:VEVENT
-UID:Lhabab Duchen (Occasion of the Buddha's Descent from Heaven)-2024
-CREATED:20240903T004249Z
-DTSTAMP:20240903T004249Z
-LAST-MODIFIED:20240903T004249Z
-DTSTART:20240811T000000Z
-DTEND:20240812T000000Z
-SUMMARY:Lhabab Duchen (Occasion of the Buddha's Descent from Heaven)
-DESCRIPTION:Lhabab Duchen (Occasion of the Buddha's Descent from Heaven)
-  (Group: Asian Ethnicities\, Source: Tibetan)
-END:VEVENT
-BEGIN:VEVENT
-UID:Lhakar (Tibetan Day of Worship)-2024
-CREATED:20240903T004249Z
-DTSTAMP:20240903T004249Z
-LAST-MODIFIED:20240903T004249Z
-DTSTART:20241030T000000Z
-DTEND:20241031T000000Z
-SUMMARY:Lhakar (Tibetan Day of Worship)
-DESCRIPTION:Lhakar (Tibetan Day of Worship) (Group: Asian Ethnicities\,
-  Source: Tibetan)
 END:VEVENT
 END:VCALENDAR

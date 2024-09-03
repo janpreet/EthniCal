@@ -7,25 +7,14 @@ NAME:Global Calendar - Hmong (Vietnam)
 X-WR-CALNAME:Global Calendar - Hmong (Vietnam)
 DESCRIPTION:AI-generated calendar of events for Hmong (Vietnam)
 BEGIN:VEVENT
-UID:Tshuab Xeeb (Memorial Day)-2024
-CREATED:20240903T004249Z
-DTSTAMP:20240903T004249Z
-LAST-MODIFIED:20240903T004249Z
-DTSTART:20240414T000000Z
-DTEND:20240415T000000Z
-SUMMARY:Tshuab Xeeb (Memorial Day)
-DESCRIPTION:Tshuab Xeeb (Memorial Day) (Group: Asian Ethnicities\, Source:
-  Hmong (Vietnam))
-END:VEVENT
-BEGIN:VEVENT
-UID:Qhuab Kev (National Remembrance Day)-2024
-CREATED:20240903T004249Z
-DTSTAMP:20240903T004249Z
-LAST-MODIFIED:20240903T004249Z
-DTSTART:20240514T000000Z
-DTEND:20240515T000000Z
-SUMMARY:Qhuab Kev (National Remembrance Day)
-DESCRIPTION:Qhuab Kev (National Remembrance Day) (Group: Asian
-  Ethnicities\, Source: Hmong (Vietnam))
+UID:Tshuab Npib (Hmong New Year)-2024
+CREATED:20240903T010837Z
+DTSTAMP:20240903T010837Z
+LAST-MODIFIED:20240903T010837Z
+DTSTART:20241123T000000Z
+DTEND:20241124T000000Z
+SUMMARY:Tshuab Npib (Hmong New Year)
+DESCRIPTION:Tshuab Npib (Hmong New Year) (Group: Asian Ethnicities\,
+  Source: Hmong (Vietnam))
 END:VEVENT
 END:VCALENDAR
