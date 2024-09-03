@@ -7,25 +7,14 @@ NAME:Global Calendar - Yaqui
 X-WR-CALNAME:Global Calendar - Yaqui
 DESCRIPTION:AI-generated calendar of events for Yaqui
 BEGIN:VEVENT
-UID:Día de la Virgen de Guadalupe (Feast of Our Lady of Guadalupe)-2024
-CREATED:20240903T004249Z
-DTSTAMP:20240903T004249Z
-LAST-MODIFIED:20240903T004249Z
+UID:Fiesta de la Virgen de Guadalupe-2024
+CREATED:20240903T010837Z
+DTSTAMP:20240903T010837Z
+LAST-MODIFIED:20240903T010837Z
 DTSTART:20241212T000000Z
 DTEND:20241213T000000Z
-SUMMARY:Día de la Virgen de Guadalupe (Feast of Our Lady of Guadalupe)
-DESCRIPTION:Día de la Virgen de Guadalupe (Feast of Our Lady of Guadalupe)
-  (Group: Native North American Peoples\, Source: Yaqui)
-END:VEVENT
-BEGIN:VEVENT
-UID:Pascua (Easter Sunday)-2024
-CREATED:20240903T004249Z
-DTSTAMP:20240903T004249Z
-LAST-MODIFIED:20240903T004249Z
-DTSTART:20240331T000000Z
-DTEND:20240401T000000Z
-SUMMARY:Pascua (Easter Sunday)
-DESCRIPTION:Pascua (Easter Sunday) (Group: Native North American Peoples\,
-  Source: Yaqui)
+SUMMARY:Fiesta de la Virgen de Guadalupe
+DESCRIPTION:Fiesta de la Virgen de Guadalupe (Group: Native North American
+  Peoples\, Source: Yaqui)
 END:VEVENT
 END:VCALENDAR
