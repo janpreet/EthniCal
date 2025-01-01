@@ -7,25 +7,14 @@ NAME:Global Calendar - Tlingit
 X-WR-CALNAME:Global Calendar - Tlingit
 DESCRIPTION:AI-generated calendar of events for Tlingit
 BEGIN:VEVENT
-UID:Celebration of the Tlingit New Year (Yaakwdáat)-2024
-CREATED:20240903T010837Z
-DTSTAMP:20240903T010837Z
-LAST-MODIFIED:20240903T010837Z
-DTSTART:20240621T000000Z
-DTEND:20240622T000000Z
-SUMMARY:Celebration of the Tlingit New Year (Yaakwdáat)
-DESCRIPTION:Celebration of the Tlingit New Year (Yaakwdáat) (Group: Native
-  North American Peoples\, Source: Tlingit)
-END:VEVENT
-BEGIN:VEVENT
-UID:Tlingit Heritage Day-2024
-CREATED:20240903T010837Z
-DTSTAMP:20240903T010837Z
-LAST-MODIFIED:20240903T010837Z
-DTSTART:20240825T000000Z
-DTEND:20240826T000000Z
-SUMMARY:Tlingit Heritage Day
-DESCRIPTION:Tlingit Heritage Day (Group: Native North American Peoples\,
-  Source: Tlingit)
+UID:Celebration of the Tlingit New Year-2025
+CREATED:20250101T002938Z
+DTSTAMP:20250101T002938Z
+LAST-MODIFIED:20250101T002938Z
+DTSTART:20250621T000000Z
+DTEND:20250622T000000Z
+SUMMARY:Celebration of the Tlingit New Year
+DESCRIPTION:Celebration of the Tlingit New Year (Group: Native North
+  American Peoples\, Source: Tlingit)
 END:VEVENT
 END:VCALENDAR

@@ -7,69 +7,58 @@ NAME:Global Calendar - Tibetan
 X-WR-CALNAME:Global Calendar - Tibetan
 DESCRIPTION:AI-generated calendar of events for Tibetan
 BEGIN:VEVENT
-UID:Losar (Tibetan New Year)-2024
-CREATED:20240903T010837Z
-DTSTAMP:20240903T010837Z
-LAST-MODIFIED:20240903T010837Z
-DTSTART:20240224T000000Z
-DTEND:20240225T000000Z
-SUMMARY:Losar (Tibetan New Year)
-DESCRIPTION:Losar (Tibetan New Year) (Group: Asian Ethnicities\, Source:
-  Tibetan)
-END:VEVENT
-BEGIN:VEVENT
-UID:Chotrul Duchen (Buddha's Miraculous Display)-2024
-CREATED:20240903T010837Z
-DTSTAMP:20240903T010837Z
-LAST-MODIFIED:20240903T010837Z
-DTSTART:20240314T000000Z
-DTEND:20240315T000000Z
-SUMMARY:Chotrul Duchen (Buddha's Miraculous Display)
-DESCRIPTION:Chotrul Duchen (Buddha's Miraculous Display) (Group: Asian
+UID:Chotrul Duchen (Buddha's Miracles Day)-2025
+CREATED:20250101T002938Z
+DTSTAMP:20250101T002938Z
+LAST-MODIFIED:20250101T002938Z
+DTSTART:20250309T000000Z
+DTEND:20250310T000000Z
+SUMMARY:Chotrul Duchen (Buddha's Miracles Day)
+DESCRIPTION:Chotrul Duchen (Buddha's Miracles Day) (Group: Asian
   Ethnicities\, Source: Tibetan)
 END:VEVENT
 BEGIN:VEVENT
-UID:Saka Dawa (Buddha's Birth\, Enlightenment\, and Parinirvana)-2024
-CREATED:20240903T010837Z
-DTSTAMP:20240903T010837Z
-LAST-MODIFIED:20240903T010837Z
-DTSTART:20240604T000000Z
-DTEND:20240605T000000Z
+UID:Saka Dawa (Buddha's Birth\, Enlightenment\, and Parinirvana)-2025
+CREATED:20250101T002938Z
+DTSTAMP:20250101T002938Z
+LAST-MODIFIED:20250101T002938Z
+DTSTART:20250603T000000Z
+DTEND:20250604T000000Z
 SUMMARY:Saka Dawa (Buddha's Birth\, Enlightenment\, and Parinirvana)
 DESCRIPTION:Saka Dawa (Buddha's Birth\, Enlightenment\, and Parinirvana)
   (Group: Asian Ethnicities\, Source: Tibetan)
 END:VEVENT
 BEGIN:VEVENT
-UID:Chökhor Duchen (First Turning of the Dharma Wheel)-2024
-CREATED:20240903T010837Z
-DTSTAMP:20240903T010837Z
-LAST-MODIFIED:20240903T010837Z
-DTSTART:20240727T000000Z
-DTEND:20240728T000000Z
-SUMMARY:Chökhor Duchen (First Turning of the Dharma Wheel)
-DESCRIPTION:Chökhor Duchen (First Turning of the Dharma Wheel) (Group:
+UID:Chokhor Duchen (First Turning of the Wheel of Dharma)-2025
+CREATED:20250101T002938Z
+DTSTAMP:20250101T002938Z
+LAST-MODIFIED:20250101T002938Z
+DTSTART:20250727T000000Z
+DTEND:20250728T000000Z
+SUMMARY:Chokhor Duchen (First Turning of the Wheel of Dharma)
+DESCRIPTION:Chokhor Duchen (First Turning of the Wheel of Dharma) (Group:
   Asian Ethnicities\, Source: Tibetan)
 END:VEVENT
 BEGIN:VEVENT
-UID:Lhabab Duchen (Buddha's Descent from Heaven)-2024
-CREATED:20240903T010837Z
-DTSTAMP:20240903T010837Z
-LAST-MODIFIED:20240903T010837Z
-DTSTART:20241114T000000Z
-DTEND:20241115T000000Z
+UID:Lhabab Duchen (Buddha's Descent from Heaven)-2025
+CREATED:20250101T002938Z
+DTSTAMP:20250101T002938Z
+LAST-MODIFIED:20250101T002938Z
+DTSTART:20251121T000000Z
+DTEND:20251122T000000Z
 SUMMARY:Lhabab Duchen (Buddha's Descent from Heaven)
 DESCRIPTION:Lhabab Duchen (Buddha's Descent from Heaven) (Group: Asian
   Ethnicities\, Source: Tibetan)
 END:VEVENT
 BEGIN:VEVENT
-UID:Ganden Ngamchö (Commemorating Je Tsongkhapa's Teachings)-2024
-CREATED:20240903T010837Z
-DTSTAMP:20240903T010837Z
-LAST-MODIFIED:20240903T010837Z
-DTSTART:20241201T000000Z
-DTEND:20241202T000000Z
-SUMMARY:Ganden Ngamchö (Commemorating Je Tsongkhapa's Teachings)
-DESCRIPTION:Ganden Ngamchö (Commemorating Je Tsongkhapa's Teachings)
-  (Group: Asian Ethnicities\, Source: Tibetan)
+UID:Ganden Ngamchoe (Gelug Monastic Festival)-2025
+CREATED:20250101T002938Z
+DTSTAMP:20250101T002938Z
+LAST-MODIFIED:20250101T002938Z
+DTSTART:20251210T000000Z
+DTEND:20251211T000000Z
+SUMMARY:Ganden Ngamchoe (Gelug Monastic Festival)
+DESCRIPTION:Ganden Ngamchoe (Gelug Monastic Festival) (Group: Asian
+  Ethnicities\, Source: Tibetan)
 END:VEVENT
 END:VCALENDAR
